@@ -1,0 +1,17 @@
+{
+	"data": [
+		{"dtxsid":"DTXSID7020182","name":"Bisphenol A","weight":228.29100036621094,"selected":true,"value":1.0,"dtxcid":"DTXCID30182"},
+		{"dtxsid":"DTXSID8021771","name":"4-(2-Methylbutan-2-yl)phenol","weight":164.2480010986328,"selected":true,"value":0.4838709677419355,"dtxcid":"DTXCID001771"},
+		{"dtxsid":"DTXSID9022360","name":"4-(1,1,3,3-Tetramethylbutyl)phenol","weight":206.329,"selected":true,"value":0.45454545454545453,"dtxcid":"DTXCID602360"},
+		{"dtxsid":"DTXSID3020465","name":"Diethylstilbestrol","weight":268.3559875488281,"selected":true,"value":0.29411764705882354,"dtxcid":"DTXCID10465"},
+		{"dtxsid":"DTXSID4022529","name":"Methylparaben","weight":152.1490020751953,"selected":true,"value":0.2777777777777778,"dtxcid":"DTXCID402529"},
+		{"dtxsid":"DTXSID6020220","name":"tert-Butylhydroquinone","weight":166.22000122070312,"selected":true,"value":0.2777777777777778,"dtxcid":"DTXCID60220"},
+		{"dtxsid":"DTXSID2020006","name":"Acetaminophen","weight":151.1649932861328,"selected":true,"value":0.2777777777777778,"dtxcid":"DTXCID606"},
+		{"dtxsid":"DTXSID0021834","name":"4-Nitrophenol","weight":139.11000061035156,"selected":true,"value":0.2647058823529412,"dtxcid":"DTXCID201834"},
+		{"dtxsid":"DTXSID5021124","name":"Phenol","weight":94.11299896240234,"selected":true,"value":0.25925925925925924,"dtxcid":"DTXCID501124"},
+		{"dtxsid":"DTXSID5044495","name":"4-(4-Hydroxyphenyl)butan-2-one","weight":164.20399475097656,"selected":true,"value":0.2564102564102564,"dtxcid":"DTXCID3024495"},
+		{"dtxsid":"DTXSID3052858","name":"Isopropylparaben","weight":180.2030029296875,"selected":true,"value":0.25,"dtxcid":"DTXCID0031269"},
+		{"dtxsid":"DTXSID9022528","name":"Ethylparaben","weight":166.17599487304688,"selected":true,"value":0.25,"dtxcid":"DTXCID002528"},
+		{"dtxsid":"DTXSID4034576","name":"2-Bromo-4-hydroxyacetophenone","weight":215.04600524902344,"selected":true,"value":0.24324324324324326,"dtxcid":"DTXCID2014576"}
+	]
+}

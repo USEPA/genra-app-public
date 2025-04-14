@@ -1,0 +1,27 @@
+[tool.coverage.run]
+omit = [
+    # reference code
+    "genraweb/genraservice/db/*.py",
+    # code only run on HPC
+    # "genraweb/lib/fp/precalc_hpc/fast_jaccard.py",
+    ]
+
+[tool.ruff]
+extend-exclude = [
+    "misc/genra_ni",  # reference code, previous version
+    "genraweb/genraservice/db",  # reference code
+]
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
+# Unlike Flake8, Ruff doesn't enable pycodestyle warnings (`W`) or
+# McCabe complexity (`C901`) by default.
+select = ["D", "PGH", "RUF", "E", "F", "C90", "I", "W", "PL", "S"]
+ignore = ["D211", "D213", "D400", "D415", "D203", "D205", "ANN101", "ANN003"]  # prevent warning about incompatible rules
+
+[tool.ruff.lint.per-file-ignores]
+# "__init__.py" = ["E402"]  # import issues
+# "**/{tests,docs,tools}/*" = ["E402"]  # multi-folder wildcard
+"**/tests/*" = ["S101"]  # assert ok in tests folder
+"genraweb/genra_flask.py" = ["E402"]  # imports out of place for coverage code
+

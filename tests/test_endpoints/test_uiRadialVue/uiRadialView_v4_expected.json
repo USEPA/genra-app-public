@@ -1,0 +1,4757 @@
+{
+    "bio_htpp_MCF7:DTXCID70151654:10:0.1:tox_txrf:tox_txrf:tox_fp:1:1:endpoints:uiRadialView": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:14",
+            "2024-06-12T16:08:41"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID70151654",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID50229163",
+                "dtxcid": "DTXCID70151654",
+                "dtxsid": "DTXSID50229163",
+                "name": "Trichloro((perfluorohexyl)ethyl)silane",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 1.0,
+                "weight": 481.53
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "bio_htpp_U2OS:DTXCID9031147:5:0.001:tox_txrf:tox_txrf:tox_fp:1:1": {
+        "_changelog": [
+            "2024-08-12T16:07:36",
+            "2024-06-12T16:08:32"
+        ],
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID9031147",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXCID9031147",
+                "dtxcid": "DTXCID9031147",
+                "dtxsid": "DTXSID2052574",
+                "name": "1,5-Dihydroxynaphthalene",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 1.0,
+                "weight": null
+            },
+            {
+                "chem_id": "DTXCID70582",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXCID70582",
+                "dtxcid": "DTXCID70582",
+                "dtxsid": "DTXSID9020582",
+                "name": "Ethoxyquin",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.35135135135135137,
+                "weight": null
+            },
+            {
+                "chem_id": "DTXCID9013664",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXCID9013664",
+                "dtxcid": "DTXCID9013664",
+                "dtxsid": "DTXSID1033664",
+                "name": "17-Methyltestosterone",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.28205128205128205,
+                "weight": null
+            },
+            {
+                "chem_id": "DTXCID8012605",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXCID8012605",
+                "dtxcid": "DTXCID8012605",
+                "dtxsid": "DTXSID0032605",
+                "name": "(+-)-Diclofop-methyl",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.25,
+                "weight": null
+            },
+            {
+                "chem_id": "DTXCID104338",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXCID104338",
+                "dtxcid": "DTXCID104338",
+                "dtxsid": "DTXSID1024338",
+                "name": "Thiophanate-methyl",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.25,
+                "weight": null
+            },
+            {
+                "chem_id": "DTXCID101864",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXCID101864",
+                "dtxcid": "DTXCID101864",
+                "dtxsid": "DTXSID2021864",
+                "name": "2,4-Dimethylphenol",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.25,
+                "weight": null
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "bio_txct,tox_txrf,chm_ct:DTXCID30182:10:0.1:tox_txrf:tox_txrf:tox_fp:1:1:extra:fp_weight3,2,5": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:21",
+            "2024-06-12T16:08:33",
+            "2024-02-26T15:08:48",
+            "2024-02-05T15:38:23"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID602360",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022360",
+                "dtxcid": "DTXCID602360",
+                "dtxsid": "DTXSID9022360",
+                "name": "4-(1,1,3,3-Tetramethylbutyl)phenol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6099474304359649,
+                "weight": 206.329
+            },
+            {
+                "chem_id": "DTXCID406081",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1026081",
+                "dtxcid": "DTXCID406081",
+                "dtxsid": "DTXSID1026081",
+                "name": "3,3',5,5'-Tetrabromobisphenol A",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.5863074641621354,
+                "weight": 543.875
+            },
+            {
+                "chem_id": "DTXCID60220",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6020220",
+                "dtxcid": "DTXCID60220",
+                "dtxsid": "DTXSID6020220",
+                "name": "tert-Butylhydroquinone",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.575944055944056,
+                "weight": 166.22
+            },
+            {
+                "chem_id": "DTXCID001771",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021771",
+                "dtxcid": "DTXCID001771",
+                "dtxsid": "DTXSID8021771",
+                "name": "4-(2-Methylbutan-2-yl)phenol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.5353951890034364,
+                "weight": 164.248
+            },
+            {
+                "chem_id": "DTXCID30154",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020154",
+                "dtxcid": "DTXCID30154",
+                "dtxsid": "DTXSID5020154",
+                "name": "Clorophene",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.5195031100180006,
+                "weight": 218.68
+            },
+            {
+                "chem_id": "DTXCID901808",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021808",
+                "dtxcid": "DTXCID901808",
+                "dtxsid": "DTXSID8021808",
+                "name": "o-Cresol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.4463024022609515,
+                "weight": 108.14
+            },
+            {
+                "chem_id": "DTXCID101864",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2021864",
+                "dtxcid": "DTXCID101864",
+                "dtxsid": "DTXSID2021864",
+                "name": "2,4-Dimethylphenol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.43576329331046315,
+                "weight": 122.167
+            },
+            {
+                "chem_id": "DTXCID10465",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3020465",
+                "dtxcid": "DTXCID10465",
+                "dtxsid": "DTXSID3020465",
+                "name": "Diethylstilbestrol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.43432700993676604,
+                "weight": 268.356
+            },
+            {
+                "chem_id": "DTXCID0028161",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3037094",
+                "dtxcid": "DTXCID0028161",
+                "dtxsid": "DTXSID3037094",
+                "name": "4-Hydroxytamoxifen",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.41897619047619045,
+                "weight": 387.523
+            },
+            {
+                "chem_id": "DTXCID602527",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4022527",
+                "dtxcid": "DTXCID602527",
+                "dtxsid": "DTXSID4022527",
+                "name": "Propylparaben",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.4173945225758697,
+                "weight": 180.203
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "bio_txct:DTXCID30182:5:0.1:tox_txrf:tox_txrf:tox_fp_dosage:1:1:engine:genrapy": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:15",
+            "2024-08-12T16:07:37"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID30827",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020827",
+                "dtxcid": "DTXCID30827",
+                "dtxsid": "DTXSID9020827",
+                "name": "Methoxychlor",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.835,
+                "weight": 345.64
+            },
+            {
+                "chem_id": "DTXCID204280",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8024280",
+                "dtxcid": "DTXCID204280",
+                "dtxsid": "DTXSID8024280",
+                "name": "Propiconazole",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.8330494037478705,
+                "weight": 342.22
+            },
+            {
+                "chem_id": "DTXCID604163",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2024163",
+                "dtxcid": "DTXCID604163",
+                "dtxsid": "DTXSID2024163",
+                "name": "Linuron",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.8316326530612245,
+                "weight": 249.09
+            },
+            {
+                "chem_id": "DTXCID504151",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8024151",
+                "dtxcid": "DTXCID504151",
+                "dtxsid": "DTXSID8024151",
+                "name": "Imazalil",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.8308457711442786,
+                "weight": 297.18
+            },
+            {
+                "chem_id": "DTXCID904270",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4024270",
+                "dtxcid": "DTXCID904270",
+                "dtxsid": "DTXSID4024270",
+                "name": "Prochloraz",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.8297872340425532,
+                "weight": 376.66
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "bio_txct:DTXCID40662:9:0.1:no_filter:tox_txrf:tox_fp:1:1:endpoints:uiRadialView,uiFingerPrintHeatChart": {
+        "_changelog": [
+            "2025-03-04T20:24:24",
+            "2024-10-30T23:33:14"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID40662",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020663",
+                "dtxcid": "DTXCID40662",
+                "dtxsid": "DTXSID9020663",
+                "name": "Glycerol",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 1.0,
+                "weight": 92.094
+            },
+            {
+                "chem_id": "DTXCID00692",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6020692",
+                "dtxcid": "DTXCID00692",
+                "dtxsid": "DTXSID6020692",
+                "name": "Methenamine",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9741379310344828,
+                "weight": 140.19
+            },
+            {
+                "chem_id": "DTXCID806781",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2026781",
+                "dtxcid": "DTXCID806781",
+                "dtxsid": "DTXSID2026781",
+                "name": "4-Methyl-2-pentanol",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9713467048710601,
+                "weight": 102.177
+            },
+            {
+                "chem_id": "DTXCID606",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2020006",
+                "dtxcid": "DTXCID606",
+                "dtxsid": "DTXSID2020006",
+                "name": "Acetaminophen",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9658119658119658,
+                "weight": 151.165
+            },
+            {
+                "chem_id": "DTXCID305049",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3025049",
+                "dtxcid": "DTXCID305049",
+                "dtxsid": "DTXSID3025049",
+                "name": "Diethylene glycol monomethyl ether",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9658119658119658,
+                "weight": 120.148
+            },
+            {
+                "chem_id": "DTXCID105122",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3025122",
+                "dtxcid": "DTXCID105122",
+                "dtxsid": "DTXSID3025122",
+                "name": "Dimethyl glutarate",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9658119658119658,
+                "weight": 160.169
+            },
+            {
+                "chem_id": "DTXCID904097",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1024097",
+                "dtxcid": "DTXCID904097",
+                "dtxsid": "DTXSID1024097",
+                "name": "2-Butoxyethanol",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9629629629629629,
+                "weight": 118.176
+            },
+            {
+                "chem_id": "DTXCID901808",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021808",
+                "dtxcid": "DTXCID901808",
+                "dtxsid": "DTXSID8021808",
+                "name": "o-Cresol",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9629629629629629,
+                "weight": 108.14
+            },
+            {
+                "chem_id": "DTXCID4020111",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6040111",
+                "dtxcid": "DTXCID4020111",
+                "dtxsid": "DTXSID6040111",
+                "name": "Ethyl butyrate",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9629629629629629,
+                "weight": 116.16
+            },
+            {
+                "chem_id": "DTXCID107263",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1027263",
+                "dtxcid": "DTXCID107263",
+                "dtxsid": "DTXSID1027263",
+                "name": "Pentyl acetate",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9629629629629629,
+                "weight": 130.187
+            }
+        ],
+        "sel_by": "no_filter"
+    },
+    "bio_txct:DTXCID50485:5:0.2:tox_txrf:tox_txrf:tox_fp:1:1": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:18",
+            "2024-08-12T16:07:36"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID50485",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1020485",
+                "dtxcid": "DTXCID50485",
+                "dtxsid": "DTXSID1020485",
+                "name": "C.I. Disperse Black 6 dihydrochloride",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 1.0,
+                "weight": 317.21
+            },
+            {
+                "chem_id": "DTXCID00290",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4020290",
+                "dtxcid": "DTXCID00290",
+                "dtxsid": "DTXSID4020290",
+                "name": "[4-Chloro-6-(2,3-xylidino)-2-pyrimidinylthio]acetic acid",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9149484536082474,
+                "weight": 323.8
+            },
+            {
+                "chem_id": "DTXCID401094",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0021094",
+                "dtxcid": "DTXCID401094",
+                "dtxsid": "DTXSID0021094",
+                "name": "4,4'-Oxydianiline",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.907035175879397,
+                "weight": 200.241
+            },
+            {
+                "chem_id": "DTXCID3027374",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5047374",
+                "dtxcid": "DTXCID3027374",
+                "dtxsid": "DTXSID5047374",
+                "name": "SSR161421",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9069767441860465,
+                "weight": 408.461
+            },
+            {
+                "chem_id": "DTXCID60921",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2020921",
+                "dtxcid": "DTXCID60921",
+                "dtxsid": "DTXSID2020921",
+                "name": "2-Naphthylamine",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9063291139240506,
+                "weight": 143.189
+            },
+            {
+                "chem_id": "DTXCID70869",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020869",
+                "dtxcid": "DTXCID70869",
+                "dtxsid": "DTXSID5020869",
+                "name": "4,4'-Methylenebis(N,N-dimethylaniline)",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.905852417302799,
+                "weight": 254.377
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "bio_txct:DTXSID0034695:10:0.1:tox_txrf:tox_txrf:tox_fp:1:1": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:13",
+            "2024-08-12T16:07:37",
+            "2024-06-12T16:08:33"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID8014695",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0034695",
+                "dtxcid": "DTXCID8014695",
+                "dtxsid": "DTXSID0034695",
+                "name": "Mancozeb",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 1.0,
+                "weight": null
+            },
+            {
+                "chem_id": "DTXCID70794",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020794",
+                "dtxcid": "DTXCID70794",
+                "dtxsid": "DTXSID9020794",
+                "name": "Maneb",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.9114583333333334,
+                "weight": 265.28
+            },
+            {
+                "chem_id": "DTXCID90601",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020601",
+                "dtxcid": "DTXCID90601",
+                "dtxsid": "DTXSID5020601",
+                "name": "4,5-Dihydro-2-mercaptoimidazole",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.8353552859618717,
+                "weight": 102.16
+            },
+            {
+                "chem_id": "DTXCID20319",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0020319",
+                "dtxcid": "DTXCID20319",
+                "dtxsid": "DTXSID0020319",
+                "name": "Chlorothalonil",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.7680672268907563,
+                "weight": 265.9
+            },
+            {
+                "chem_id": "DTXCID701520779",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020243",
+                "dtxcid": "DTXCID701520779",
+                "dtxsid": "DTXSID9020243",
+                "name": "Captan",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.7597955706984668,
+                "weight": 300.58
+            },
+            {
+                "chem_id": "DTXCID8012493",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0032493",
+                "dtxcid": "DTXCID8012493",
+                "dtxsid": "DTXSID0032493",
+                "name": "Triadimenol",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.755,
+                "weight": 295.77
+            },
+            {
+                "chem_id": "DTXCID3012600",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5032600",
+                "dtxcid": "DTXCID3012600",
+                "dtxsid": "DTXSID5032600",
+                "name": "Cyclanilide",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.7431506849315068,
+                "weight": 274.1
+            },
+            {
+                "chem_id": "DTXCID2012667",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4032667",
+                "dtxcid": "DTXCID2012667",
+                "dtxsid": "DTXSID4032667",
+                "name": "Es-fenvalerate",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.7358490566037735,
+                "weight": 419.91
+            },
+            {
+                "chem_id": "DTXCID604304",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9024304",
+                "dtxcid": "DTXCID604304",
+                "dtxsid": "DTXSID9024304",
+                "name": "Sethoxydim",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.7349397590361446,
+                "weight": 327.48
+            },
+            {
+                "chem_id": "DTXSID8023892",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8023892",
+                "dtxcid": null,
+                "dtxsid": "DTXSID8023892",
+                "name": "Abamectin",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.7335526315789473,
+                "weight": null
+            },
+            {
+                "chem_id": "DTXCID90112",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020112",
+                "dtxcid": "DTXCID90112",
+                "dtxsid": "DTXSID9020112",
+                "name": "Atrazine",
+                "selected": true,
+                "similarity_tag": "b",
+                "value": 0.7289562289562289,
+                "weight": 215.69
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_aim,chm_httr,chm_mrgn:DTXCID90570:15:0.1:bio_txct:bio_txct:bio_fp:1:1:engine:genrapy:extra:fp_weight1,1,3": {
+        "_changelog": [
+            "2025-03-04T20:24:22",
+            "2024-10-30T23:33:15",
+            "2024-06-12T16:08:33",
+            "2024-02-26T15:08:48"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID90570",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020570",
+                "dtxcid": "DTXCID90570",
+                "dtxsid": "DTXSID5020570",
+                "name": "Sodium erythorbate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 1.0,
+                "weight": 198.106
+            },
+            {
+                "chem_id": "DTXCID60105",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0020105",
+                "dtxcid": "DTXCID60105",
+                "dtxsid": "DTXSID0020105",
+                "name": "Sodium L-ascorbate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 1.0,
+                "weight": 198.106
+            },
+            {
+                "chem_id": "DTXCID1027687",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3047687",
+                "dtxcid": "DTXCID1027687",
+                "dtxsid": "DTXSID3047687",
+                "name": "Calcium L-ascorbate dihydrate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.774331550802139,
+                "weight": 426.34
+            },
+            {
+                "chem_id": "DTXCID90106",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020106",
+                "dtxcid": "DTXCID90106",
+                "dtxsid": "DTXSID5020106",
+                "name": "L-Ascorbic acid",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6705555555555556,
+                "weight": 176.124
+            },
+            {
+                "chem_id": "DTXCID306537",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6026537",
+                "dtxcid": "DTXCID306537",
+                "dtxsid": "DTXSID6026537",
+                "name": "Isoascorbic acid",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6705555555555556,
+                "weight": 176.124
+            },
+            {
+                "chem_id": "DTXCID1021611",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3041611",
+                "dtxcid": "DTXCID1021611",
+                "dtxsid": "DTXSID3041611",
+                "name": "Ascorbyl palmitate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.4123218493996184,
+                "weight": 414.539
+            },
+            {
+                "chem_id": "DTXCID2027674",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4047674",
+                "dtxcid": "DTXCID2027674",
+                "dtxsid": "DTXSID4047674",
+                "name": "4,5-Dimethyl-3-hydroxy-2,5-dihydrofuran-2-one",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3507936507936508,
+                "weight": 128.127
+            },
+            {
+                "chem_id": "DTXCID8021517",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0041517",
+                "dtxcid": "DTXCID8021517",
+                "dtxsid": "DTXSID0041517",
+                "name": "4-Hydroxy-2,5-dimethyl-3(2H)furanone",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.26098671443499033,
+                "weight": 128.127
+            },
+            {
+                "chem_id": "DTXCID40276",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6020276",
+                "dtxcid": "DTXCID40276",
+                "dtxsid": "DTXSID6020276",
+                "name": "3-Chloro-4-(dichloromethyl)-5-hydroxy-2(5H)-furanone",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.25776315789473686,
+                "weight": 217.43
+            },
+            {
+                "chem_id": "DTXCID406549",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0026549",
+                "dtxcid": "DTXCID406549",
+                "dtxsid": "DTXSID0026549",
+                "name": "Gluconolactone",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.24243243243243245,
+                "weight": 178.14
+            },
+            {
+                "chem_id": "DTXCID806029",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7026029",
+                "dtxcid": "DTXCID806029",
+                "dtxsid": "DTXSID7026029",
+                "name": "Sodium dehydroacetate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.21885167464114832,
+                "weight": 190.13
+            },
+            {
+                "chem_id": "DTXCID2026866",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4046866",
+                "dtxcid": "DTXCID2026866",
+                "dtxsid": "DTXSID4046866",
+                "name": "Pentamycin",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.21058823529411766,
+                "weight": 670.837
+            },
+            {
+                "chem_id": "DTXCID007170",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7027170",
+                "dtxcid": "DTXCID007170",
+                "dtxsid": "DTXSID7027170",
+                "name": "Sodium D-gluconate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.2097136222910217,
+                "weight": 218.137
+            },
+            {
+                "chem_id": "DTXCID1026617",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3046617",
+                "dtxcid": "DTXCID1026617",
+                "dtxsid": "DTXSID3046617",
+                "name": "Epoprostenol sodium",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.20929037064630288,
+                "weight": 374.453
+            },
+            {
+                "chem_id": "DTXCID5024554",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7044554",
+                "dtxcid": "DTXCID5024554",
+                "dtxsid": "DTXSID7044554",
+                "name": "Cromolyn sodium",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.2091891891891892,
+                "weight": 512.334
+            },
+            {
+                "chem_id": "DTXCID5015010",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7035010",
+                "dtxcid": "DTXCID5015010",
+                "dtxsid": "DTXSID7035010",
+                "name": "Sodium warfarin",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.20714285714285716,
+                "weight": 330.315
+            }
+        ],
+        "sel_by": "bio_txct"
+    },
+    "chm_ct:C(C(C(=CC(F)(F)C(F)(F)C(F)(F)F)[N+]([O-])=O)O)O:10:0.1:tox_txrf:tox_txrf:tox_fp_dosage:1:1:engine:genrapy": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-31T00:03:08",
+            "2024-06-12T16:08:32"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "C(C(C(=CC(F)(F)C(F)(F)C(F)(F)F)[N+]([O-])=O)O)O",
+                "details_link": null,
+                "dtxcid": null,
+                "dtxsid": null,
+                "name": "Unnamed chemical",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 301.0185052119999
+            },
+            {
+                "chem_id": "DTXCID1011862",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3031862",
+                "dtxcid": "DTXCID1011862",
+                "dtxsid": "DTXSID3031862",
+                "name": "Perfluorohexanoic acid",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4642857142857143,
+                "weight": 314.054
+            },
+            {
+                "chem_id": "DTXCID0031267",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3052856",
+                "dtxcid": "DTXCID0031267",
+                "dtxsid": "DTXSID3052856",
+                "name": "Sodium perfluorohexanoate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4482758620689655,
+                "weight": 336.036
+            },
+            {
+                "chem_id": "DTXCID1017707",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3037707",
+                "dtxcid": "DTXCID1017707",
+                "dtxsid": "DTXSID3037707",
+                "name": "Potassium perfluorobutanesulfonate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.43333333333333335,
+                "weight": 338.18
+            },
+            {
+                "chem_id": "DTXCID6017708",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8037708",
+                "dtxcid": "DTXCID6017708",
+                "dtxsid": "DTXSID8037708",
+                "name": "Ammonium perfluorooctanoate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.41935483870967744,
+                "weight": 431.101
+            },
+            {
+                "chem_id": "DTXCID9012646",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1032646",
+                "dtxcid": "DTXCID9012646",
+                "dtxsid": "DTXSID1032646",
+                "name": "N-Ethylperfluorooctane sulfonamide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.40625,
+                "weight": 527.2
+            },
+            {
+                "chem_id": "DTXCID6017706",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8037706",
+                "dtxcid": "DTXCID6017706",
+                "dtxsid": "DTXSID8037706",
+                "name": "Potassium perfluorooctanesulfonate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.40625,
+                "weight": 538.22
+            },
+            {
+                "chem_id": "DTXCID1011864",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3031864",
+                "dtxcid": "DTXCID1011864",
+                "dtxsid": "DTXSID3031864",
+                "name": "Perfluorooctanesulfonic acid",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.40625,
+                "weight": 500.13
+            },
+            {
+                "chem_id": "DTXCID3027328",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5047328",
+                "dtxcid": "DTXCID3027328",
+                "dtxsid": "DTXSID5047328",
+                "name": "Potassium 5-carbamoyl-3-[5'-fluoro-2'-(2,2,3,3,3-pentafluoropropoxy)-3-biphenylyl]-1,2,4-triazol-1-ide hydrate (1:1:1)",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2972972972972973,
+                "weight": 486.416
+            },
+            {
+                "chem_id": "DTXCID201318",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7021318",
+                "dtxcid": "DTXCID201318",
+                "dtxsid": "DTXSID7021318",
+                "name": "1,1,2,2-Tetrachloroethane",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.28,
+                "weight": 167.84
+            },
+            {
+                "chem_id": "DTXCID904652",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8024652",
+                "dtxcid": "DTXCID904652",
+                "dtxsid": "DTXSID8024652",
+                "name": "Bronopol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2692307692307692,
+                "weight": 199.988
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_ct:DTXCID00408880:8:0.1:bio_txct:bio_txct:bio_fp:1:1": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:16",
+            "2024-06-12T16:08:32"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID00408880",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID40458061",
+                "dtxcid": "DTXCID00408880",
+                "dtxsid": "DTXSID40458061",
+                "name": "Ethanone, 1-[2-(methylseleno)-3-phenyl-2-cyclobuten-1-yl]-",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 265.225
+            },
+            {
+                "chem_id": "DTXCID0026545",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2046545",
+                "dtxcid": "DTXCID0026545",
+                "dtxsid": "DTXSID2046545",
+                "name": "Diphenylcyclopropenone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.5714285969734192,
+                "weight": 206.244
+            },
+            {
+                "chem_id": "DTXCID701460",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0021460",
+                "dtxcid": "DTXCID701460",
+                "dtxsid": "DTXSID0021460",
+                "name": "Zearalenone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4444444477558136,
+                "weight": 318.369
+            },
+            {
+                "chem_id": "DTXCID901803",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3021803",
+                "dtxcid": "DTXCID901803",
+                "dtxsid": "DTXSID3021803",
+                "name": "1-Benzoylacetone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4375,
+                "weight": 162.188
+            },
+            {
+                "chem_id": "DTXCID504397",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0024397",
+                "dtxcid": "DTXCID504397",
+                "dtxsid": "DTXSID0024397",
+                "name": "Acetoacetanilide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4375,
+                "weight": 177.203
+            },
+            {
+                "chem_id": "DTXCID3022324",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5042324",
+                "dtxcid": "DTXCID3022324",
+                "dtxsid": "DTXSID5042324",
+                "name": "Potassium warfarin",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.43478259444236755,
+                "weight": 346.423
+            },
+            {
+                "chem_id": "DTXCID5015010",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7035010",
+                "dtxcid": "DTXCID5015010",
+                "dtxsid": "DTXSID7035010",
+                "name": "Sodium warfarin",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.43478259444236755,
+                "weight": 330.315
+            },
+            {
+                "chem_id": "DTXCID101482",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021482",
+                "dtxcid": "DTXCID101482",
+                "dtxsid": "DTXSID8021482",
+                "name": "Acetone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4166666567325592,
+                "weight": 58.08
+            },
+            {
+                "chem_id": "DTXCID7029324",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0049365",
+                "dtxcid": "DTXCID7029324",
+                "dtxsid": "DTXSID0049365",
+                "name": "2-Acetyl-1-cyclohexanone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4000000059604645,
+                "weight": 140.182
+            }
+        ],
+        "sel_by": "bio_txct"
+    },
+    "chm_ct:DTXCID401478006:12:0.1:tox_txrf:tox_txrf:tox_fp:1:1:alternate_cols:True": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:14",
+            "2024-06-12T16:08:33"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID401478006",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID501020159",
+                "dtxcid": "DTXCID401478006",
+                "dtxsid": "DTXSID501020159",
+                "name": "Rinderine",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 299.367
+            },
+            {
+                "chem_id": "DTXCID2022333",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4042333",
+                "dtxcid": "DTXCID2022333",
+                "dtxsid": "DTXSID4042333",
+                "name": "Propanoic acid, 2-hydroxy-, 2-ethylhexyl ester",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.3478260934352875,
+                "weight": 202.294
+            },
+            {
+                "chem_id": "DTXCID50784",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020784",
+                "dtxcid": "DTXCID50784",
+                "dtxsid": "DTXSID5020784",
+                "name": "Lovastatin",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.3461538553237915,
+                "weight": 404.547
+            },
+            {
+                "chem_id": "DTXCID90106",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020106",
+                "dtxcid": "DTXCID90106",
+                "dtxsid": "DTXSID5020106",
+                "name": "L-Ascorbic acid",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.30434781312942505,
+                "weight": 176.124
+            },
+            {
+                "chem_id": "DTXCID90570",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020570",
+                "dtxcid": "DTXCID90570",
+                "dtxsid": "DTXSID5020570",
+                "name": "Sodium erythorbate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2916666567325592,
+                "weight": 198.106
+            },
+            {
+                "chem_id": "DTXCID4020375",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6040375",
+                "dtxcid": "DTXCID4020375",
+                "dtxsid": "DTXSID6040375",
+                "name": "1,2-Butanediol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2857142984867096,
+                "weight": 90.122
+            },
+            {
+                "chem_id": "DTXCID5027358",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7047358",
+                "dtxcid": "DTXCID5027358",
+                "dtxsid": "DTXSID7047358",
+                "name": "Nelivaptan",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.27272728085517883,
+                "weight": 630.11
+            },
+            {
+                "chem_id": "DTXCID3014721",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5034721",
+                "dtxcid": "DTXCID3014721",
+                "dtxsid": "DTXSID5034721",
+                "name": "Methanol, (((1-methyl-2-(5-methyl-3-oxazolidinyl)ethoxy)methoxy)methoxy)-",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.27272728085517883,
+                "weight": 235.28
+            },
+            {
+                "chem_id": "DTXCID901206",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0021206",
+                "dtxcid": "DTXCID901206",
+                "dtxsid": "DTXSID0021206",
+                "name": "1,2-Propylene glycol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2631579041481018,
+                "weight": 76.095
+            },
+            {
+                "chem_id": "DTXCID807635",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1027635",
+                "dtxcid": "DTXCID807635",
+                "dtxsid": "DTXSID1027635",
+                "name": "2,2,4-Trimethyl-1,3-pentanediol diisobutyrate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2631579041481018,
+                "weight": 286.412
+            },
+            {
+                "chem_id": "DTXCID4012562",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6032562",
+                "dtxcid": "DTXCID4012562",
+                "dtxsid": "DTXSID6032562",
+                "name": "Octylbicycloheptenedicarboximide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25806450843811035,
+                "weight": 275.392
+            },
+            {
+                "chem_id": "DTXCID101305276",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1020805",
+                "dtxcid": "DTXCID101305276",
+                "dtxsid": "DTXSID1020805",
+                "name": "dl-Menthol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25,
+                "weight": 156.269
+            },
+            {
+                "chem_id": "DTXCID301244",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6021244",
+                "dtxcid": "DTXCID301244",
+                "dtxsid": "DTXSID6021244",
+                "name": "Rifampicin",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25,
+                "weight": 822.953
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_ct:DTXCID50273:5:0.2:tox_txrf:tox_txrf:tox_fp:1:1": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:16",
+            "2024-06-12T16:08:32"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID50273",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1020273",
+                "dtxcid": "DTXCID50273",
+                "dtxsid": "DTXSID1020273",
+                "name": "Chlorine",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 70.9
+            },
+            {
+                "chem_id": "DTXCID5014672",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7034672",
+                "dtxcid": "DTXCID5014672",
+                "dtxsid": "DTXSID7034672",
+                "name": "Iodine",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 253.80894
+            },
+            {
+                "chem_id": "DTXCID00832",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8020832",
+                "dtxcid": "DTXCID00832",
+                "dtxsid": "DTXSID8020832",
+                "name": "Methyl bromide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.5,
+                "weight": 94.939
+            },
+            {
+                "chem_id": "DTXCID804187",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0024187",
+                "dtxcid": "DTXCID804187",
+                "dtxsid": "DTXSID0024187",
+                "name": "Methyl iodide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.5,
+                "weight": 141.939
+            },
+            {
+                "chem_id": "DTXCID9014688",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1034688",
+                "dtxcid": "DTXCID9014688",
+                "dtxsid": "DTXSID1034688",
+                "name": "Lithium hypochlorite",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.3333333432674408,
+                "weight": 58.39
+            },
+            {
+                "chem_id": "DTXCID30431",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1020431",
+                "dtxcid": "DTXCID30431",
+                "dtxsid": "DTXSID1020431",
+                "name": "1,4-Dichlorobenzene",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25,
+                "weight": 147.0
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_ct:DTXCID8047:5:0.2:tox_txrf:tox_txrf:tox_fp:3:3:ep_subset:ear": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:12",
+            "2024-06-12T16:08:32"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID8047",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3020047",
+                "dtxcid": "DTXCID8047",
+                "dtxsid": "DTXSID3020047",
+                "name": "Allyl isothiocyanate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 99.15
+            },
+            {
+                "chem_id": "DTXCID707204",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2027204",
+                "dtxcid": "DTXCID707204",
+                "dtxsid": "DTXSID2027204",
+                "name": "Methyl isothiocyanate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.5,
+                "weight": 73.11
+            },
+            {
+                "chem_id": "DTXCID0029",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020029",
+                "dtxcid": "DTXCID0029",
+                "dtxsid": "DTXSID5020029",
+                "name": "Acrylonitrile",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2857142984867096,
+                "weight": 53.064
+            },
+            {
+                "chem_id": "DTXCID70392",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020392",
+                "dtxcid": "DTXCID70392",
+                "dtxsid": "DTXSID7020392",
+                "name": "Diallyl phthalate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25,
+                "weight": 246.262
+            },
+            {
+                "chem_id": "DTXCID6027",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020027",
+                "dtxcid": "DTXCID6027",
+                "dtxsid": "DTXSID5020027",
+                "name": "Acrylamide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25,
+                "weight": 71.079
+            },
+            {
+                "chem_id": "DTXCID00583",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4020583",
+                "dtxcid": "DTXCID00583",
+                "dtxsid": "DTXSID4020583",
+                "name": "Ethyl acrylate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25,
+                "weight": 100.117
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_httr:DTXCID30182:5:0.2:tox_txrf:tox_txrf:tox_fp:1:1": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:10",
+            "2024-06-12T16:08:31"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID001771",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021771",
+                "dtxcid": "DTXCID001771",
+                "dtxsid": "DTXSID8021771",
+                "name": "4-(2-Methylbutan-2-yl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.47999998927116394,
+                "weight": 164.248
+            },
+            {
+                "chem_id": "DTXCID602360",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022360",
+                "dtxcid": "DTXCID602360",
+                "dtxsid": "DTXSID9022360",
+                "name": "4-(1,1,3,3-Tetramethylbutyl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4615384638309479,
+                "weight": 206.329
+            },
+            {
+                "chem_id": "DTXCID70716",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020716",
+                "dtxcid": "DTXCID70716",
+                "dtxsid": "DTXSID7020716",
+                "name": "Hydroquinone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4000000059604645,
+                "weight": 110.112
+            },
+            {
+                "chem_id": "DTXCID40450",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4020450",
+                "dtxcid": "DTXCID40450",
+                "dtxsid": "DTXSID4020450",
+                "name": "Dicofol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.38235294818878174,
+                "weight": 370.48
+            },
+            {
+                "chem_id": "DTXCID901125",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0021125",
+                "dtxcid": "DTXCID901125",
+                "dtxsid": "DTXSID0021125",
+                "name": "Phenolphthalein",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.3636363744735718,
+                "weight": 318.328
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_httr:DTXCID606:10:0.1:bio_txct:bio_txct:bio_fp:1:1:engine:genrapy": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:18",
+            "2024-06-12T16:08:33"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID606",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2020006",
+                "dtxcid": "DTXCID606",
+                "dtxsid": "DTXSID2020006",
+                "name": "Acetaminophen",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 151.165
+            },
+            {
+                "chem_id": "DTXCID5026419",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7046419",
+                "dtxcid": "DTXCID5026419",
+                "dtxsid": "DTXSID7046419",
+                "name": "Parapropamol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.75,
+                "weight": 165.192
+            },
+            {
+                "chem_id": "DTXCID704455",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7024455",
+                "dtxcid": "DTXCID704455",
+                "dtxsid": "DTXSID7024455",
+                "name": "4-Aminoacetanilide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.7333333492279053,
+                "weight": 150.181
+            },
+            {
+                "chem_id": "DTXCID104414",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6024414",
+                "dtxcid": "DTXCID104414",
+                "dtxsid": "DTXSID6024414",
+                "name": "N-Acetyl-p-toluidine",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.7333333492279053,
+                "weight": 149.193
+            },
+            {
+                "chem_id": "DTXCID806325",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6026325",
+                "dtxcid": "DTXCID806325",
+                "dtxsid": "DTXSID6026325",
+                "name": "4'-Methoxyacetanilide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.6470588445663452,
+                "weight": 165.192
+            },
+            {
+                "chem_id": "DTXCID901366",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7021366",
+                "dtxcid": "DTXCID901366",
+                "dtxsid": "DTXSID7021366",
+                "name": "p-Tolylurea",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.625,
+                "weight": 150.181
+            },
+            {
+                "chem_id": "DTXCID3021512",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5041512",
+                "dtxcid": "DTXCID3021512",
+                "dtxsid": "DTXSID5041512",
+                "name": "4-Chlorophenylurea",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.625,
+                "weight": 170.6
+            },
+            {
+                "chem_id": "DTXCID001116",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1021116",
+                "dtxcid": "DTXCID001116",
+                "dtxsid": "DTXSID1021116",
+                "name": "Phenacetin",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.6111111044883728,
+                "weight": 179.219
+            },
+            {
+                "chem_id": "DTXCID3017739",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5037739",
+                "dtxcid": "DTXCID3017739",
+                "dtxsid": "DTXSID5037739",
+                "name": "4-Anilinophenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.5789473652839661,
+                "weight": 185.226
+            },
+            {
+                "chem_id": "DTXCID504392",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5024392",
+                "dtxcid": "DTXCID504392",
+                "dtxsid": "DTXSID5024392",
+                "name": "Acedoben",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.5789473652839661,
+                "weight": 179.175
+            },
+            {
+                "chem_id": "DTXCID2020",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0020020",
+                "dtxcid": "DTXCID2020",
+                "dtxsid": "DTXSID0020020",
+                "name": "Actarit",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.5789473652839661,
+                "weight": 193.202
+            }
+        ],
+        "sel_by": "bio_txct"
+    },
+    "chm_httr:OC(C)COC(CO)CO:10:0.1:tox_txrf:tox_txrf:tox_fp:1:1:engine:genrapy": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-31T00:03:00"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "OC(C)COC(CO)CO",
+                "details_link": null,
+                "dtxcid": null,
+                "dtxsid": null,
+                "name": "Unnamed chemical",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 150.089208928
+            },
+            {
+                "chem_id": "DTXCID60666",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4020666",
+                "dtxcid": "DTXCID60666",
+                "dtxsid": "DTXSID4020666",
+                "name": "Glycidol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4,
+                "weight": 74.079
+            },
+            {
+                "chem_id": "DTXCID301207",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5021207",
+                "dtxcid": "DTXCID301207",
+                "dtxsid": "DTXSID5021207",
+                "name": "(+/-)-1,2-Propylene oxide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2,
+                "weight": 58.08
+            },
+            {
+                "chem_id": "DTXCID40662",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020663",
+                "dtxcid": "DTXCID40662",
+                "dtxsid": "DTXSID9020663",
+                "name": "Glycerol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.18181818181818182,
+                "weight": 92.094
+            },
+            {
+                "chem_id": "DTXCID4031275",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7052864",
+                "dtxcid": "DTXCID4031275",
+                "dtxsid": "DTXSID7052864",
+                "name": "2-Hydroxypropyl methanethiolsulfonate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.15384615384615385,
+                "weight": 170.24
+            },
+            {
+                "chem_id": "DTXCID10605",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020605",
+                "dtxcid": "DTXCID10605",
+                "dtxsid": "DTXSID5020605",
+                "name": "2-Ethyl-1-hexanol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.13333333333333333,
+                "weight": 130.231
+            },
+            {
+                "chem_id": "DTXCID701842",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4021842",
+                "dtxcid": "DTXCID701842",
+                "dtxsid": "DTXSID4021842",
+                "name": "Cyclohexanone oxime",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.11764705882352941,
+                "weight": 113.16
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn,bio_txct:DTXCID30182:15:0.1:tox_txrf:tox_txrf:tox_fp:1:1:extra:fp_weight4,10": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:12",
+            "2024-02-05T15:38:23"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID602360",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022360",
+                "dtxcid": "DTXCID602360",
+                "dtxsid": "DTXSID9022360",
+                "name": "4-(1,1,3,3-Tetramethylbutyl)phenol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6322914373761831,
+                "weight": 206.329
+            },
+            {
+                "chem_id": "DTXCID30827",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020827",
+                "dtxcid": "DTXCID30827",
+                "dtxsid": "DTXSID9020827",
+                "name": "Methoxychlor",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6296511627906977,
+                "weight": 345.64
+            },
+            {
+                "chem_id": "DTXCID604163",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2024163",
+                "dtxcid": "DTXCID604163",
+                "dtxsid": "DTXSID2024163",
+                "name": "Linuron",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6199973495891863,
+                "weight": 249.09
+            },
+            {
+                "chem_id": "DTXCID001771",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021771",
+                "dtxcid": "DTXCID001771",
+                "dtxsid": "DTXSID8021771",
+                "name": "4-(2-Methylbutan-2-yl)phenol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6193485042836556,
+                "weight": 164.248
+            },
+            {
+                "chem_id": "DTXCID3012498",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5032498",
+                "dtxcid": "DTXCID3012498",
+                "dtxsid": "DTXSID5032498",
+                "name": "Triclosan",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6157189089227925,
+                "weight": 289.54
+            },
+            {
+                "chem_id": "DTXCID402448",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4022448",
+                "dtxcid": "DTXCID402448",
+                "dtxsid": "DTXSID4022448",
+                "name": "Metolachlor",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6133731320582533,
+                "weight": 283.8
+            },
+            {
+                "chem_id": "DTXCID30154",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020154",
+                "dtxcid": "DTXCID30154",
+                "dtxsid": "DTXSID5020154",
+                "name": "Clorophene",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6128036596461096,
+                "weight": 218.68
+            },
+            {
+                "chem_id": "DTXCID904270",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4024270",
+                "dtxcid": "DTXCID904270",
+                "dtxsid": "DTXSID4024270",
+                "name": "Prochloraz",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6120101864782715,
+                "weight": 376.66
+            },
+            {
+                "chem_id": "DTXCID504211",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5024211",
+                "dtxcid": "DTXCID504211",
+                "dtxsid": "DTXSID5024211",
+                "name": "Napropamide",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6089774951076322,
+                "weight": 271.36
+            },
+            {
+                "chem_id": "DTXCID204280",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8024280",
+                "dtxcid": "DTXCID204280",
+                "dtxsid": "DTXSID8024280",
+                "name": "Propiconazole",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6089725706213012,
+                "weight": 342.22
+            },
+            {
+                "chem_id": "DTXCID904259",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1024259",
+                "dtxcid": "DTXCID904259",
+                "dtxsid": "DTXSID1024259",
+                "name": "Phosalone",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6081217031921257,
+                "weight": 367.8
+            },
+            {
+                "chem_id": "DTXCID0012500",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2032500",
+                "dtxcid": "DTXCID0012500",
+                "dtxsid": "DTXSID2032500",
+                "name": "Triflumizole",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6080037544263834,
+                "weight": 345.75
+            },
+            {
+                "chem_id": "DTXCID10465",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3020465",
+                "dtxcid": "DTXCID10465",
+                "dtxsid": "DTXSID3020465",
+                "name": "Diethylstilbestrol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6066816970690715,
+                "weight": 268.356
+            },
+            {
+                "chem_id": "DTXCID504151",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8024151",
+                "dtxcid": "DTXCID504151",
+                "dtxsid": "DTXSID8024151",
+                "name": "Imazalil",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.605533699710702,
+                "weight": 297.18
+            },
+            {
+                "chem_id": "DTXCID80420",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2020420",
+                "dtxcid": "DTXCID80420",
+                "dtxsid": "DTXSID2020420",
+                "name": "Propyzamide",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.6052242097525117,
+                "weight": 256.13
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn,bio_txct:DTXCID603235:15:0.1:tox_txrf:tox_txrf:tox_fp_dosage:1:1:engine:genrapy:extra:fp_weight3,1": {
+        "_changelog": [
+            "2025-03-04T20:24:24",
+            "2024-10-30T23:33:14"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID603235",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1023235",
+                "dtxcid": "DTXCID603235",
+                "dtxsid": "DTXSID1023235",
+                "name": "D-Mannitol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 1.0,
+                "weight": 182.172
+            },
+            {
+                "chem_id": "DTXCID40662",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020663",
+                "dtxcid": "DTXCID40662",
+                "dtxsid": "DTXSID9020663",
+                "name": "Glycerol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.5205357142857143,
+                "weight": 92.094
+            },
+            {
+                "chem_id": "DTXCID901206",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0021206",
+                "dtxcid": "DTXCID901206",
+                "dtxsid": "DTXSID0021206",
+                "name": "1,2-Propylene glycol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.5046772290578122,
+                "weight": 76.095
+            },
+            {
+                "chem_id": "DTXCID805010",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6025010",
+                "dtxcid": "DTXCID805010",
+                "dtxsid": "DTXSID6025010",
+                "name": "1,3-Dichloro-2-propanol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3992492037008949,
+                "weight": 128.98
+            },
+            {
+                "chem_id": "DTXCID40597",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8020597",
+                "dtxcid": "DTXCID40597",
+                "dtxsid": "DTXSID8020597",
+                "name": "Ethylene glycol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3920520231213873,
+                "weight": 62.068
+            },
+            {
+                "chem_id": "DTXCID705469",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3025469",
+                "dtxcid": "DTXCID705469",
+                "dtxsid": "DTXSID3025469",
+                "name": "Isopentyl alcohol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.37943906376109765,
+                "weight": 88.15
+            },
+            {
+                "chem_id": "DTXCID601877",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1021877",
+                "dtxcid": "DTXCID601877",
+                "dtxsid": "DTXSID1021877",
+                "name": "2-Chloroethanol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.37057522123893805,
+                "weight": 80.51
+            },
+            {
+                "chem_id": "DTXCID10605",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020605",
+                "dtxcid": "DTXCID10605",
+                "dtxsid": "DTXSID5020605",
+                "name": "2-Ethyl-1-hexanol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.36723648119122254,
+                "weight": 130.231
+            },
+            {
+                "chem_id": "DTXCID90570",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020570",
+                "dtxcid": "DTXCID90570",
+                "dtxsid": "DTXSID5020570",
+                "name": "Sodium erythorbate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3526367400305077,
+                "weight": 198.106
+            },
+            {
+                "chem_id": "DTXCID601932",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3021932",
+                "dtxcid": "DTXCID601932",
+                "dtxsid": "DTXSID3021932",
+                "name": "Diethanolamine",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.34787390029325516,
+                "weight": 105.137
+            },
+            {
+                "chem_id": "DTXCID201392",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9021392",
+                "dtxcid": "DTXCID201392",
+                "dtxsid": "DTXSID9021392",
+                "name": "Triethanolamine",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3457320295983086,
+                "weight": 149.19
+            },
+            {
+                "chem_id": "DTXCID20462",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8020462",
+                "dtxcid": "DTXCID20462",
+                "dtxsid": "DTXSID8020462",
+                "name": "Diethylene glycol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3457320295983086,
+                "weight": 106.121
+            },
+            {
+                "chem_id": "DTXCID50164",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020164",
+                "dtxcid": "DTXCID50164",
+                "dtxsid": "DTXSID9020164",
+                "name": "Pentaerythritol dibromide",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.34149686520376177,
+                "weight": 261.941
+            },
+            {
+                "chem_id": "DTXCID00505",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2020505",
+                "dtxcid": "DTXCID00505",
+                "dtxsid": "DTXSID2020505",
+                "name": "Dimethylaminoethanol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.34087671587671586,
+                "weight": 89.138
+            },
+            {
+                "chem_id": "DTXCID60666",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4020666",
+                "dtxcid": "DTXCID60666",
+                "dtxsid": "DTXSID4020666",
+                "name": "Glycidol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3350782116024141,
+                "weight": 74.079
+            },
+            {
+                "chem_id": "DTXCID604087",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7024087",
+                "dtxcid": "DTXCID604087",
+                "dtxsid": "DTXSID7024087",
+                "name": "2-Ethoxyethanol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.33416909620991253,
+                "weight": 90.122
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn,chm_ct:OC(C)COC(CO)CO:10:0.1:tox_txrf:tox_txrf:tox_fp:1:1:extra:fp_weight1,1": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-31T00:03:08"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "OC(C)COC(CO)CO",
+                "details_link": null,
+                "dtxcid": null,
+                "dtxsid": null,
+                "name": "Unnamed chemical",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 1.0,
+                "weight": 150.089208928
+            },
+            {
+                "chem_id": "DTXCID901206",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0021206",
+                "dtxcid": "DTXCID901206",
+                "dtxsid": "DTXSID0021206",
+                "name": "1,2-Propylene glycol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.5170454545454546,
+                "weight": 76.095
+            },
+            {
+                "chem_id": "DTXCID40662",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020663",
+                "dtxcid": "DTXCID40662",
+                "dtxsid": "DTXSID9020663",
+                "name": "Glycerol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.5,
+                "weight": 92.094
+            },
+            {
+                "chem_id": "DTXCID4031275",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7052864",
+                "dtxcid": "DTXCID4031275",
+                "dtxsid": "DTXSID7052864",
+                "name": "2-Hydroxypropyl methanethiolsulfonate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.4015151515151515,
+                "weight": 170.24
+            },
+            {
+                "chem_id": "DTXCID50762",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020762",
+                "dtxcid": "DTXCID50762",
+                "dtxsid": "DTXSID7020762",
+                "name": "Isopropanol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.39935064935064934,
+                "weight": 60.096
+            },
+            {
+                "chem_id": "DTXCID4020375",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6040375",
+                "dtxcid": "DTXCID4020375",
+                "dtxsid": "DTXSID6040375",
+                "name": "1,2-Butanediol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3569023569023569,
+                "weight": 90.122
+            },
+            {
+                "chem_id": "DTXCID8014720",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0034720",
+                "dtxcid": "DTXCID8014720",
+                "dtxsid": "DTXSID0034720",
+                "name": "2-Hydroxypropyl methanethiosulfonate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3251633986928104,
+                "weight": 170.24
+            },
+            {
+                "chem_id": "DTXCID603235",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1023235",
+                "dtxcid": "DTXCID603235",
+                "dtxsid": "DTXSID1023235",
+                "name": "D-Mannitol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.31547619047619047,
+                "weight": 182.172
+            },
+            {
+                "chem_id": "DTXCID804182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5024182",
+                "dtxcid": "DTXCID804182",
+                "dtxsid": "DTXSID5024182",
+                "name": "2-Methoxyethanol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3115079365079365,
+                "weight": 76.095
+            },
+            {
+                "chem_id": "DTXCID705469",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3025469",
+                "dtxcid": "DTXCID705469",
+                "dtxsid": "DTXSID3025469",
+                "name": "Isopentyl alcohol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3111111111111111,
+                "weight": 88.15
+            },
+            {
+                "chem_id": "DTXCID604087",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7024087",
+                "dtxcid": "DTXCID604087",
+                "dtxsid": "DTXSID7024087",
+                "name": "2-Ethoxyethanol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.3028673835125448,
+                "weight": 90.122
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn,chm_httr:DTXCID30182:10:0.1:tox_txrf:tox_txrf:tox_fp:1:1:extra:fp_weight1,1": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:19"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID001771",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021771",
+                "dtxcid": "DTXCID001771",
+                "dtxsid": "DTXSID8021771",
+                "name": "4-(2-Methylbutan-2-yl)phenol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.48193548387096774,
+                "weight": 164.248
+            },
+            {
+                "chem_id": "DTXCID602360",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022360",
+                "dtxcid": "DTXCID602360",
+                "dtxsid": "DTXSID9022360",
+                "name": "4-(1,1,3,3-Tetramethylbutyl)phenol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.458041958041958,
+                "weight": 206.329
+            },
+            {
+                "chem_id": "DTXCID70716",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020716",
+                "dtxcid": "DTXCID70716",
+                "dtxsid": "DTXSID7020716",
+                "name": "Hydroquinone",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.40454545454545454,
+                "weight": 110.112
+            },
+            {
+                "chem_id": "DTXCID10465",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3020465",
+                "dtxcid": "DTXCID10465",
+                "dtxsid": "DTXSID3020465",
+                "name": "Diethylstilbestrol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.28594771241830064,
+                "weight": 268.356
+            },
+            {
+                "chem_id": "DTXCID40450",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4020450",
+                "dtxcid": "DTXCID40450",
+                "dtxsid": "DTXSID4020450",
+                "name": "Dicofol",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.2857710651828299,
+                "weight": 370.48
+            },
+            {
+                "chem_id": "DTXCID606",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2020006",
+                "dtxcid": "DTXCID606",
+                "dtxsid": "DTXSID2020006",
+                "name": "Acetaminophen",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.27350427350427353,
+                "weight": 151.165
+            },
+            {
+                "chem_id": "DTXCID901125",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0021125",
+                "dtxcid": "DTXCID901125",
+                "dtxsid": "DTXSID0021125",
+                "name": "Phenolphthalein",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.2667238421955403,
+                "weight": 318.328
+            },
+            {
+                "chem_id": "DTXCID70299",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9020299",
+                "dtxcid": "DTXCID70299",
+                "dtxsid": "DTXSID9020299",
+                "name": "Chlorobenzilate",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.2638888888888889,
+                "weight": 325.19
+            },
+            {
+                "chem_id": "DTXCID402529",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4022529",
+                "dtxcid": "DTXCID402529",
+                "dtxsid": "DTXSID4022529",
+                "name": "Methylparaben",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.2638888888888889,
+                "weight": 152.149
+            },
+            {
+                "chem_id": "DTXCID3024495",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5044495",
+                "dtxcid": "DTXCID3024495",
+                "dtxsid": "DTXSID5044495",
+                "name": "4-(4-Hydroxyphenyl)butan-2-one",
+                "selected": true,
+                "similarity_tag": "x",
+                "value": 0.2628205128205128,
+                "weight": 164.204
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn:DTXCID10714,DTXCID9013664,DTXCID902370,DTXCID204523:15:0.1:tox_txrf:tox_txrf:tox_fp:1:1:extra:flagsusernn": {
+        "_changelog": [
+            "2025-03-04T20:09:39",
+            "2024-10-30T23:33:14"
+        ],
+        "flags": "USERNN",
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID10714",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020714",
+                "dtxcid": "DTXCID10714",
+                "dtxsid": "DTXSID7020714",
+                "name": "Hydrocortisone",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 362.466
+            },
+            {
+                "chem_id": "DTXCID9013664",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1033664",
+                "dtxcid": "DTXCID9013664",
+                "dtxsid": "DTXSID1033664",
+                "name": "17-Methyltestosterone",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 302.458
+            },
+            {
+                "chem_id": "DTXCID902370",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3022370",
+                "dtxcid": "DTXCID902370",
+                "dtxsid": "DTXSID3022370",
+                "name": "Progesterone",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 314.469
+            },
+            {
+                "chem_id": "DTXCID204523",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8024523",
+                "dtxcid": "DTXCID204523",
+                "dtxsid": "DTXSID8024523",
+                "name": "4-Androstene-3,17-dione",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 286.415
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn:DTXCID30182:10:0.3:tox_txrf:tox_txrf:tox_fp:1:1:minn:3:maxn:3:endpoints:uiRadialView,uiFingerPrintHeatChart": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:10",
+            "2024-06-12T16:08:31"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID001771",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021771",
+                "dtxcid": "DTXCID001771",
+                "dtxsid": "DTXSID8021771",
+                "name": "4-(2-Methylbutan-2-yl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4838709533214569,
+                "weight": 164.248
+            },
+            {
+                "chem_id": "DTXCID602360",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022360",
+                "dtxcid": "DTXCID602360",
+                "dtxsid": "DTXSID9022360",
+                "name": "4-(1,1,3,3-Tetramethylbutyl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4545454680919647,
+                "weight": 206.329
+            },
+            {
+                "chem_id": "DTXCID70716",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020716",
+                "dtxcid": "DTXCID70716",
+                "dtxsid": "DTXSID7020716",
+                "name": "Hydroquinone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.40909090638160706,
+                "weight": 110.112
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn:DTXCID30182:15:0.1:tox_txrf:tox_txrf:tox_fp:1:1:minn:15:maxn:15:all_ids:True": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:10",
+            "2024-06-12T16:08:32"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID001771",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021771",
+                "dtxcid": "DTXCID001771",
+                "dtxsid": "DTXSID8021771",
+                "name": "4-(2-Methylbutan-2-yl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4838709533214569,
+                "weight": 164.248
+            },
+            {
+                "chem_id": "DTXCID602360",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022360",
+                "dtxcid": "DTXCID602360",
+                "dtxsid": "DTXSID9022360",
+                "name": "4-(1,1,3,3-Tetramethylbutyl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4545454680919647,
+                "weight": 206.329
+            },
+            {
+                "chem_id": "DTXCID70716",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020716",
+                "dtxcid": "DTXCID70716",
+                "dtxsid": "DTXSID7020716",
+                "name": "Hydroquinone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.40909090638160706,
+                "weight": 110.112
+            },
+            {
+                "chem_id": "DTXCID10465",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3020465",
+                "dtxcid": "DTXCID10465",
+                "dtxsid": "DTXSID3020465",
+                "name": "Diethylstilbestrol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.29411765933036804,
+                "weight": 268.356
+            },
+            {
+                "chem_id": "DTXCID406081",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1026081",
+                "dtxcid": "DTXCID406081",
+                "dtxsid": "DTXSID1026081",
+                "name": "3,3',5,5'-Tetrabromobisphenol A",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2857142984867096,
+                "weight": 543.875
+            },
+            {
+                "chem_id": "DTXCID606",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2020006",
+                "dtxcid": "DTXCID606",
+                "dtxsid": "DTXSID2020006",
+                "name": "Acetaminophen",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2777777910232544,
+                "weight": 151.165
+            },
+            {
+                "chem_id": "DTXCID60220",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6020220",
+                "dtxcid": "DTXCID60220",
+                "dtxsid": "DTXSID6020220",
+                "name": "tert-Butylhydroquinone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2777777910232544,
+                "weight": 166.22
+            },
+            {
+                "chem_id": "DTXCID402529",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4022529",
+                "dtxcid": "DTXCID402529",
+                "dtxsid": "DTXSID4022529",
+                "name": "Methylparaben",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2777777910232544,
+                "weight": 152.149
+            },
+            {
+                "chem_id": "DTXCID501124",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5021124",
+                "dtxcid": "DTXCID501124",
+                "dtxsid": "DTXSID5021124",
+                "name": "Phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25925925374031067,
+                "weight": 94.113
+            },
+            {
+                "chem_id": "DTXCID3024495",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5044495",
+                "dtxcid": "DTXCID3024495",
+                "dtxsid": "DTXSID5044495",
+                "name": "4-(4-Hydroxyphenyl)butan-2-one",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25641027092933655,
+                "weight": 164.204
+            },
+            {
+                "chem_id": "DTXCID0031269",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3052858",
+                "dtxcid": "DTXCID0031269",
+                "dtxsid": "DTXSID3052858",
+                "name": "Isopropylparaben",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25,
+                "weight": 180.203
+            },
+            {
+                "chem_id": "DTXCID002528",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022528",
+                "dtxcid": "DTXCID002528",
+                "dtxsid": "DTXSID9022528",
+                "name": "Ethylparaben",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.25,
+                "weight": 166.176
+            },
+            {
+                "chem_id": "DTXCID2014576",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4034576",
+                "dtxcid": "DTXCID2014576",
+                "dtxsid": "DTXSID4034576",
+                "name": "2-Bromo-4-hydroxyacetophenone",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.2432432472705841,
+                "weight": 215.046
+            },
+            {
+                "chem_id": "DTXCID902312",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022312",
+                "dtxcid": "DTXCID902312",
+                "dtxsid": "DTXSID9022312",
+                "name": "4-Octylphenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.23255814611911774,
+                "weight": 206.329
+            },
+            {
+                "chem_id": "DTXCID602527",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4022527",
+                "dtxcid": "DTXCID602527",
+                "dtxsid": "DTXSID4022527",
+                "name": "Propylparaben",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.23255814611911774,
+                "weight": 180.203
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn:DTXCID30182:1:0.3:tox_txrf:tox_txrf:tox_fp:1:1:minn:1:maxn:1:endpoints:uiRadialView,uiFingerPrintHeatChart": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:10",
+            "2024-06-12T16:08:31"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID001771",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021771",
+                "dtxcid": "DTXCID001771",
+                "dtxsid": "DTXSID8021771",
+                "name": "4-(2-Methylbutan-2-yl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4838709533214569,
+                "weight": 164.248
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn:DTXCID30182:2:0.1:tox_txrf:tox_txrf:tox_fp:1:1:minn:2:maxn:2:endpoints:uiRadialView,uiFingerPrintHeatChart": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:10",
+            "2024-06-12T16:08:31"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID30182",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020182",
+                "dtxcid": "DTXCID30182",
+                "dtxsid": "DTXSID7020182",
+                "name": "Bisphenol A",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 228.291
+            },
+            {
+                "chem_id": "DTXCID001771",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8021771",
+                "dtxcid": "DTXCID001771",
+                "dtxsid": "DTXSID8021771",
+                "name": "4-(2-Methylbutan-2-yl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4838709533214569,
+                "weight": 164.248
+            },
+            {
+                "chem_id": "DTXCID602360",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9022360",
+                "dtxcid": "DTXCID602360",
+                "dtxsid": "DTXSID9022360",
+                "name": "4-(1,1,3,3-Tetramethylbutyl)phenol",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.4545454680919647,
+                "weight": 206.329
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn:DTXCID406081,tert-Butylhydroquinone,DTXSID3020465,120-32-1,OC1=CC=C(O)C=C1:15:0.1:tox_txrf:tox_txrf:tox_fp:1:1:extra:flagsmultitarget": {
+        "_changelog": [
+            "2025-03-04T20:09:39",
+            "2024-10-30T23:33:19"
+        ],
+        "flags": "MULTITARGET",
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID406081",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1026081",
+                "dtxcid": "DTXCID406081",
+                "dtxsid": "DTXSID1026081",
+                "name": "3,3',5,5'-Tetrabromobisphenol A",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 543.875
+            },
+            {
+                "chem_id": "DTXCID60220",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6020220",
+                "dtxcid": "DTXCID60220",
+                "dtxsid": "DTXSID6020220",
+                "name": "tert-Butylhydroquinone",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 166.22
+            },
+            {
+                "chem_id": "DTXCID10465",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3020465",
+                "dtxcid": "DTXCID10465",
+                "dtxsid": "DTXSID3020465",
+                "name": "Diethylstilbestrol",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 268.356
+            },
+            {
+                "chem_id": "DTXCID30154",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020154",
+                "dtxcid": "DTXCID30154",
+                "dtxsid": "DTXSID5020154",
+                "name": "Clorophene",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 218.68
+            },
+            {
+                "chem_id": "DTXCID70716",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020716",
+                "dtxcid": "DTXCID70716",
+                "dtxsid": "DTXSID7020716",
+                "name": "Hydroquinone",
+                "selected": true,
+                "similarity_tag": "m",
+                "value": 1.0,
+                "weight": 110.112
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "chm_mrgn:DTXCID501455110:10:0.1:no_filter:tox_txrf:tox_fp:1:1": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:14",
+            "2024-06-12T16:08:33"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID501455110",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXCID501455110",
+                "dtxcid": "DTXCID501455110",
+                "dtxsid": null,
+                "name": "Unnamed chemical",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 605.045
+            },
+            {
+                "chem_id": "DTXCID301629959",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID001198747",
+                "dtxcid": "DTXCID301629959",
+                "dtxsid": "DTXSID001198747",
+                "name": "(9Z)-9-Octadecen-1-yl (9Z,12R)-12-hydroxy-9-octadecenoate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 548.937
+            },
+            {
+                "chem_id": "DTXCID901385923",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID90958001",
+                "dtxcid": "DTXCID901385923",
+                "dtxsid": "DTXSID90958001",
+                "name": "12-Hydroxyoctadec-9-en-1-yl docos-13-enoate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 605.045
+            },
+            {
+                "chem_id": "DTXCID201595864",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID501164416",
+                "dtxcid": "DTXCID201595864",
+                "dtxsid": "DTXSID501164416",
+                "name": "9-Octadecenoic acid (9Z)-, (9Z,12R)-12-hydroxy-9-octadecenyl ester",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 548.937
+            },
+            {
+                "chem_id": "DTXCID601815460",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXCID601815460",
+                "dtxcid": "DTXCID601815460",
+                "dtxsid": null,
+                "name": "Unnamed chemical",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 548.937
+            },
+            {
+                "chem_id": "DTXCID001651547",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID101220248",
+                "dtxcid": "DTXCID001651547",
+                "dtxsid": "DTXSID101220248",
+                "name": "9-Octadecenoic acid, 12-hydroxy-, heptyl ester, (Z)-",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.982758641242981,
+                "weight": 396.656
+            },
+            {
+                "chem_id": "DTXCID201506520",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID301021501",
+                "dtxcid": "DTXCID201506520",
+                "dtxsid": "DTXSID301021501",
+                "name": "Cetyl ricinoleate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.982758641242981,
+                "weight": 522.899
+            },
+            {
+                "chem_id": "DTXCID501703335",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID901272762",
+                "dtxcid": "DTXCID501703335",
+                "dtxsid": "DTXSID901272762",
+                "name": "Decyl (9Z,12R)-12-hydroxy-9-octadecenoate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.982758641242981,
+                "weight": 438.737
+            },
+            {
+                "chem_id": "DTXCID001691541",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID701260838",
+                "dtxcid": "DTXCID001691541",
+                "dtxsid": "DTXSID701260838",
+                "name": "Docosyl (9Z,12R)-12-hydroxy-9-octadecenoate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.982758641242981,
+                "weight": 607.061
+            },
+            {
+                "chem_id": "DTXCID301692112",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID801261415",
+                "dtxcid": "DTXCID301692112",
+                "dtxsid": "DTXSID801261415",
+                "name": "Dodecyl (9Z,12R)-12-hydroxy-9-octadecenoate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.982758641242981,
+                "weight": 466.791
+            },
+            {
+                "chem_id": "DTXCID701685305",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID301254544",
+                "dtxcid": "DTXCID701685305",
+                "dtxsid": "DTXSID301254544",
+                "name": "Octadecyl (9Z,12R)-12-hydroxy-9-octadecenoate",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.982758641242981,
+                "weight": 550.953
+            }
+        ],
+        "sel_by": "no_filter"
+    },
+    "chm_mrgn:DTXCID90150942:15:0.1:tox_txrf:tox_txrf:tox_fp:1:1": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:14",
+            "2024-06-12T16:08:32"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID90150942",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID70228451",
+                "dtxcid": "DTXCID90150942",
+                "dtxsid": "DTXSID70228451",
+                "name": "Fluorine dioxide",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 1.0,
+                "weight": 69.995
+            },
+            {
+                "chem_id": "DTXCID106937",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8026937",
+                "dtxcid": "DTXCID106937",
+                "dtxsid": "DTXSID8026937",
+                "name": "Dimethyl ether",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.125,
+                "weight": 46.069
+            },
+            {
+                "chem_id": "DTXCID7014945",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9034945",
+                "dtxcid": "DTXCID7014945",
+                "dtxsid": "DTXSID9034945",
+                "name": "Sulfuryl fluoride",
+                "selected": true,
+                "similarity_tag": "c",
+                "value": 0.10000000149011612,
+                "weight": 102.05
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "tox_txrf:DTXCID606:5:0.1:tox_txrf:tox_txrf:tox_fp_dosage:1:1:engine:genrapy": {
+        "_changelog": [
+            "2025-03-04T20:24:21",
+            "2024-10-30T23:33:15",
+            "2024-08-12T16:07:37"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID606",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID2020006",
+                "dtxcid": "DTXCID606",
+                "dtxsid": "DTXSID2020006",
+                "name": "Acetaminophen",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 1.0,
+                "weight": 151.165
+            },
+            {
+                "chem_id": "DTXCID601136",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID9021136",
+                "dtxcid": "DTXCID601136",
+                "dtxsid": "DTXSID9021136",
+                "name": "4-Butyl-1,2-diphenyl-3,5-Pyrazolidinedione",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.3333333333333333,
+                "weight": 308.381
+            },
+            {
+                "chem_id": "DTXCID90863",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID5020863",
+                "dtxcid": "DTXCID90863",
+                "dtxsid": "DTXSID5020863",
+                "name": "Methyldopa sesquihydrate",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.3225806451612903,
+                "weight": 476.479
+            },
+            {
+                "chem_id": "DTXCID40494",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0020494",
+                "dtxcid": "DTXCID40494",
+                "dtxsid": "DTXSID0020494",
+                "name": "Dimethyl methylphosphonate",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.30303030303030304,
+                "weight": 124.076
+            },
+            {
+                "chem_id": "DTXCID90972",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID7020972",
+                "dtxcid": "DTXCID90972",
+                "dtxsid": "DTXSID7020972",
+                "name": "Nitrofurantoin",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.30303030303030304,
+                "weight": 238.159
+            },
+            {
+                "chem_id": "DTXCID9052",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID4039235",
+                "dtxcid": "DTXCID9052",
+                "dtxsid": "DTXSID4039235",
+                "name": "1-Amino-2,4-dibromoanthraquinone",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.27586206896551724,
+                "weight": 381.023
+            }
+        ],
+        "sel_by": "tox_txrf"
+    },
+    "tox_txrf:DTXCID704235:5:0.2:tox_txrf:tox_txrf:tox_fp:1:1": {
+        "_changelog": [
+            "2025-03-04T20:24:20",
+            "2024-10-30T23:33:19",
+            "2024-08-12T16:07:36"
+        ],
+        "flags": null,
+        "report_db": [
+            {
+                "data_exists": true,
+                "description": "The ToxRef DB",
+                "key": "tox_txrf",
+                "name": "ToxRef",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxRef FP",
+                        "key": "tox_fp",
+                        "name": "Tox Fingerprint"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "Negative log molar of dosage",
+                        "key": "tox_fp_dosage",
+                        "name": "Tox Fingerprint Dosage"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The Test DB Entry",
+                "key": "test_group_db",
+                "name": "A Test",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "The first test field",
+                        "key": "test_fld",
+                        "name": "Test Field"
+                    },
+                    {
+                        "data_exists": true,
+                        "description": "The second test field",
+                        "key": "test_fld2",
+                        "name": "Test Field 2"
+                    }
+                ]
+            },
+            {
+                "data_exists": true,
+                "description": "The ToxCast DB",
+                "key": "bio_txct",
+                "name": "ToxCast",
+                "subFields": [
+                    {
+                        "data_exists": true,
+                        "description": "A ToxCast FP",
+                        "key": "bio_fp",
+                        "name": "ToxCast Fingerprint"
+                    }
+                ]
+            }
+        ],
+        "result": [
+            {
+                "chem_id": "DTXCID704235",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID3024235",
+                "dtxcid": "DTXCID704235",
+                "dtxsid": "DTXSID3024235",
+                "name": "Flusilazole",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 1.0,
+                "weight": 315.399
+            },
+            {
+                "chem_id": "DTXCID204280",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8024280",
+                "dtxcid": "DTXCID204280",
+                "dtxsid": "DTXSID8024280",
+                "name": "Propiconazole",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.3939393939393939,
+                "weight": 342.22
+            },
+            {
+                "chem_id": "DTXCID8012655",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID0032655",
+                "dtxcid": "DTXCID8012655",
+                "dtxsid": "DTXSID0032655",
+                "name": "Triticonazole",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.3125,
+                "weight": 317.82
+            },
+            {
+                "chem_id": "DTXCID6014956",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8034956",
+                "dtxcid": "DTXCID6014956",
+                "dtxsid": "DTXSID8034956",
+                "name": "Tetraconazole",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.3076923076923077,
+                "weight": 372.14
+            },
+            {
+                "chem_id": "DTXCID104338",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID1024338",
+                "dtxcid": "DTXCID104338",
+                "dtxsid": "DTXSID1024338",
+                "name": "Thiophanate-methyl",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.29411764705882354,
+                "weight": 342.39
+            },
+            {
+                "chem_id": "DTXCID00620",
+                "details_link": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID8020620",
+                "dtxcid": "DTXCID00620",
+                "dtxsid": "DTXSID8020620",
+                "name": "Fenthion",
+                "selected": true,
+                "similarity_tag": "t",
+                "value": 0.29310344827586204,
+                "weight": 278.32
+            }
+        ],
+        "sel_by": "tox_txrf"
+    }
+}

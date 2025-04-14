@@ -1,0 +1,702 @@
+openapi: 3.0.0
+info:
+  title: GenRA
+  version: '0.4'
+  description: Generalized Read Across prediction of chemical activity.
+  contact:
+    email: genra.support@epa.gov
+    name: Grace Patlewicz
+paths:
+  /v3/appBuildInfo:
+    get:
+      summary: Reports app build info., should not be public.
+      description: ''
+      responses:
+        '200':
+          description: Typical response
+          content:
+            application/json:
+              examples:
+                Typical response:
+                  value:
+                    git_log:
+                      - >-
+                        44e9b77: 26 hours ago, Pull request #255: Support
+                        non-CID chems
+                      - '8016b30: 7 days ago, Support non-CID chems'
+                    mongodb:
+                      collections:
+                        - chemical_lists
+                        - toxref_guideline
+                        - chms_fp
+                      database: genra
+                      host: ccte-mongodb-dev.epa.gov
+                      port: 27017
+                    python_version: >-
+                      3.10.2 (main, Jan 29 2022, 02:41:17) [GCC 10.2.1 20210110]
+                    recent_files:
+                      - path: genra/routes/v4
+                        time_modified: Wed Sep 29 08:11:24 EDT 2021
+                      - path: genra/genraservice/db
+                        time_modified: Wed Sep 29 08:11:24 EDT 2021
+                    time_app_start: Wed Sep 29 08:11:22 EDT 2021
+                    time_image_built: Wed Sep 29 08:11:06 EDT 2021
+      tags:
+        - Container_Data_Admin
+  /v3/healthCheck:
+    get:
+      summary: Docker container health check
+      responses:
+        '200':
+          description: Healthy response
+          content:
+            application/json:
+              examples:
+                Healthy response:
+                  value:
+                    CACHE:
+                      status: CACHE healthcheck PASSED
+                    DB:
+                      status: DB healthcheck PASSED
+                    status: HEALTHY
+        '500':
+          description: Unhealthy response
+          content:
+            application/json:
+              examples:
+                Unhealthy response:
+                  value:
+                    CACHE:
+                      status: CACHE healthcheck PASSED
+                    DB:
+                      status: DB healthcheck FAILED
+                    status: UNHEALTHY
+      tags:
+        - Container_Data_Admin
+  /v3/searchChems:
+    get:
+      summary: Free text search for chemicals.
+      parameters:
+        - name: txt
+          description: A CID, SID, CASRN, SMILES, or name.
+          in: query
+          required: true
+          example: BPA
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Typical response
+          content:
+            application/json:
+              examples:
+                Typical response:
+                  value:
+                    hits:
+                      - casrn: 80-05-7
+                        chem_id: DTXCID30182
+                        dsstox_cid: DTXCID30182
+                        dsstox_sid: DTXSID7020182
+                        name: Bisphenol A
+                        smiles: CC(C)(C1=CC=C(O)C=C1)C1=CC=C(O)C=C1
+                      - casrn: 79371-66-7
+                        chem_id: DTXCID60300710
+                        dsstox_cid: DTXCID60300710
+                        dsstox_sid: DTXSID20349640
+                        name: 5-Hydroxybisphenol
+                        smiles: CC(C)(C1=CC=C(O)C=C1)C1=CC(O)=C(O)C=C1
+      tags:
+        - UI_support_v3
+        - UI_support_v4
+  /v4/uiSetup:
+    get:
+      summary: Get info for UI drop-downs etc.
+      parameters:
+        - $ref: '#/components/parameters/chem_id'
+      responses:
+        '200':
+          description: Typical response
+          content:
+            application/json:
+              examples:
+                Typical response:
+                  value:
+                    casrn: 80-05-7
+                    chem_id: DTXCID30182
+                    download:
+                      - data_exists: true
+                        description: CSV download of the read across panel
+                        name: CSV - read across panel
+                        subdir: /csv
+                      - data_exists: true
+                        description: Excel download of the read across panel
+                        name: Excel - read across panel
+                        subdir: /xlsx
+                    dsstox_cid: DTXCID30182
+                    dsstox_sid: DTXSID7020182
+                    filter_by:
+                      - data_exists: true
+                        description: Only chemicals with ToxRef in vivo data.
+                        key: tox_txrf
+                        name: In vivo data
+                      - data_exists: true
+                        description: All chemicals by fingerprint.
+                        key: no_filter
+                        name: No filter (all data, slow)
+                    fp_needs_gen: []
+                    help_text:
+                      - helpPosition: right
+                        helpText: This view provides ... <there are four of these>
+                        helpTextId: GENRA Analog Identification
+                        iconType: Information
+                    hybrid_fp_max: 3
+                    mol_weight: 228.291
+                    name: Bisphenol A
+                    neighbor_by:
+                      - data_exists: true
+                        description: >-
+                          Morgan fingerprints are also known as
+                          extended-connectivity fingerprint ECFP4.  These
+                          circular fingerprints are calculated within the RDKit
+                          python library as bit vectors with a radius of 3 and a
+                          length of 2048.
+                        key: chm_mrgn
+                        name: 'Chem: Morgan Fgrprts'
+                      - data_exists: true
+                        description: >-
+                          Torsion fingerprints or hashed topological torsion
+                          descriptors are calculated as bit vectors using
+                          python's RDKit library. Developed by Nilakantan et al
+                          (1986), the topological torsion is defined as a linear
+                          sequence of 4 consecutively bonded non-hydrogen atoms,
+                          each described by its atomic type, the number of
+                          non-hydrogen branches attached to it and its number of
+                          pi electron pairs.
+                        key: chm_httr
+                        name: 'Chem: Torsion Fgrprts'
+                    smiles: CC(C)(C1=CC=C(O)C=C1)C1=CC=C(O)C=C1
+      tags:
+        - UI_support_v4
+  /v4/uiRadialView:
+    get:
+      summary: Info. for first panel, radial view.
+      parameters:
+        - $ref: '#/components/parameters/chem_id'
+        - $ref: '#/components/parameters/fp'
+        - $ref: '#/components/parameters/k0'
+        - $ref: '#/components/parameters/s0'
+        - $ref: '#/components/parameters/sel_by'
+      responses:
+        '200':
+          description: Typical response
+          content:
+            application/json:
+              examples:
+                Typical response:
+                  value: 
+                    result:
+                      - chem_id: DTXCID30182
+                        details_link: https://comptox.epa.gov/dashboard/chemical/details/DTXCID30182
+                        dtxcid: DTXCID30182
+                        dtxsid: DTXSID7020182
+                        name: Bisphenol A
+                        selected: true
+                        similarity_tag: c
+                        value: 1.00001
+                        weight: 228.291
+                      - chem_id: DTXCID001771
+                        details_link: https://comptox.epa.gov/dashboard/chemical/details/DTXCID001771
+                        dtxcid: DTXCID001771
+                        dtxsid: DTXSID8021771
+                        name: 4-(2-Methylbutan-2-yl)phenol
+                        selected: true
+                        similarity_tag: c
+                        value: 0.4838709677419355
+                        weight: 164.248
+      tags:
+        - UI_support_v4
+  /v4/uiFingerPrintHeatChart:
+    get:
+      summary: Tabular data for data richness for each FP type.
+      parameters:
+        - $ref: '#/components/parameters/chem_id'
+        - $ref: '#/components/parameters/fp'
+        - $ref: '#/components/parameters/k0'
+        - $ref: '#/components/parameters/s0'
+        - $ref: '#/components/parameters/sel_by'
+      responses:
+        '200':
+          description: Typical response
+          content:
+            application/json:
+              examples:
+                Typical response:
+                  value: 
+                    columns:
+                      - cellRendererFramework: GenraChemicalLink
+                        cellRendererParams:
+                          useField: name
+                        field: name
+                        filter: false
+                        headerName: Chemical
+                        headerTooltip: The target chemical and neighbors
+                        suppressMenu: true
+                        tooltipField: name
+                      - cellRendererFramework: HeatColoredNumber
+                        field: bio_txct
+                        filter: false
+                        headerName: bio_txct
+                        headerTooltip: ToxCast fingerprints are a non-directional fingerprint representation of assay hit calls represented by the assay component name of the associated platform.  Hit calls are taken from Level 5 of the associated invitrodb. This fingerprint collection comprises both ToxCast and Tox21 assay outcomes.
+                        suppressMenu: true
+                    data:
+                      - bio_txct:
+                          scaled: 0.8604
+                          value: 323
+                        chem_id: DTXCID30182
+                        chm_ct:
+                          scaled: 0.5
+                          value: 10
+                        dtxcid: DTXCID30182
+                        dtxsid: DTXSID7020182
+                        name: Bisphenol A
+                      - bio_txct:
+                          scaled: 0.3476
+                          value: 143
+                        chem_id: DTXCID001771
+                        chm_ct:
+                          scaled: 0.5
+                          value: 10
+                        dtxcid: DTXCID001771
+                        dtxsid: DTXSID8021771
+                        name: 4-(2-Methylbutan-2-yl)phenol
+      tags:
+        - UI_support_v4
+  /v4/uiAssayList:
+    get:
+      summary: Tabular data for data availability in a DB
+      parameters:
+        - $ref: '#/components/parameters/chem_id'
+        - $ref: '#/components/parameters/fp'
+        - $ref: '#/components/parameters/k0'
+        - $ref: '#/components/parameters/s0'
+        - $ref: '#/components/parameters/sel_by'
+      responses:
+        '200':
+          description: Typical response
+          content:
+            application/json:
+              examples:
+                Typical response:
+                  value: 
+                    columns:
+                      - cellRenderer: null
+                        cellStyle:
+                          borderBottom: 1px dashed grey
+                        field: ep_name
+                        filter: agTextColumnFilter
+                        floatingFilter: true
+                        headerComponentParams:
+                          name: Assay endpoint
+                        headerName: Assay endpoint
+                        headerTooltip: The biological system tested by the assay
+                        maxWidth: 150
+                        tooltipField: ep_tip
+                      - field: DTXCID30182
+                        headerComponentParams:
+                          name: Bisphenol A
+                        headerName: Bisphenol A
+                        headerTooltip: 'Bisphenol A : DTXCID30182 / DTXSID7020182'
+                        sortable: false
+                        suppressMenu: true
+                        tooltipField: DTXCID30182_tip
+                    data:
+                      - DTXCID001771: 0
+                        DTXCID001771_tip: no_data
+                        DTXCID10465: 0
+                        DTXCID10465_tip: no_data
+                        DTXCID30182: 0
+                        DTXCID30182_tip: no_effect
+                        DTXCID501124: 1
+                        DTXCID501124_tip: 125.0 mg/kg/day
+                        DTXCID60220: 0
+                        DTXCID60220_tip: no_effect
+                        DTXCID602360: 0
+                        DTXCID602360_tip: no_data
+                        DTXCID606: 0
+                        DTXCID606_tip: no_effect
+                        DTXCID70716: 0
+                        DTXCID70716_tip: no_effect
+                        ep_name: CHR:adrenal gland
+                        ep_tip: Chronic adrenal gland
+      tags:
+        - UI_support_v4
+  /v4/uiGenerateReadAcross:
+    get:
+      summary: Tabular data for data in a DB
+      parameters:
+        - $ref: '#/components/parameters/chem_id'
+        - $ref: '#/components/parameters/fp'
+        - $ref: '#/components/parameters/k0'
+        - $ref: '#/components/parameters/s0'
+        - $ref: '#/components/parameters/sel_by'
+      responses:
+        '200':
+          description: Typical response
+          content:
+            application/json:
+              examples:
+                Typical response:
+                  value: 
+                    columns:
+                      - cellStyle:
+                          boderBottom: 1px dashed grey
+                        field: ep_name
+                        filter: true
+                        floatingFilter: true
+                        headerComponentParams:
+                          chem_id: Assay endpoint
+                          isChecked: true
+                          name: Assay endpoint
+                          similarity: 0
+                        headerName: Assay endpoint
+                        headerTooltip: The biological system tested by the assay
+                        maxWidth: 150
+                        tooltipField: ep_tip
+                      - cellRendererFramework: RedBlueTooltip
+                        colId: DTXCID30182
+                        field: DTXCID30182
+                        headerComponentParams:
+                          chem_id: DTXCID30182
+                          isChecked: true
+                          name: Bisphenol A
+                          similarity: 1.00001
+                          targetChem: true
+                        headerName: Bisphenol A
+                        headerTooltip: 'Bisphenol A : DTXCID30182 / DTXSID7020182'
+                        sortable: false
+                        suppressMenu: true
+                        tooltipField: DTXCID30182_tip
+                    data:
+                      - DTXCID001771:
+                          isChecked: true
+                          isPrediction: false
+                          similarity: 0.48
+                          useWidth: false
+                          value: no_data
+                        DTXCID001771_tip: no_data
+                        DTXCID30182:
+                          isChecked: true
+                          isPrediction: false
+                          similarity: 1
+                          useWidth: false
+                          value: no_effect
+                        DTXCID30182_tip: no_effect
+                        DTXCID501124:
+                          isChecked: true
+                          isPrediction: false
+                          similarity: 0.26
+                          useWidth: false
+                          value: pos_effect
+                        DTXCID501124_tip: 125.0 mg/kg/day
+                        ep_name: CHR:adrenal gland
+                        ep_tip: Chronic adrenal gland
+      tags:
+        - UI_support_v4
+  /v4/uiRunReadAcross:
+    post:
+      summary: Tabular data for predictions of data in a DB
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - chem_id
+                - chem_inc
+                - fp
+                - k0
+                - neg0
+                - pos0
+                - s0
+                - sel_by
+                - summarise
+                - sumrs_by
+                - useWidth
+              properties:
+                chem_id:
+                  $ref: '#/components/parameters/chem_id'
+                chem_inc:
+                  $ref: '#/components/parameters/chem_inc'
+                fp:
+                  $ref: '#/components/parameters/fp'
+                k0:
+                  $ref: '#/components/parameters/k0'
+                neg0:
+                  $ref: '#/components/parameters/neg0'
+                pos0:
+                  $ref: '#/components/parameters/pos0'
+                s0:
+                  $ref: '#/components/parameters/s0'
+                sel_by:
+                  $ref: '#/components/parameters/sel_by'
+                summarise:
+                  $ref: '#/components/parameters/summarise'
+                sumrs_by:
+                  $ref: '#/components/parameters/sumrs_by'
+                useWidth:
+                  $ref: '#/components/parameters/useWidth'
+      responses:
+        '200':
+          description: Typical response
+          content:
+            application/json:
+              examples:
+                Typical response:
+                  value: 
+                    columns:
+                      - cellStyle:
+                          borderBottom: 1px dashed grey
+                        field: ep_name
+                        filter: agTextColumnFilter
+                        floatingFilter: true
+                        headerComponentParams:
+                          chem_id: ep_name
+                          isChecked: true
+                          name: Assay endpoint
+                          similarity: 0
+                        headerName: Assay endpoint
+                        headerTooltip: The biological system tested by the assay
+                        maxWidth: 150
+                        tooltipField: ep_tip                        
+                      - cellRendererFramework: RedBlueTooltip
+                        colId: DTXCID30182
+                        field: DTXCID30182
+                        headerComponentParams:
+                          chem_id: DTXCID30182
+                          isChecked: true
+                          name: Bisphenol A
+                          similarity: 1.00001
+                          targetChem: true
+                        headerName: Bisphenol A
+                        headerTooltip: 'Bisphenol A : DTXCID30182 / DTXSID7020182'
+                        sortable: false
+                        suppressMenu: true
+                        tooltipField: DTXCID30182_tip
+                    data:
+                      - DTXCID001771:
+                          isChecked: true
+                          isPrediction: false
+                          similarity: 0.48
+                          useWidth: false
+                          value: no_data
+                        DTXCID001771_tip: no_data
+                        DTXCID30182:
+                          isChecked: true
+                          isPrediction: true
+                          similarity: 1
+                          useWidth: false
+                          value: no_effect
+                        DTXCID30182_tip: 'TN; ACT=0.0; AUC=0.0; pval=0.77'
+                        DTXCID501124:
+                          isChecked: true
+                          isPrediction: false
+                          similarity: 0.26
+                          useWidth: false
+                          value: pos_effect
+                        DTXCID501124_tip: 125.0 mg/kg/day
+                        ep_name: CHR:adrenal gland
+                        ep_tip: Chronic adrenal gland
+      tags:
+        - UI_support_v4        
+  /v4/uiDownload/{ftype}:
+    post:
+      summary: Tabular data for predictions of data in a DB
+      parameters:
+        - in: path
+          name: ftype
+          enum:
+            - csv
+            - xlsx
+          required: true
+          default: xlsx
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - chem_id
+                - chem_inc
+                - fp
+                - k0
+                - neg0
+                - pos0
+                - rra
+                - s0
+                - sel_by
+                - summarise
+                - sumrs_by
+              properties:
+                chem_id:
+                  $ref: '#/components/parameters/chem_id'
+                chem_inc:
+                  $ref: '#/components/parameters/chem_inc'
+                fp:
+                  $ref: '#/components/parameters/fp'
+                k0:
+                  $ref: '#/components/parameters/k0'
+                neg0:
+                  $ref: '#/components/parameters/neg0'
+                pos0:
+                  $ref: '#/components/parameters/pos0'
+                rra:
+                  $ref: '#/components/parameters/rra'
+                s0:
+                  $ref: '#/components/parameters/s0'
+                sel_by:
+                  $ref: '#/components/parameters/sel_by'
+                summarise:
+                  $ref: '#/components/parameters/summarise'
+                sumrs_by_inc:
+                  $ref: '#/components/parameters/sumrs_by'
+                tox_inc:
+                  $ref: '#/components/parameters/tox_inc'
+      responses:
+        '200':
+          description: Typical response
+          content:
+            text/csv:
+            application/vnd.openxmlformats-officeodcument.spreadsheetml.sheet:
+      tags:
+        - UI_support_v4        
+components:
+  parameters:
+    chem_id:
+      name: chem_id
+      description: A CID, SID, CASRN, SMILES, or name
+      in: query
+      example: DTXCID30182
+      required: true
+      schema:
+        type: string
+    chem_inc:
+      name: chem_inc
+      description: List of analog selection status objects
+      in: query
+      example:
+        - {chem_id: "DTXCID30182", isChecked: true}
+        - {chem_id: "CCO", isChecked: true}
+      schema:
+        type: array
+        items: 
+          type: object
+          properties:
+            chem_id:
+              type: string
+            isChecked:
+              type: boolean
+    k0:
+      name: k0
+      description: Number of neighbors (analogs) 1-15
+      in: query
+      example: 10
+      required: true
+      schema:
+        type: integer
+    s0:
+      name: s0
+      description: Similarity threshold, 0-1
+      in: query
+      example: 0.1
+      required: true
+      schema:
+        type: number
+            sel_by:
+    name: sel_by
+      description: >-
+        Chemicals are neighbors of the target only if they have this type of
+        data.
+      in: query
+      example: tox_txrf
+      required: true
+      schema:
+        type: string
+        enum:
+          - tox_txrf
+          - no_filter
+    fp:
+      name: fp
+      description: The fingerprint type used to select neighbors (analogs).
+      in: query
+      example: chm_mrgn
+      required: true
+      schema:
+        type: string
+        enum:
+          - chm_mrgn
+          - chm_htpp
+          - chm_ct
+          - tox_txrf
+          - bio_txct
+          - bio_htpp_MCF7
+          - bio_htpp_U2OS
+    dsstox_cid:
+      deprecated: true
+      description: Deprecated, used chem_id
+      name: dsstox_cid
+      in: query
+      example: DTXCID30182
+      required: false
+      schema:
+        type: string
+    pos0:
+      name: pos0
+      description: Minimum number of positive effect observations required to make a prediction
+      in: query
+      example: 1
+      required: true
+      schema:
+        type: integer
+    neg0:
+      name: neg0
+      description: Minimum number of negative (no) effect observations required to make a prediction
+      in: query
+      example: 1
+      required: true
+      schema:
+        type: integer
+    useWidth:
+      name: useWidth
+      description: Whether UI should scale column width by similarity, API just reflects this value
+      in: query
+      example: false
+      required: true
+      schema:
+        type: boolean
+    rec_inc:
+      name: rec_inc
+      description: List of IDs for records to include in download
+      in: query
+      example:
+        - "CHR: bone"
+        - "DEV: heart"
+      schema:
+        type: array
+        items: 
+          type: string
+servers:
+  - url: https://ccte-api-genra-dev.epa.gov/api/genra
+    description: DevOps dev deployment
+  - url: https://ccte-api-genra-stg.epa.gov/api/genra
+    description: DevOps stage deployment
+  - url: https://ccte-api-genra.epa.gov/genra-api/api/genra
+    description: DevOps production deployment
+tags:
+  - name: UI_support_v4
+    description: Endpoints used by the "v4" UI.
+  - name: UI_support_v3
+    description: Endpoints used by the "v3" UI.
+  - name: Container_Data_Admin
+    description: Data / admin. endpoints.

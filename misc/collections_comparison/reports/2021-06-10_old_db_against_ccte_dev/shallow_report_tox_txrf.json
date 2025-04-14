@@ -1,0 +1,49 @@
+{
+    "meta_report": {
+        "num_documents_in_src": 985,
+        "num_documents_in_src_desc": "Number of documents in source collection",
+        "num_documents_in_dst": 1000,
+        "num_documents_in_dst_desc": "Number of documents in destination collection",
+        "num_cids_added_in_dst": 249,
+        "num_cids_added_in_dst_desc": "Number of distinct cids added in destination collection from source collection",
+        "num_cids_removed_in_dst": 109,
+        "num_cids_removed_in_dst_desc": "Number of distinct cids removed in destination collection from source collection",
+        "num_cids_common": 751,
+        "num_cids_common_desc": "Number of distinct cids in common between source and destination collections"
+    },
+    "fields_error_report": {
+        "dsstox_sid": {
+            "missing_count": 0,
+            "null_count": 0
+        },
+        "chemical_casrn": {
+            "missing_count": 1000,
+            "null_count": 0
+        },
+        "dsstox_cid": {
+            "missing_count": 0,
+            "null_count": 0
+        },
+        "mol_weight": {
+            "missing_count": 1000,
+            "null_count": 0
+        },
+        "name": {
+            "missing_count": 0,
+            "null_count": 0
+        },
+        "src": {
+            "missing_count": 0,
+            "null_count": 0
+        }
+    },
+    "chemicals_comparison_subset_report": {
+        "tox_fp2.fp_pos.ds": {
+            "num_added": 751,
+            "num_added_desc": "number of chemicals that had increase in this FP array",
+            "num_removed": 751,
+            "num_removed_desc": "number of chemicals that had decrease in this FP array"
+        },
+        "num_cids_with_FPKeyException": 0
+    }
+}

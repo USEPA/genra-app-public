@@ -1,0 +1,7 @@
+# Dockerfile
+.git
+.github
+log
+karate_tests
+*/.pytest_cache
+/models

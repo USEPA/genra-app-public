@@ -1,0 +1,12 @@
+deepdiff
+openapi-spec-validator
+pathlib2
+psycopg2  # for updating collections genraweb/lib/collections
+pytest-coverage
+pytest-html
+pytest-instafail
+pytest-json-report
+pytest-xdist
+requests
+ruff
+unidiff

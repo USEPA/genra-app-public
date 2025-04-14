@@ -1,0 +1,20 @@
+description: Nearest neighbors from fp_info if present.
+
+tags:
+  - UI_support_v4
+
+parameters:
+  - $ref: "#/components/parameters/chem_id"
+  - $ref: "#/components/parameters/k0"
+  - $ref: "#/components/parameters/s0"
+  - $ref: "#/components/parameters/fp"
+    # fp_weight doesn't make sense here
+  - $ref: "#/components/parameters/sel_by"
+  - $ref: "#/components/parameters/graph_steps"
+  - $ref: "#/components/parameters/graph_type"
+  - $ref: "#/components/parameters/graph_expanded"
+
+responses:
+  200:
+    description: NN data
+

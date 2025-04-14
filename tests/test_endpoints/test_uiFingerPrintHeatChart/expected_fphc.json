@@ -1,0 +1,340 @@
+[
+  {
+    "dtxcid": "DTXCID30182",
+    "value": 1,
+    "name": "Bisphenol A",
+    "selected": true,
+    "dtxsid": "DTXSID7020182",
+    "weight": 228.29100036621094,
+    "heat": {
+      "bio_tx21": {
+        "value": 23,
+        "scaled": 0.028014616321559074
+      },
+      "bio_txct": {
+        "value": 821,
+        "scaled": 1
+      },
+      "chm_ct": {
+        "value": 10,
+        "scaled": 0.012180267965895249
+      },
+      "tox_txrf": {
+        "value": 402,
+        "scaled": 0.48964677222898906
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID001771",
+    "value": 0.4838709677419355,
+    "name": "4-(2-Methylbutan-2-yl)phenol",
+    "selected": true,
+    "dtxsid": "DTXSID8021771",
+    "weight": 164.2480010986328,
+    "heat": {
+      "bio_tx21": {
+        "value": 5,
+        "scaled": 0.0060901339829476245
+      },
+      "bio_txct": {
+        "value": 714,
+        "scaled": 0.8696711327649208
+      },
+      "chm_ct": {
+        "value": 10,
+        "scaled": 0.012180267965895249
+      },
+      "tox_txrf": {
+        "value": 180,
+        "scaled": 0.2192448233861145
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID602360",
+    "value": 0.45454545454545453,
+    "name": "4-(1,1,3,3-Tetramethylbutyl)phenol",
+    "selected": true,
+    "dtxsid": "DTXSID9022360",
+    "weight": 206.329,
+    "heat": {
+      "bio_tx21": {
+        "value": 15,
+        "scaled": 0.018270401948842874
+      },
+      "bio_txct": {
+        "value": 726,
+        "scaled": 0.8842874543239951
+      },
+      "chm_ct": {
+        "value": 9,
+        "scaled": 0.010962241169305725
+      },
+      "tox_txrf": {
+        "value": 177,
+        "scaled": 0.21559074299634592
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID10465",
+    "value": 0.29411764705882354,
+    "name": "Diethylstilbestrol",
+    "selected": true,
+    "dtxsid": "DTXSID3020465",
+    "weight": 268.3559875488281,
+    "heat": {
+      "bio_tx21": {
+        "value": 38,
+        "scaled": 0.04628501827040195
+      },
+      "bio_txct": {
+        "value": 726,
+        "scaled": 0.8842874543239951
+      },
+      "chm_ct": {
+        "value": 11,
+        "scaled": 0.013398294762484775
+      },
+      "tox_txrf": {
+        "value": 234,
+        "scaled": 0.2850182704019488
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID402529",
+    "value": 0.2777777777777778,
+    "name": "Methylparaben",
+    "selected": true,
+    "dtxsid": "DTXSID4022529",
+    "weight": 152.1490020751953,
+    "heat": {
+      "bio_tx21": {
+        "value": 7,
+        "scaled": 0.008526187576126675
+      },
+      "bio_txct": {
+        "value": 714,
+        "scaled": 0.8696711327649208
+      },
+      "chm_ct": {
+        "value": 7,
+        "scaled": 0.008526187576126675
+      },
+      "tox_txrf": {
+        "value": 48,
+        "scaled": 0.058465286236297195
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID60220",
+    "value": 0.2777777777777778,
+    "name": "tert-Butylhydroquinone",
+    "selected": true,
+    "dtxsid": "DTXSID6020220",
+    "weight": 166.22000122070312,
+    "heat": {
+      "bio_tx21": {
+        "value": 12,
+        "scaled": 0.014616321559074299
+      },
+      "bio_txct": {
+        "value": 714,
+        "scaled": 0.8696711327649208
+      },
+      "chm_ct": {
+        "value": 9,
+        "scaled": 0.010962241169305725
+      },
+      "tox_txrf": {
+        "value": 168,
+        "scaled": 0.2046285018270402
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID606",
+    "value": 0.2777777777777778,
+    "name": "Acetaminophen",
+    "selected": true,
+    "dtxsid": "DTXSID2020006",
+    "weight": 151.1649932861328,
+    "heat": {
+      "bio_tx21": {
+        "value": 4,
+        "scaled": 0.0048721071863581
+      },
+      "bio_txct": {
+        "value": 714,
+        "scaled": 0.8696711327649208
+      },
+      "chm_ct": {
+        "value": 8,
+        "scaled": 0.0097442143727162
+      },
+      "tox_txrf": {
+        "value": 313,
+        "scaled": 0.3812423873325213
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID201834",
+    "value": 0.2647058823529412,
+    "name": "4-Nitrophenol",
+    "selected": true,
+    "dtxsid": "DTXSID0021834",
+    "weight": 139.11000061035156,
+    "heat": {
+      "bio_tx21": {
+        "value": 15,
+        "scaled": 0.018270401948842874
+      },
+      "bio_txct": {
+        "value": 706,
+        "scaled": 0.8599269183922046
+      },
+      "chm_ct": {
+        "value": 6,
+        "scaled": 0.007308160779537149
+      },
+      "tox_txrf": {
+        "value": 95,
+        "scaled": 0.11571254567600488
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID501124",
+    "value": 0.25925925925925924,
+    "name": "Phenol",
+    "selected": true,
+    "dtxsid": "DTXSID5021124",
+    "weight": 94.11299896240234,
+    "heat": {
+      "bio_tx21": {
+        "value": 3,
+        "scaled": 0.0036540803897685747
+      },
+      "bio_txct": {
+        "value": 714,
+        "scaled": 0.8696711327649208
+      },
+      "chm_ct": {
+        "value": 5,
+        "scaled": 0.0060901339829476245
+      },
+      "tox_txrf": {
+        "value": 260,
+        "scaled": 0.3166869671132765
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID3024495",
+    "value": 0.2564102564102564,
+    "name": "4-(4-Hydroxyphenyl)butan-2-one",
+    "selected": true,
+    "dtxsid": "DTXSID5044495",
+    "weight": 164.20399475097656,
+    "heat": {
+      "bio_tx21": {
+        "value": 14,
+        "scaled": 0.01705237515225335
+      },
+      "bio_txct": {
+        "value": 0,
+        "scaled": 0
+      },
+      "chm_ct": {
+        "value": 16,
+        "scaled": 0.0194884287454324
+      },
+      "tox_txrf": {
+        "value": 85,
+        "scaled": 0.10353227771010962
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID0031269",
+    "value": 0.25,
+    "name": "Isopropylparaben",
+    "selected": true,
+    "dtxsid": "DTXSID3052858",
+    "weight": 180.2030029296875,
+    "heat": {
+      "bio_tx21": {
+        "value": 0,
+        "scaled": 0
+      },
+      "bio_txct": {
+        "value": 0,
+        "scaled": 0
+      },
+      "chm_ct": {
+        "value": 8,
+        "scaled": 0.0097442143727162
+      },
+      "tox_txrf": {
+        "value": 48,
+        "scaled": 0.058465286236297195
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID002528",
+    "value": 0.25,
+    "name": "Ethylparaben",
+    "selected": true,
+    "dtxsid": "DTXSID9022528",
+    "weight": 166.17599487304688,
+    "heat": {
+      "bio_tx21": {
+        "value": 3,
+        "scaled": 0.0036540803897685747
+      },
+      "bio_txct": {
+        "value": 714,
+        "scaled": 0.8696711327649208
+      },
+      "chm_ct": {
+        "value": 8,
+        "scaled": 0.0097442143727162
+      },
+      "tox_txrf": {
+        "value": 48,
+        "scaled": 0.058465286236297195
+      }
+    }
+  },
+  {
+    "dtxcid": "DTXCID2014576",
+    "value": 0.24324324324324326,
+    "name": "2-Bromo-4-hydroxyacetophenone",
+    "selected": true,
+    "dtxsid": "DTXSID4034576",
+    "weight": 215.04600524902344,
+    "heat": {
+      "bio_tx21": {
+        "value": 24,
+        "scaled": 0.029232643118148598
+      },
+      "bio_txct": {
+        "value": 232,
+        "scaled": 0.28258221680876977
+      },
+      "chm_ct": {
+        "value": 15,
+        "scaled": 0.018270401948842874
+      },
+      "tox_txrf": {
+        "value": 243,
+        "scaled": 0.29598051157125455
+      }
+    }
+  }
+]

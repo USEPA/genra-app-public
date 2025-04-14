@@ -1,0 +1,16 @@
+# This file should be copied to docker-compose-worker.yml and that file should
+# be edited.  Remove this notice when editing.
+
+# This file is intended to be used in with the main GenRA docker-compose.yml
+# file using `--file docker-compose-worker.yml`, it is not stand-alone.
+
+services:
+  genra_worker:
+    env_file:
+      - .env
+    # Keep this command in sync with the one in start.sh
+    command: celery -A genraweb.genra_celery worker -l INFO
+    image: ghcr.io/usepa/genra_app:${GENRA_ENV_NAME}
+    deploy:
+      restart_policy:
+        condition: any

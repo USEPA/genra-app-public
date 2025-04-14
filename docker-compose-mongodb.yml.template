@@ -1,0 +1,26 @@
+# This file should be copied to docker-compose-mongodb.yml and that file should
+# be edited.  Remove this notice when editing.
+
+# This file is intended to be used in with the main GenRA docker-compose.yml
+# file using `--file docker-compose-mongodb.yml`, it is not stand-alone.
+
+services:
+  genra_mongodb:
+    image: mongo:latest
+    user: ${GENRA_UID}
+    volumes:
+      # To use a Docker named volume for local MongoDB data, uncomment next line:
+      # - _genra_local_db_vol:/data/db
+
+      # *OR* use a local folder (bind mount) for local MongoDB data, uncomment next line:
+      # - ${GENRA_VOL_MONGODB}:/data/db
+
+    # If you want external access to the MongoDB, uncomment the next two lines.
+    # ports:
+    #   - ${EXT_GENRA_MONGO_PORT}:27017
+
+# To use a Docker named volume for local MongoDB data, uncomment next 4 lines:
+# volumes:
+#   _genra_local_db_vol:
+#     external: true
+#     name: ${GENRA_VOL_MONGODB}

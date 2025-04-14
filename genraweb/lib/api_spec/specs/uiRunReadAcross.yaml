@@ -1,0 +1,15 @@
+description: Run GenRA prediction
+
+tags:
+  - UI_support_v4
+
+requestBody:
+  content:
+    "application/json":
+      schema:
+        $ref: "#/components/schemas/rra_schema"
+
+responses:
+  200:
+    description: Predictions of effect based on neighbors
+

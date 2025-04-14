@@ -1,0 +1,47 @@
+{
+    "meta_report": {
+        "num_documents_in_src": 874373,
+        "num_documents_in_src_desc": "Number of documents in source collection",
+        "num_documents_in_dst": 1387560,
+        "num_documents_in_dst_desc": "Number of documents in destination collection",
+        "num_cids_added_in_dst": 524146,
+        "num_cids_added_in_dst_desc": "Number of distinct cids added in destination collection from source collection",
+        "num_cids_removed_in_dst": 10960,
+        "num_cids_removed_in_dst_desc": "Number of distinct cids removed in destination collection from source collection",
+        "num_cids_common": 863413,
+        "num_cids_common_desc": "Number of distinct cids in common between source and destination collections"
+    },
+    "fields_error_report": {
+        "dsstox_cid": {
+            "missing_count": 0,
+            "null_count": 0
+        },
+        "casrn": {
+            "missing_count": 0,
+            "null_count": 515359
+        },
+        "dsstox_sid": {
+            "missing_count": 0,
+            "null_count": 515359
+        },
+        "mrgn": {
+            "missing_count": 0,
+            "null_count": 0
+        },
+        "name": {
+            "missing_count": 0,
+            "null_count": 515359
+        },
+        "httr": {
+            "missing_count": 0,
+            "null_count": 0
+        },
+        "mol_weight": {
+            "missing_count": 0,
+            "null_count": 461
+        }
+    },
+    "chemicals_comparison_subset_report": {
+        "num_cids_with_FPKeyException": 0
+    }
+}

@@ -1,0 +1,2638 @@
+{
+    "assays": {
+        "CHR:Abdominal Cavity": {
+            "text": "Chronic abdominal cavity: Effects may include fluid filled cavity.",
+            "value": 1
+        },
+        "CHR:Adrenal Gland": {
+            "text": "Chronic adrenal gland",
+            "value": 1
+        },
+        "CHR:Artery (General)": {
+            "text": "Chronic artery (general)",
+            "value": 1
+        },
+        "CHR:Auditory Startle Reflex Habituation": {
+            "text": "Chronic auditory startle reflex habituation",
+            "value": 1
+        },
+        "CHR:Bile duct": {
+            "text": "Chronic bile duct",
+            "value": 1
+        },
+        "CHR:Blood": {
+            "text": "Chronic blood: Example effects include anemia, polychromasia, hypochromasia, leukemia amongst others.",
+            "value": 1
+        },
+        "CHR:Blood vessel": {
+            "text": "Chronic blood vessel: Example effects include dilatation, fibrosis, thrombosis, proliferation, arteritis, hemangioma, inflammation, aneurysm etc",
+            "value": 1
+        },
+        "CHR:Body Weight": {
+            "text": "Chronic body weight",
+            "value": 1
+        },
+        "CHR:Bone": {
+            "text": "Chronic bone: Example effects include fibro-osseous lesions, hyperplasia, hyperostosis, hypertrophy, myelofibrosis, inflammation, osteodystrophy, osteofibrosis, osteosarcoma, and osteosclerosis.",
+            "value": 1
+        },
+        "CHR:Bone Marrow": {
+            "text": "Chronic bone marrow: Example effects include myelofibrosis, macrophage accumulation, fibrosis, myelopoiesos, hemosiderosis.",
+            "value": 1
+        },
+        "CHR:Brain": {
+            "text": "Chronic brain",
+            "value": 1
+        },
+        "CHR:Bronchus": {
+            "text": "Chronic bronchus",
+            "value": 1
+        },
+        "CHR:Cervix": {
+            "text": "Chronic cervix",
+            "value": 1
+        },
+        "CHR:Clinical Chemistry": {
+            "text": "Chronic clinical chemistry: Examples of  clinical chemistry include sodium, calcium, urea, creatinine, iron, glucose, bilirubin, albumin etc",
+            "value": 1
+        },
+        "CHR:Clinical Signs": {
+            "text": "Chronic clinical signs: Examples of clinical signs may include salivation, hunched posture, emesis, alopecia, defecation, piloerection etc",
+            "value": 1
+        },
+        "CHR:Clitoral Gland": {
+            "text": "Chronic clitoral gland: Effects may include adenomas or carcinomas or cyst formation",
+            "value": 1
+        },
+        "CHR:Coagulating Gland": {
+            "text": "Chronic coagulating gland",
+            "value": 1
+        },
+        "CHR:Ear": {
+            "text": "Chronic ear: Effects include inflammation, thickening, lesions, ulcers etc",
+            "value": 1
+        },
+        "CHR:Epididymis": {
+            "text": "Chronic epididymis: Effects include degeneration, mesothelioma, cysts, spermatocele etc",
+            "value": 1
+        },
+        "CHR:Esophagus": {
+            "text": "Chronic esophagus: Effects include hyperplasia, suqamous cell papilloma, inflammation etc",
+            "value": 1
+        },
+        "CHR:Estrous Cycle": {
+            "text": "Chronic estrous cycle",
+            "value": 1
+        },
+        "CHR:Eye": {
+            "text": "Chronic eye: Effects may include cataracts, keratitis, corneal crystals, opacity etc",
+            "value": 1
+        },
+        "CHR:Food Consumption": {
+            "text": "Chronic food consumption",
+            "value": 1
+        },
+        "CHR:Gallbladder": {
+            "text": "Chronic gallbladder: Effects include csysts, discolouration, hyoerplasia, adhesions, distention etc",
+            "value": 1
+        },
+        "CHR:General": {
+            "text": "Chronic general",
+            "value": 1
+        },
+        "CHR:Harderian Gland": {
+            "text": "Chronic harderian gland: Effetcs include ectopic tissue, ademona, inflammation, atrophy etc",
+            "value": 1
+        },
+        "CHR:Heart": {
+            "text": "Chronic heart: Effects include cardiomyopathy, thrombus, hemorrhage, vacuolisation etc",
+            "value": 1
+        },
+        "CHR:Hematology": {
+            "text": "Chronic hematology: Effects include changes in platelets, blood clotting time, neutrophils, leukocytes etc",
+            "value": 1
+        },
+        "CHR:Intestine Large": {
+            "text": "Chronic intestine large: Effects include hypertrophy, amyloid deposition, discolouration, adenoma, pigmentation etc",
+            "value": 1
+        },
+        "CHR:Intestine Small": {
+            "text": "Chronic intestine small: Effects include adenoma, edema, dilatation, congestion, ulcers, inflammation, mineralisation etc",
+            "value": 1
+        },
+        "CHR:Kidney": {
+            "text": "Chronic kidney: Effects include nephropathy, cysts, papillomas etc",
+            "value": 1
+        },
+        "CHR:Lacrimal Gland": {
+            "text": "Chronic lacrimal gland",
+            "value": 1
+        },
+        "CHR:Larynx": {
+            "text": "Chronic larynx",
+            "value": 1
+        },
+        "CHR:Liver": {
+            "text": "Chronic liver: Effects include necrosis, hypertrophy, inflammation, accentuated lobular patterns etc",
+            "value": 1
+        },
+        "CHR:Locomotion": {
+            "text": "Chronic locomotion",
+            "value": 1
+        },
+        "CHR:Lung": {
+            "text": "Chronic lung: Effects include hypertrophy, inflammation, discolouration, pneumonia murine etc",
+            "value": 1
+        },
+        "CHR:Lymph Node": {
+            "text": "Chronic lymph node: Effects include histiocytosis, hyperplasia, hemosiderosis etc",
+            "value": 1
+        },
+        "CHR:Mammary Gland": {
+            "text": "Chronic mammary gland: Effects include adenocarcinoma, fibroadenoma etc",
+            "value": 1
+        },
+        "CHR:Mesentery": {
+            "text": "Chronic mesentery: Effects such as pigmentation, hemogiosarcoma, amyloid deposition etc",
+            "value": 1
+        },
+        "CHR:Mortality": {
+            "text": "Chronic mortality",
+            "value": 1
+        },
+        "CHR:Motor activity": {
+            "text": "Chronic motor activity",
+            "value": 1
+        },
+        "CHR:Nerve": {
+            "text": "Chronic nerve: Effects include atrophy, degeneration, inflammation, hemorrhage, demyelination etc",
+            "value": 1
+        },
+        "CHR:Nose": {
+            "text": "Chronic nose: Effects include hyperplasia, inflammation,adenoma, degeneration etc",
+            "value": 1
+        },
+        "CHR:Oral Mucosa": {
+            "text": "Chronic oral mucosa",
+            "value": 1
+        },
+        "CHR:Other": {
+            "text": "Chronic other: Effects may cover liver or lung enzyme activity measurements, hepatic beta oxidation analysis etc",
+            "value": 1
+        },
+        "CHR:Ovary": {
+            "text": "Chronic ovary: Effects include cysts, atrophy, depletion, NOS etc",
+            "value": 1
+        },
+        "CHR:Pancreas": {
+            "text": "Chronic pancreas: Effects include proliferation, inflammation, hyperplasia, adenoma etc",
+            "value": 1
+        },
+        "CHR:Parathyroid": {
+            "text": "Chronic parathyroid",
+            "value": 1
+        },
+        "CHR:Parathyroid Gland": {
+            "text": "Chronic parathyroid gland: Effects include osteodystrophy, hyperplasia, cyst formation etc",
+            "value": 1
+        },
+        "CHR:Penis": {
+            "text": "Chronic penis: Effects include prolapse, lesions, inflammation etc",
+            "value": 1
+        },
+        "CHR:Peritoneum": {
+            "text": "Chronic peritoneum",
+            "value": 1
+        },
+        "CHR:Pharynx": {
+            "text": "Chronic pharynx",
+            "value": 1
+        },
+        "CHR:Pituitary Gland": {
+            "text": "Chronic pituitary gland",
+            "value": 1
+        },
+        "CHR:Pleura": {
+            "text": "Chronic pleura",
+            "value": 1
+        },
+        "CHR:Preputial Gland": {
+            "text": "Chronic preputial gland",
+            "value": 1
+        },
+        "CHR:Prostate": {
+            "text": "Chronic prostate",
+            "value": 1
+        },
+        "CHR:Reflexes": {
+            "text": "Chronic reflexes",
+            "value": 1
+        },
+        "CHR:Salivary glands": {
+            "text": "Chronic salivary glands",
+            "value": 1
+        },
+        "CHR:Seminal Vesicle": {
+            "text": "Chronic seminal vesicle",
+            "value": 1
+        },
+        "CHR:Skeletal Muscle": {
+            "text": "Chronic skeletal muscle",
+            "value": 1
+        },
+        "CHR:Skin": {
+            "text": "Chronic skin: Effects include inflammation, hyperplasia, hyperkeratosis etc",
+            "value": 1
+        },
+        "CHR:Sperm Measure": {
+            "text": "Chronic sperm measure",
+            "value": 1
+        },
+        "CHR:Sperm morphology": {
+            "text": "Chronic sperm morphology",
+            "value": 1
+        },
+        "CHR:Spinal cord": {
+            "text": "Chronic spinal cord",
+            "value": 1
+        },
+        "CHR:Spleen": {
+            "text": "Chronic spleen",
+            "value": 1
+        },
+        "CHR:Stomach": {
+            "text": "Chronic stomach: Effects include squamous cell carcinoma, hperkeratosis, acanthosis etc",
+            "value": 1
+        },
+        "CHR:Testes": {
+            "text": "Chronic testes",
+            "value": 1
+        },
+        "CHR:Thymus": {
+            "text": "Chronic thymus",
+            "value": 1
+        },
+        "CHR:Thyroid Gland": {
+            "text": "Chronic thyroid gland",
+            "value": 1
+        },
+        "CHR:Tissue NOS": {
+            "text": "Chronic tissue nos",
+            "value": 1
+        },
+        "CHR:Tongue": {
+            "text": "Chronic tongue",
+            "value": 1
+        },
+        "CHR:Tooth": {
+            "text": "Chronic tooth",
+            "value": 1
+        },
+        "CHR:Trachea": {
+            "text": "Chronic trachea",
+            "value": 1
+        },
+        "CHR:Uncertain Primary Site": {
+            "text": "Chronic uncertain primary site: Examples include mineralisation of multiple organs, hyperplastic nodules, multiple organs, mononuclear cell leukemia etc",
+            "value": 1
+        },
+        "CHR:Ureter": {
+            "text": "Chronic ureter",
+            "value": 1
+        },
+        "CHR:Urethra": {
+            "text": "Chronic urethra",
+            "value": 1
+        },
+        "CHR:Urinalysis": {
+            "text": "Chronic urinalysis",
+            "value": 1
+        },
+        "CHR:Urinary Bladder": {
+            "text": "Chronic urinary bladder",
+            "value": 1
+        },
+        "CHR:Uterus": {
+            "text": "Chronic uterus",
+            "value": 1
+        },
+        "CHR:Vagina": {
+            "text": "Chronic vagina",
+            "value": 1
+        },
+        "CHR:Water Consumption": {
+            "text": "Chronic water consumption",
+            "value": 1
+        },
+        "CHR:Zymbal's Gland": {
+            "text": "Chronic zymbal's gland",
+            "value": 1
+        },
+        "CHR:[Not In List]": {
+            "text": "Chronic [not in list]: Examples may include gonad weight changes, subcutaneous fibroma, fat necrosis of abdominal cavity, cell profileration, malignant tumours eyc",
+            "value": 1
+        },
+        "DEV:Abdominal Cavity": {
+            "text": "Prenatal developmental toxicity abdominal cavity",
+            "value": 1
+        },
+        "DEV:Adrenal Gland": {
+            "text": "Prenatal developmental toxicity adrenal gland",
+            "value": 1
+        },
+        "DEV:Age Landmark": {
+            "text": "Prenatal developmental toxicity age landmark",
+            "value": 1
+        },
+        "DEV:Aorta": {
+            "text": "Prenatal developmental toxicity aorta",
+            "value": 1
+        },
+        "DEV:Aortic arch": {
+            "text": "Prenatal developmental toxicity aortic arch",
+            "value": 1
+        },
+        "DEV:Bladder": {
+            "text": "Prenatal developmental toxicity bladder",
+            "value": 1
+        },
+        "DEV:Blood": {
+            "text": "Prenatal developmental toxicity blood",
+            "value": 1
+        },
+        "DEV:Blood vessel": {
+            "text": "Prenatal developmental toxicity blood vessel",
+            "value": 1
+        },
+        "DEV:Body Weight": {
+            "text": "Prenatal developmental toxicity body weight",
+            "value": 1
+        },
+        "DEV:Bone": {
+            "text": "Prenatal developmental toxicity bone",
+            "value": 1
+        },
+        "DEV:Brain": {
+            "text": "Prenatal developmental toxicity brain",
+            "value": 1
+        },
+        "DEV:Clinical Chemistry": {
+            "text": "Prenatal developmental toxicity clinical chemistry",
+            "value": 1
+        },
+        "DEV:Clinical Signs": {
+            "text": "Prenatal developmental toxicity clinical signs: Examples of (in-life observations) clinical signs may include changes in reduced activity, red or crusty deposits around ears, etes, nasal/ocular discharges, salivation, no faeces, tachypnea etc",
+            "value": 1
+        },
+        "DEV:Clitoral Gland": {
+            "text": "Prenatal developmental toxicity clitoral gland",
+            "value": 1
+        },
+        "DEV:Coordination": {
+            "text": "Prenatal developmental toxicity coordination",
+            "value": 1
+        },
+        "DEV:Developmental Landmark": {
+            "text": "Prenatal developmental toxicity prenatal developmental toxicityelopmental landmark",
+            "value": 1
+        },
+        "DEV:Diaphragm": {
+            "text": "Prenatal developmental toxicity diaphragm",
+            "value": 1
+        },
+        "DEV:Ductus arteriosus": {
+            "text": "Prenatal developmental toxicity ductus arteriosus",
+            "value": 1
+        },
+        "DEV:Ear": {
+            "text": "Prenatal developmental toxicity ear",
+            "value": 1
+        },
+        "DEV:Epididymis": {
+            "text": "Prenatal developmental toxicity epididymis",
+            "value": 1
+        },
+        "DEV:Esophagus": {
+            "text": "Prenatal developmental toxicity esophagus",
+            "value": 1
+        },
+        "DEV:Estrous Cycle": {
+            "text": "Prenatal developmental toxicity estrous cycle",
+            "value": 1
+        },
+        "DEV:Eye": {
+            "text": "Prenatal developmental toxicity eye",
+            "value": 1
+        },
+        "DEV:Face": {
+            "text": "Prenatal developmental toxicity face",
+            "value": 1
+        },
+        "DEV:Food Consumption": {
+            "text": "Prenatal developmental toxicity food consumption",
+            "value": 1
+        },
+        "DEV:Gallbladder": {
+            "text": "Prenatal developmental toxicity gallbladder",
+            "value": 1
+        },
+        "DEV:General": {
+            "text": "Prenatal developmental toxicity general",
+            "value": 1
+        },
+        "DEV:Gonad": {
+            "text": "Prenatal developmental toxicity gonad",
+            "value": 1
+        },
+        "DEV:Great vessels": {
+            "text": "Prenatal developmental toxicity great vessels",
+            "value": 1
+        },
+        "DEV:Heart": {
+            "text": "Prenatal developmental toxicity heart",
+            "value": 1
+        },
+        "DEV:Hematology": {
+            "text": "Prenatal developmental toxicity hematology",
+            "value": 1
+        },
+        "DEV:Innominate artery": {
+            "text": "Prenatal developmental toxicity innominate artery",
+            "value": 1
+        },
+        "DEV:Interparietal": {
+            "text": "Prenatal developmental toxicity interparietal",
+            "value": 1
+        },
+        "DEV:Intestine Large": {
+            "text": "Prenatal developmental toxicity intestine large",
+            "value": 1
+        },
+        "DEV:Intestine Small": {
+            "text": "Prenatal developmental toxicity intestine small",
+            "value": 1
+        },
+        "DEV:Intestines": {
+            "text": "Prenatal developmental toxicity intestines",
+            "value": 1
+        },
+        "DEV:Kidney": {
+            "text": "Prenatal developmental toxicity kidney",
+            "value": 1
+        },
+        "DEV:Limb": {
+            "text": "Prenatal developmental toxicity limb",
+            "value": 1
+        },
+        "DEV:Liver": {
+            "text": "Prenatal developmental toxicity liver",
+            "value": 1
+        },
+        "DEV:Locomotion": {
+            "text": "Prenatal developmental toxicity locomotion",
+            "value": 1
+        },
+        "DEV:Lung": {
+            "text": "Prenatal developmental toxicity lung",
+            "value": 1
+        },
+        "DEV:Lymph Node": {
+            "text": "Prenatal developmental toxicity lymph node",
+            "value": 1
+        },
+        "DEV:Mammary Gland": {
+            "text": "Prenatal developmental toxicity mammary gland",
+            "value": 1
+        },
+        "DEV:Maternal Wastage": {
+            "text": "Prenatal developmental toxicity maternal wastage",
+            "value": 1
+        },
+        "DEV:Mesentery": {
+            "text": "Prenatal developmental toxicity mesentery",
+            "value": 1
+        },
+        "DEV:Mortality": {
+            "text": "Prenatal developmental toxicity mortality",
+            "value": 1
+        },
+        "DEV:Motor activity": {
+            "text": "Prenatal developmental toxicity motor activity",
+            "value": 1
+        },
+        "DEV:Mouth / Jaw": {
+            "text": "Prenatal developmental toxicity mouth / jaw",
+            "value": 1
+        },
+        "DEV:Nasal": {
+            "text": "Prenatal developmental toxicity nasal",
+            "value": 1
+        },
+        "DEV:Nose": {
+            "text": "Prenatal developmental toxicity nose",
+            "value": 1
+        },
+        "DEV:Offspring Survival-Early": {
+            "text": "Prenatal developmental toxicity offspring survival-early",
+            "value": 1
+        },
+        "DEV:Offspring Survival-Late": {
+            "text": "Prenatal developmental toxicity offspring survival-late",
+            "value": 1
+        },
+        "DEV:Other": {
+            "text": "Prenatal developmental toxicity other",
+            "value": 1
+        },
+        "DEV:Ovary": {
+            "text": "Prenatal developmental toxicity ovary",
+            "value": 1
+        },
+        "DEV:Oviduct": {
+            "text": "Prenatal developmental toxicity oviduct",
+            "value": 1
+        },
+        "DEV:Pancreas": {
+            "text": "Prenatal developmental toxicity pancreas",
+            "value": 1
+        },
+        "DEV:Paw / Digit": {
+            "text": "Prenatal developmental toxicity paw / digit",
+            "value": 1
+        },
+        "DEV:Penis": {
+            "text": "Prenatal developmental toxicity penis",
+            "value": 1
+        },
+        "DEV:Peritoneum": {
+            "text": "Prenatal developmental toxicity peritoneum",
+            "value": 1
+        },
+        "DEV:Placenta": {
+            "text": "Prenatal developmental toxicity placenta",
+            "value": 1
+        },
+        "DEV:Presphenoid": {
+            "text": "Prenatal developmental toxicity presphenoid",
+            "value": 1
+        },
+        "DEV:Prostate": {
+            "text": "Prenatal developmental toxicity prostate",
+            "value": 1
+        },
+        "DEV:Pulmonary artery": {
+            "text": "Prenatal developmental toxicity pulmonary artery",
+            "value": 1
+        },
+        "DEV:Radius": {
+            "text": "Prenatal developmental toxicity radius",
+            "value": 1
+        },
+        "DEV:Reflexes": {
+            "text": "Prenatal developmental toxicity reflexes",
+            "value": 1
+        },
+        "DEV:Reproductive Outcome": {
+            "text": "Prenatal developmental toxicity reproductive outcome",
+            "value": 1
+        },
+        "DEV:Reproductive Performance": {
+            "text": "Prenatal developmental toxicity reproductive performance",
+            "value": 1
+        },
+        "DEV:Seminal Vesicle": {
+            "text": "Prenatal developmental toxicity seminal vesicle",
+            "value": 1
+        },
+        "DEV:Sexual Developmental Landmark": {
+            "text": "Prenatal developmental toxicity sexual prenatal developmental toxicityelopmental landmark",
+            "value": 1
+        },
+        "DEV:Skin": {
+            "text": "Prenatal developmental toxicity skin",
+            "value": 1
+        },
+        "DEV:Sperm Measure": {
+            "text": "Prenatal developmental toxicity sperm measure",
+            "value": 1
+        },
+        "DEV:Sperm morphology": {
+            "text": "Prenatal developmental toxicity sperm morphology",
+            "value": 1
+        },
+        "DEV:Spinal cord": {
+            "text": "Prenatal developmental toxicity spinal cord",
+            "value": 1
+        },
+        "DEV:Spleen": {
+            "text": "Prenatal developmental toxicity spleen",
+            "value": 1
+        },
+        "DEV:Squamosal": {
+            "text": "Prenatal developmental toxicity squamosal",
+            "value": 1
+        },
+        "DEV:Stomach": {
+            "text": "Prenatal developmental toxicity stomach",
+            "value": 1
+        },
+        "DEV:Subclavian artery": {
+            "text": "Prenatal developmental toxicity subclavian artery",
+            "value": 1
+        },
+        "DEV:Testes": {
+            "text": "Prenatal developmental toxicity testes",
+            "value": 1
+        },
+        "DEV:Thoracic Cavity": {
+            "text": "Prenatal developmental toxicity thoracic cavity",
+            "value": 1
+        },
+        "DEV:Thymus": {
+            "text": "Prenatal developmental toxicity thymus",
+            "value": 1
+        },
+        "DEV:Thyroid Gland": {
+            "text": "Prenatal developmental toxicity thyroid gland",
+            "value": 1
+        },
+        "DEV:Tissue NOS": {
+            "text": "Prenatal developmental toxicity tissue nos",
+            "value": 1
+        },
+        "DEV:Trachea": {
+            "text": "Prenatal developmental toxicity trachea",
+            "value": 1
+        },
+        "DEV:Trunk": {
+            "text": "Prenatal developmental toxicity trunk",
+            "value": 1
+        },
+        "DEV:Ulna": {
+            "text": "Prenatal developmental toxicity ulna",
+            "value": 1
+        },
+        "DEV:Uncertain Primary Site": {
+            "text": "Prenatal developmental toxicity uncertain primary site",
+            "value": 1
+        },
+        "DEV:Ureter": {
+            "text": "Prenatal developmental toxicity ureter",
+            "value": 1
+        },
+        "DEV:Urinalysis": {
+            "text": "Prenatal developmental toxicity urinalysis",
+            "value": 1
+        },
+        "DEV:Urinary Bladder": {
+            "text": "Prenatal developmental toxicity urinary bladder",
+            "value": 1
+        },
+        "DEV:Uterus": {
+            "text": "Prenatal developmental toxicity uterus",
+            "value": 1
+        },
+        "DEV:Vagina": {
+            "text": "Prenatal developmental toxicity vagina",
+            "value": 1
+        },
+        "DEV:Water Consumption": {
+            "text": "Prenatal developmental toxicity water consumption",
+            "value": 1
+        },
+        "DEV:Zygomatic": {
+            "text": "Prenatal developmental toxicity zygomatic",
+            "value": 1
+        },
+        "DEV:[Clinical]": {
+            "text": "Prenatal developmental toxicity [clinical]: Effects include dystocia",
+            "value": 1
+        },
+        "DEV:[Not In List]": {
+            "text": "Prenatal developmental toxicity [not in list]: Effects include gastointestinal tract disturbances, xiphoid, unossified teeth, asymmetrical cranial nerve, increased retarded fetuses, increase in litters with malformed fetuses etc",
+            "value": 1
+        },
+        "DNT:Active Avoidance": {
+            "text": "Developmental neurotoxicity active avoidance",
+            "value": 1
+        },
+        "DNT:Adrenal Gland": {
+            "text": "Developmental neurotoxicity adrenal gland",
+            "value": 1
+        },
+        "DNT:Age Landmark": {
+            "text": "Developmental neurotoxicity age landmark",
+            "value": 1
+        },
+        "DNT:Aortic arch": {
+            "text": "Developmental neurotoxicity aortic arch",
+            "value": 1
+        },
+        "DNT:Body Weight": {
+            "text": "Developmental neurotoxicity body weight",
+            "value": 1
+        },
+        "DNT:Bone": {
+            "text": "Developmental neurotoxicity bone",
+            "value": 1
+        },
+        "DNT:Brain": {
+            "text": "Developmental neurotoxicity brain",
+            "value": 1
+        },
+        "DNT:Classical conditioning": {
+            "text": "Developmental neurotoxicity classical conditioning",
+            "value": 1
+        },
+        "DNT:Clinical Chemistry": {
+            "text": "Developmental neurotoxicity clinical chemistry",
+            "value": 1
+        },
+        "DNT:Clinical Signs": {
+            "text": "Developmental neurotoxicity clinical signs",
+            "value": 1
+        },
+        "DNT:Coordination": {
+            "text": "Developmental neurotoxicity coordination",
+            "value": 1
+        },
+        "DNT:Delayed Alternation": {
+            "text": "Developmental neurotoxicity delayed alternation",
+            "value": 1
+        },
+        "DNT:Developmental Landmark": {
+            "text": "Developmental neurotoxicity developmental landmark",
+            "value": 1
+        },
+        "DNT:Ductus arteriosus": {
+            "text": "Developmental neurotoxicity ductus arteriosus",
+            "value": 1
+        },
+        "DNT:Epididymis": {
+            "text": "Developmental neurotoxicity epididymis",
+            "value": 1
+        },
+        "DNT:Esophagus": {
+            "text": "Developmental neurotoxicity esophagus",
+            "value": 1
+        },
+        "DNT:Estrous Cycle": {
+            "text": "Developmental neurotoxicity estrous cycle",
+            "value": 1
+        },
+        "DNT:Eye": {
+            "text": "Developmental neurotoxicity eye",
+            "value": 1
+        },
+        "DNT:Food Consumption": {
+            "text": "Developmental neurotoxicity food consumption",
+            "value": 1
+        },
+        "DNT:General": {
+            "text": "Developmental neurotoxicity general",
+            "value": 1
+        },
+        "DNT:Heart": {
+            "text": "Developmental neurotoxicity heart",
+            "value": 1
+        },
+        "DNT:Hematology": {
+            "text": "Developmental neurotoxicity hematology",
+            "value": 1
+        },
+        "DNT:Instrumental conditioning": {
+            "text": "Developmental neurotoxicity instrumental conditioning",
+            "value": 1
+        },
+        "DNT:Intestine Large": {
+            "text": "Developmental neurotoxicity intestine large",
+            "value": 1
+        },
+        "DNT:Kidney": {
+            "text": "Developmental neurotoxicity kidney",
+            "value": 1
+        },
+        "DNT:Liver": {
+            "text": "Developmental neurotoxicity liver",
+            "value": 1
+        },
+        "DNT:Locomotion": {
+            "text": "Developmental neurotoxicity locomotion",
+            "value": 1
+        },
+        "DNT:Lymph Node": {
+            "text": "Developmental neurotoxicity lymph node",
+            "value": 1
+        },
+        "DNT:Maternal Wastage": {
+            "text": "Developmental neurotoxicity maternal wastage",
+            "value": 1
+        },
+        "DNT:Maze": {
+            "text": "Developmental neurotoxicity maze",
+            "value": 1
+        },
+        "DNT:Mortality": {
+            "text": "Developmental neurotoxicity mortality",
+            "value": 1
+        },
+        "DNT:Motor activity": {
+            "text": "Developmental neurotoxicity motor activity",
+            "value": 1
+        },
+        "DNT:Mouth / Jaw": {
+            "text": "Developmental neurotoxicity mouth / jaw",
+            "value": 1
+        },
+        "DNT:Nerve": {
+            "text": "Developmental neurotoxicity nerve",
+            "value": 1
+        },
+        "DNT:Nose": {
+            "text": "Developmental neurotoxicity nose",
+            "value": 1
+        },
+        "DNT:Offspring Survival-Early": {
+            "text": "Developmental neurotoxicity offspring survival-early",
+            "value": 1
+        },
+        "DNT:Offspring Survival-Late": {
+            "text": "Developmental neurotoxicity offspring survival-late",
+            "value": 1
+        },
+        "DNT:Other": {
+            "text": "Developmental neurotoxicity other",
+            "value": 1
+        },
+        "DNT:Ovary": {
+            "text": "Developmental neurotoxicity ovary",
+            "value": 1
+        },
+        "DNT:Passive Avoidance": {
+            "text": "Developmental neurotoxicity passive avoidance",
+            "value": 1
+        },
+        "DNT:Pituitary Gland": {
+            "text": "Developmental neurotoxicity pituitary gland",
+            "value": 1
+        },
+        "DNT:Reflexes": {
+            "text": "Developmental neurotoxicity reflexes",
+            "value": 1
+        },
+        "DNT:Reproductive Outcome": {
+            "text": "Developmental neurotoxicity reproductive outcome",
+            "value": 1
+        },
+        "DNT:Reproductive Performance": {
+            "text": "Developmental neurotoxicity reproductive performance",
+            "value": 1
+        },
+        "DNT:Sexual Developmental Landmark": {
+            "text": "Developmental neurotoxicity sexual developmental landmark",
+            "value": 1
+        },
+        "DNT:Spinal cord": {
+            "text": "Developmental neurotoxicity spinal cord",
+            "value": 1
+        },
+        "DNT:Spleen": {
+            "text": "Developmental neurotoxicity spleen",
+            "value": 1
+        },
+        "DNT:Stomach": {
+            "text": "Developmental neurotoxicity stomach",
+            "value": 1
+        },
+        "DNT:Testes": {
+            "text": "Developmental neurotoxicity testes",
+            "value": 1
+        },
+        "DNT:Thymus": {
+            "text": "Developmental neurotoxicity thymus",
+            "value": 1
+        },
+        "DNT:Thyroid Gland": {
+            "text": "Developmental neurotoxicity thyroid gland",
+            "value": 1
+        },
+        "DNT:Tissue NOS": {
+            "text": "Developmental neurotoxicity tissue nos",
+            "value": 1
+        },
+        "DNT:Tooth": {
+            "text": "Developmental neurotoxicity tooth",
+            "value": 1
+        },
+        "DNT:Trachea": {
+            "text": "Developmental neurotoxicity trachea",
+            "value": 1
+        },
+        "DNT:Water Consumption": {
+            "text": "Developmental neurotoxicity water consumption",
+            "value": 1
+        },
+        "DNT:[Clinical]": {
+            "text": "Developmental neurotoxicity [clinical]: Effects include dystocia, size of milk bands",
+            "value": 1
+        },
+        "DNT:[Not In List]": {
+            "text": "Developmental neurotoxicity [not in list]: Effects include gastointestinal tract disturbances, xiphoid, unossified teeth, skeletal variations, asymmetrical cranial nerve, increased retarded fetuses, increase in litters with malformed fetuses etc",
+            "value": 1
+        },
+        "MGR:Adrenal Gland": {
+            "text": "Mgr adrenal gland",
+            "value": 1
+        },
+        "MGR:Age Landmark": {
+            "text": "Mgr age landmark: Effects include delayed eye opening, delayed incisor eruption, delated auditory canal opening etc",
+            "value": 1
+        },
+        "MGR:Auditory Startle Reflex Habituation": {
+            "text": "Mgr auditory startle reflex habituation",
+            "value": 1
+        },
+        "MGR:Blood": {
+            "text": "Multigenerational reproductive toxicity blood",
+            "value": 1
+        },
+        "MGR:Body Weight": {
+            "text": "Multigenerational reproductive toxicity body weight",
+            "value": 1
+        },
+        "MGR:Bone": {
+            "text": "Multigenerational reproductive toxicity bone",
+            "value": 1
+        },
+        "MGR:Bone Marrow": {
+            "text": "Multigenerational reproductive toxicity bone marrow",
+            "value": 1
+        },
+        "MGR:Brain": {
+            "text": "Multigenerational reproductive toxicity brain",
+            "value": 1
+        },
+        "MGR:Cervix": {
+            "text": "Multigenerational reproductive toxicity cervix",
+            "value": 1
+        },
+        "MGR:Clinical Chemistry": {
+            "text": "Multigenerational reproductive toxicity clinical chemistry",
+            "value": 1
+        },
+        "MGR:Clinical Signs": {
+            "text": "Multigenerational reproductive toxicity clinical signs: Effects include skin discolouration, cannibalism, hunched posture, piloerection, alopecia, tremors, salivation etc",
+            "value": 1
+        },
+        "MGR:Coagulating Gland": {
+            "text": "Multigenerational reproductive toxicity coagulating gland",
+            "value": 1
+        },
+        "MGR:Coordination": {
+            "text": "Multigenerational reproductive toxicity coordination",
+            "value": 1
+        },
+        "MGR:Developmental Landmark": {
+            "text": "Multigenerational reproductive toxicity developmental landmark",
+            "value": 1
+        },
+        "MGR:Diaphragm": {
+            "text": "Multigenerational reproductive toxicity diaphragm",
+            "value": 1
+        },
+        "MGR:Ear": {
+            "text": "Multigenerational reproductive toxicity ear",
+            "value": 1
+        },
+        "MGR:Epididymis": {
+            "text": "Multigenerational reproductive toxicity epididymis",
+            "value": 1
+        },
+        "MGR:Esophagus": {
+            "text": "Multigenerational reproductive toxicity esophagus",
+            "value": 1
+        },
+        "MGR:Estrous Cycle": {
+            "text": "Multigenerational reproductive toxicity estrous cycle",
+            "value": 1
+        },
+        "MGR:Estrous cycle length": {
+            "text": "Multigenerational reproductive toxicity estrous cycle length",
+            "value": 1
+        },
+        "MGR:Eye": {
+            "text": "Multigenerational reproductive toxicity eye",
+            "value": 1
+        },
+        "MGR:Food Consumption": {
+            "text": "Multigenerational reproductive toxicity food consumption",
+            "value": 1
+        },
+        "MGR:General": {
+            "text": "Multigenerational reproductive toxicity general",
+            "value": 1
+        },
+        "MGR:Gonad": {
+            "text": "Multigenerational reproductive toxicity gonad",
+            "value": 1
+        },
+        "MGR:Hair Growth": {
+            "text": "Multigenerational reproductive toxicity hair growth",
+            "value": 1
+        },
+        "MGR:Heart": {
+            "text": "Multigenerational reproductive toxicity heart",
+            "value": 1
+        },
+        "MGR:Hematology": {
+            "text": "Multigenerational reproductive toxicity hematology",
+            "value": 1
+        },
+        "MGR:Intestine Large": {
+            "text": "Multigenerational reproductive toxicity intestine large",
+            "value": 1
+        },
+        "MGR:Intestine Small": {
+            "text": "Multigenerational reproductive toxicity intestine small",
+            "value": 1
+        },
+        "MGR:Kidney": {
+            "text": "Multigenerational reproductive toxicity kidney",
+            "value": 1
+        },
+        "MGR:Limb": {
+            "text": "Multigenerational reproductive toxicity limb",
+            "value": 1
+        },
+        "MGR:Liver": {
+            "text": "Multigenerational reproductive toxicity liver",
+            "value": 1
+        },
+        "MGR:Locomotion": {
+            "text": "Multigenerational reproductive toxicity locomotion",
+            "value": 1
+        },
+        "MGR:Lung": {
+            "text": "Multigenerational reproductive toxicity lung",
+            "value": 1
+        },
+        "MGR:Lymph Node": {
+            "text": "Multigenerational reproductive toxicity lymph node",
+            "value": 1
+        },
+        "MGR:Mammary Gland": {
+            "text": "Multigenerational reproductive toxicity mammary gland",
+            "value": 1
+        },
+        "MGR:Maternal Wastage": {
+            "text": "Multigenerational reproductive toxicity maternal wastage",
+            "value": 1
+        },
+        "MGR:Maze": {
+            "text": "Multigenerational reproductive toxicity maze",
+            "value": 1
+        },
+        "MGR:Mortality": {
+            "text": "Multigenerational reproductive toxicity mortality",
+            "value": 1
+        },
+        "MGR:Motor activity": {
+            "text": "Multigenerational reproductive toxicity motor activity",
+            "value": 1
+        },
+        "MGR:Mouth / Jaw": {
+            "text": "Multigenerational reproductive toxicity mouth / jaw",
+            "value": 1
+        },
+        "MGR:Nerve": {
+            "text": "Multigenerational reproductive toxicity nerve",
+            "value": 1
+        },
+        "MGR:Nose": {
+            "text": "Multigenerational reproductive toxicity nose",
+            "value": 1
+        },
+        "MGR:Offspring Survival-Early": {
+            "text": "Multigenerational reproductive toxicity offspring survival-early",
+            "value": 1
+        },
+        "MGR:Offspring Survival-Late": {
+            "text": "Multigenerational reproductive toxicity offspring survival-late",
+            "value": 1
+        },
+        "MGR:Other": {
+            "text": "Multigenerational reproductive toxicity other",
+            "value": 1
+        },
+        "MGR:Ovary": {
+            "text": "Multigenerational reproductive toxicity ovary",
+            "value": 1
+        },
+        "MGR:Pancreas": {
+            "text": "Multigenerational reproductive toxicity pancreas",
+            "value": 1
+        },
+        "MGR:Parathyroid": {
+            "text": "Multigenerational reproductive toxicity parathyroid",
+            "value": 1
+        },
+        "MGR:Parathyroid Gland": {
+            "text": "Multigenerational reproductive toxicity parathyroid gland",
+            "value": 1
+        },
+        "MGR:Paw / Digit": {
+            "text": "Multigenerational reproductive toxicity paw / digit",
+            "value": 1
+        },
+        "MGR:Penis": {
+            "text": "Multigenerational reproductive toxicity penis",
+            "value": 1
+        },
+        "MGR:Pituitary Gland": {
+            "text": "Multigenerational reproductive toxicity pituitary gland",
+            "value": 1
+        },
+        "MGR:Placenta": {
+            "text": "Multigenerational reproductive toxicity placenta",
+            "value": 1
+        },
+        "MGR:Prostate": {
+            "text": "Multigenerational reproductive toxicity prostate",
+            "value": 1
+        },
+        "MGR:Reflexes": {
+            "text": "Multigenerational reproductive toxicity reflexes",
+            "value": 1
+        },
+        "MGR:Reproductive Outcome": {
+            "text": "Multigenerational reproductive toxicity reproductive outcome",
+            "value": 1
+        },
+        "MGR:Reproductive Performance": {
+            "text": "Multigenerational reproductive toxicity reproductive performance",
+            "value": 1
+        },
+        "MGR:Salivary glands": {
+            "text": "Multigenerational reproductive toxicity salivary glands",
+            "value": 1
+        },
+        "MGR:Seminal Vesicle": {
+            "text": "Multigenerational reproductive toxicity seminal vesicle",
+            "value": 1
+        },
+        "MGR:Sexual Developmental Landmark": {
+            "text": "Multigenerational reproductive toxicity sexual developmental landmark",
+            "value": 1
+        },
+        "MGR:Skeletal Muscle": {
+            "text": "Multigenerational reproductive toxicity skeletal muscle",
+            "value": 1
+        },
+        "MGR:Skin": {
+            "text": "Multigenerational reproductive toxicity skin",
+            "value": 1
+        },
+        "MGR:Sperm Measure": {
+            "text": "Multigenerational reproductive toxicity sperm measure",
+            "value": 1
+        },
+        "MGR:Sperm morphology": {
+            "text": "Multigenerational reproductive toxicity sperm morphology",
+            "value": 1
+        },
+        "MGR:Spinal cord": {
+            "text": "Multigenerational reproductive toxicity spinal cord",
+            "value": 1
+        },
+        "MGR:Spleen": {
+            "text": "Multigenerational reproductive toxicity spleen",
+            "value": 1
+        },
+        "MGR:Stomach": {
+            "text": "Multigenerational reproductive toxicity stomach",
+            "value": 1
+        },
+        "MGR:Testes": {
+            "text": "Multigenerational reproductive toxicity testes",
+            "value": 1
+        },
+        "MGR:Thymus": {
+            "text": "Multigenerational reproductive toxicity thymus",
+            "value": 1
+        },
+        "MGR:Thyroid Gland": {
+            "text": "Multigenerational reproductive toxicity thyroid gland",
+            "value": 1
+        },
+        "MGR:Tissue NOS": {
+            "text": "Multigenerational reproductive toxicity tissue nos",
+            "value": 1
+        },
+        "MGR:Tooth": {
+            "text": "Multigenerational reproductive toxicity tooth",
+            "value": 1
+        },
+        "MGR:Trunk": {
+            "text": "Multigenerational reproductive toxicity trunk",
+            "value": 1
+        },
+        "MGR:Ureter": {
+            "text": "Multigenerational reproductive toxicity ureter",
+            "value": 1
+        },
+        "MGR:Urinalysis": {
+            "text": "Multigenerational reproductive toxicity urinalysis",
+            "value": 1
+        },
+        "MGR:Urinary Bladder": {
+            "text": "Multigenerational reproductive toxicity urinary bladder",
+            "value": 1
+        },
+        "MGR:Uterus": {
+            "text": "Multigenerational reproductive toxicity uterus",
+            "value": 1
+        },
+        "MGR:Vagina": {
+            "text": "Multigenerational reproductive toxicity vagina",
+            "value": 1
+        },
+        "MGR:Water Consumption": {
+            "text": "Multigenerational reproductive toxicity water consumption",
+            "value": 1
+        },
+        "MGR:[Clinical]": {
+            "text": "Multigenerational reproductive toxicity [clinical]: Effects include dystocia, no milk in stomach",
+            "value": 1
+        },
+        "MGR:[Not In List]": {
+            "text": "Multigenerational reproductive toxicity [not in list]: Effects include pups not nursing, delayed development of pupil reflect, abdominal fat, decreasing or non functioning ovaries, skeletal malformations, missing leg, cauda epid weigh decrease etc",
+            "value": 1
+        },
+        "REP:Abdominal Cavity": {
+            "text": "Reproduction/developmental toxicity abdominal cavity",
+            "value": 0
+        },
+        "REP:Adrenal Gland": {
+            "text": "Reproduction/developmental toxicity adrenal gland",
+            "value": 0
+        },
+        "REP:Age Landmark": {
+            "text": "Reproduction/developmental toxicity age landmark",
+            "value": 0
+        },
+        "REP:Blood vessel": {
+            "text": "Reproduction/developmental toxicity blood vessel",
+            "value": 0
+        },
+        "REP:Body Weight": {
+            "text": "Reproduction/developmental toxicity body weight",
+            "value": 0
+        },
+        "REP:Clinical Chemistry": {
+            "text": "Reproduction/developmental toxicity clinical chemistry",
+            "value": 0
+        },
+        "REP:Clinical Signs": {
+            "text": "Reproduction/developmental toxicity clinical signs: Effects include desquamation, salivation, abnormal motor movement, piloerection, altered appearance in fur, erthyema, scabbing, ememia",
+            "value": 0
+        },
+        "REP:Coagulating Gland": {
+            "text": "Reproduction/developmental toxicity coagulating gland",
+            "value": 0
+        },
+        "REP:Developmental Landmark": {
+            "text": "Reproduction/developmental toxicity developmental landmark: Effects include eye opening",
+            "value": 0
+        },
+        "REP:Epididymis": {
+            "text": "Reproduction/developmental toxicity epididymis",
+            "value": 0
+        },
+        "REP:Estrous Cycle": {
+            "text": "Reproduction/developmental toxicity estrous cycle",
+            "value": 0
+        },
+        "REP:Estrous cycle length": {
+            "text": "Reproduction/developmental toxicity estrous cycle length",
+            "value": 0
+        },
+        "REP:Food Consumption": {
+            "text": "Reproduction/developmental toxicity food consumption",
+            "value": 0
+        },
+        "REP:General": {
+            "text": "Reproduction/developmental toxicity general",
+            "value": 0
+        },
+        "REP:Hematology": {
+            "text": "Reproduction/developmental toxicity hematology",
+            "value": 0
+        },
+        "REP:Intestine Large": {
+            "text": "Reproduction/developmental toxicity intestine large",
+            "value": 0
+        },
+        "REP:Intestine Small": {
+            "text": "Reproduction/developmental toxicity intestine small",
+            "value": 0
+        },
+        "REP:Kidney": {
+            "text": "Reproduction/developmental toxicity kidney",
+            "value": 0
+        },
+        "REP:Liver": {
+            "text": "Reproduction/developmental toxicity liver",
+            "value": 0
+        },
+        "REP:Lung": {
+            "text": "Reproduction/developmental toxicity lung",
+            "value": 0
+        },
+        "REP:Lymph Node": {
+            "text": "Reproduction/developmental toxicity lymph node",
+            "value": 0
+        },
+        "REP:Mammary Gland": {
+            "text": "Reproduction/developmental toxicity mammary gland",
+            "value": 0
+        },
+        "REP:Maternal Wastage": {
+            "text": "Reproduction/developmental toxicity maternal wastage",
+            "value": 0
+        },
+        "REP:Mortality": {
+            "text": "Reproduction/developmental toxicity mortality",
+            "value": 0
+        },
+        "REP:Offspring Survival-Early": {
+            "text": "Reproduction/developmental toxicity offspring survival-early",
+            "value": 0
+        },
+        "REP:Offspring Survival-Late": {
+            "text": "Reproduction/developmental toxicity offspring survival-late",
+            "value": 0
+        },
+        "REP:Ovary": {
+            "text": "Reproduction/developmental toxicity ovary",
+            "value": 0
+        },
+        "REP:Penis": {
+            "text": "Reproduction/developmental toxicity penis",
+            "value": 0
+        },
+        "REP:Pituitary Gland": {
+            "text": "Reproduction/developmental toxicity pituitary gland",
+            "value": 0
+        },
+        "REP:Prostate": {
+            "text": "Reproduction/developmental toxicity prostate",
+            "value": 0
+        },
+        "REP:Reproductive Outcome": {
+            "text": "Reproduction/developmental toxicity reproduction/developmental toxicityroductive outcome",
+            "value": 0
+        },
+        "REP:Reproductive Performance": {
+            "text": "Reproduction/developmental toxicity reproduction/developmental toxicityroductive performance",
+            "value": 0
+        },
+        "REP:Seminal Vesicle": {
+            "text": "Reproduction/developmental toxicity seminal vesicle",
+            "value": 0
+        },
+        "REP:Sexual Developmental Landmark": {
+            "text": "Reproduction/developmental toxicity sexual developmental landmark",
+            "value": 0
+        },
+        "REP:Skin": {
+            "text": "Reproduction/developmental toxicity skin",
+            "value": 0
+        },
+        "REP:Sperm Measure": {
+            "text": "Reproduction/developmental toxicity sperm measure",
+            "value": 0
+        },
+        "REP:Sperm morphology": {
+            "text": "Reproduction/developmental toxicity sperm morphology",
+            "value": 0
+        },
+        "REP:Spleen": {
+            "text": "Reproduction/developmental toxicity spleen",
+            "value": 0
+        },
+        "REP:Stomach": {
+            "text": "Reproduction/developmental toxicity stomach",
+            "value": 0
+        },
+        "REP:Testes": {
+            "text": "Reproduction/developmental toxicity testes",
+            "value": 0
+        },
+        "REP:Thyroid Gland": {
+            "text": "Reproduction/developmental toxicity thyroid gland",
+            "value": 0
+        },
+        "REP:Tissue NOS": {
+            "text": "Reproduction/developmental toxicity tissue nos",
+            "value": 0
+        },
+        "REP:Urinalysis": {
+            "text": "Reproduction/developmental toxicity urinalysis",
+            "value": 0
+        },
+        "REP:Uterus": {
+            "text": "Reproduction/developmental toxicity uterus",
+            "value": 0
+        },
+        "REP:Vagina": {
+            "text": "Reproduction/developmental toxicity vagina",
+            "value": 0
+        },
+        "REP:Water Consumption": {
+            "text": "Reproduction/developmental toxicity water consumption",
+            "value": 0
+        },
+        "REP:[Clinical]": {
+            "text": "Reproduction/developmental toxicity [clinical]: Effects include dystocia",
+            "value": 0
+        },
+        "REP:[Not In List]": {
+            "text": "Reproduction/developmental toxicity [not in list]",
+            "value": 0
+        },
+        "SAC:Abdominal Cavity": {
+            "text": "Sub-acute repeat dose toxicity abdominal cavity",
+            "value": 0
+        },
+        "SAC:Adrenal Gland": {
+            "text": "Sub-acute repeat dose toxicity adrenal gland",
+            "value": 0
+        },
+        "SAC:Blood": {
+            "text": "Sub-acute repeat dose toxicity blood",
+            "value": 0
+        },
+        "SAC:Blood vessel": {
+            "text": "Sub-acute repeat dose toxicity blood vessel",
+            "value": 0
+        },
+        "SAC:Body Weight": {
+            "text": "Sub-acute repeat dose toxicity body weight",
+            "value": 0
+        },
+        "SAC:Bone": {
+            "text": "Sub-acute repeat dose toxicity bone",
+            "value": 0
+        },
+        "SAC:Bone Marrow": {
+            "text": "Sub-acute repeat dose toxicity bone marrow",
+            "value": 0
+        },
+        "SAC:Brain": {
+            "text": "Sub-acute repeat dose toxicity brain",
+            "value": 0
+        },
+        "SAC:Clinical Chemistry": {
+            "text": "Sub-acute repeat dose toxicity clinical chemistry",
+            "value": 0
+        },
+        "SAC:Clinical Signs": {
+            "text": "Sub-acute repeat dose toxicity clinical signs: Effects include hunched posture, salivation, piloerection, altered appearance in fur, excessive vocalisation, inappetence etc",
+            "value": 0
+        },
+        "SAC:Epididymis": {
+            "text": "Sub-acute repeat dose toxicity epididymis",
+            "value": 0
+        },
+        "SAC:Esophagus": {
+            "text": "Sub-acute repeat dose toxicity esophagus",
+            "value": 0
+        },
+        "SAC:Estrous Cycle": {
+            "text": "Sub-acute repeat dose toxicity estrous cycle",
+            "value": 0
+        },
+        "SAC:Eye": {
+            "text": "Sub-acute repeat dose toxicity eye",
+            "value": 0
+        },
+        "SAC:Food Consumption": {
+            "text": "Sub-acute repeat dose toxicity food consumption",
+            "value": 0
+        },
+        "SAC:Gallbladder": {
+            "text": "Sub-acute repeat dose toxicity gallbladder",
+            "value": 0
+        },
+        "SAC:General": {
+            "text": "Sub-acute repeat dose toxicity general",
+            "value": 0
+        },
+        "SAC:Heart": {
+            "text": "Sub-acute repeat dose toxicity heart",
+            "value": 0
+        },
+        "SAC:Hematology": {
+            "text": "Sub-acute repeat dose toxicity hematology",
+            "value": 0
+        },
+        "SAC:Intestine Large": {
+            "text": "Sub-acute repeat dose toxicity intestine large",
+            "value": 0
+        },
+        "SAC:Intestine Small": {
+            "text": "Sub-acute repeat dose toxicity intestine small",
+            "value": 0
+        },
+        "SAC:Kidney": {
+            "text": "Sub-acute repeat dose toxicity kidney",
+            "value": 0
+        },
+        "SAC:Larynx": {
+            "text": "Sub-acute repeat dose toxicity larynx",
+            "value": 0
+        },
+        "SAC:Liver": {
+            "text": "Sub-acute repeat dose toxicity liver",
+            "value": 0
+        },
+        "SAC:Lung": {
+            "text": "Sub-acute repeat dose toxicity lung",
+            "value": 0
+        },
+        "SAC:Lymph Node": {
+            "text": "Sub-acute repeat dose toxicity lymph node",
+            "value": 0
+        },
+        "SAC:Mammary Gland": {
+            "text": "Sub-acute repeat dose toxicity mammary gland",
+            "value": 0
+        },
+        "SAC:Mesentery": {
+            "text": "Sub-acute repeat dose toxicity mesentery",
+            "value": 0
+        },
+        "SAC:Mortality": {
+            "text": "Sub-acute repeat dose toxicity mortality",
+            "value": 0
+        },
+        "SAC:Nerve": {
+            "text": "Sub-acute repeat dose toxicity nerve",
+            "value": 0
+        },
+        "SAC:Nose": {
+            "text": "Sub-acute repeat dose toxicity nose",
+            "value": 0
+        },
+        "SAC:Offspring Survival-Early": {
+            "text": "Sub-acute repeat dose toxicity offspring survival-early",
+            "value": 0
+        },
+        "SAC:Oral Mucosa": {
+            "text": "Sub-acute repeat dose toxicity oral mucosa",
+            "value": 0
+        },
+        "SAC:Other": {
+            "text": "Sub-acute repeat dose toxicity other",
+            "value": 0
+        },
+        "SAC:Ovary": {
+            "text": "Sub-acute repeat dose toxicity ovary",
+            "value": 0
+        },
+        "SAC:Pancreas": {
+            "text": "Sub-acute repeat dose toxicity pancreas",
+            "value": 0
+        },
+        "SAC:Penis": {
+            "text": "Sub-acute repeat dose toxicity penis",
+            "value": 0
+        },
+        "SAC:Peritoneum": {
+            "text": "Sub-acute repeat dose toxicity peritoneum",
+            "value": 0
+        },
+        "SAC:Pituitary Gland": {
+            "text": "Sub-acute repeat dose toxicity pituitary gland",
+            "value": 0
+        },
+        "SAC:Prostate": {
+            "text": "Sub-acute repeat dose toxicity prostate",
+            "value": 0
+        },
+        "SAC:Reproductive Performance": {
+            "text": "Sub-acute repeat dose toxicity reproductive performance",
+            "value": 0
+        },
+        "SAC:Salivary glands": {
+            "text": "Sub-acute repeat dose toxicity salivary glands",
+            "value": 0
+        },
+        "SAC:Seminal Vesicle": {
+            "text": "Sub-acute repeat dose toxicity seminal vesicle",
+            "value": 0
+        },
+        "SAC:Skeletal Muscle": {
+            "text": "Sub-acute repeat dose toxicity skeletal muscle",
+            "value": 0
+        },
+        "SAC:Skin": {
+            "text": "Sub-acute repeat dose toxicity skin",
+            "value": 0
+        },
+        "SAC:Sperm Measure": {
+            "text": "Sub-acute repeat dose toxicity sperm measure",
+            "value": 0
+        },
+        "SAC:Sperm morphology": {
+            "text": "Sub-acute repeat dose toxicity sperm morphology",
+            "value": 0
+        },
+        "SAC:Spinal cord": {
+            "text": "Sub-acute repeat dose toxicity spinal cord",
+            "value": 0
+        },
+        "SAC:Spleen": {
+            "text": "Sub-acute repeat dose toxicity spleen",
+            "value": 0
+        },
+        "SAC:Stomach": {
+            "text": "Sub-acute repeat dose toxicity stomach",
+            "value": 0
+        },
+        "SAC:Testes": {
+            "text": "Sub-acute repeat dose toxicity testes",
+            "value": 0
+        },
+        "SAC:Thoracic Cavity": {
+            "text": "Sub-acute repeat dose toxicity thoracic cavity",
+            "value": 0
+        },
+        "SAC:Thymus": {
+            "text": "Sub-acute repeat dose toxicity thymus",
+            "value": 0
+        },
+        "SAC:Thyroid Gland": {
+            "text": "Sub-acute repeat dose toxicity thyroid gland",
+            "value": 0
+        },
+        "SAC:Tissue NOS": {
+            "text": "Sub-acute repeat dose toxicity tissue nos",
+            "value": 0
+        },
+        "SAC:Tongue": {
+            "text": "Sub-acute repeat dose toxicity tongue",
+            "value": 0
+        },
+        "SAC:Trachea": {
+            "text": "Sub-acute repeat dose toxicity trachea",
+            "value": 0
+        },
+        "SAC:Urinalysis": {
+            "text": "Sub-acute repeat dose toxicity urinalysis",
+            "value": 0
+        },
+        "SAC:Urinary Bladder": {
+            "text": "Sub-acute repeat dose toxicity urinary bladder",
+            "value": 0
+        },
+        "SAC:Uterus": {
+            "text": "Sub-acute repeat dose toxicity uterus",
+            "value": 0
+        },
+        "SAC:Vagina": {
+            "text": "Sub-acute repeat dose toxicity vagina",
+            "value": 0
+        },
+        "SAC:Water Consumption": {
+            "text": "Sub-acute repeat dose toxicity water consumption",
+            "value": 0
+        },
+        "SAC:[Not In List]": {
+            "text": "Sub-acute repeat dose toxicity [not in list]: Effects include changes in IL-6",
+            "value": 0
+        },
+        "SUB:Abdominal Cavity": {
+            "text": "Subchronic abdominal cavity",
+            "value": 1
+        },
+        "SUB:Adrenal Gland": {
+            "text": "Subchronic adrenal gland",
+            "value": 1
+        },
+        "SUB:Artery (General)": {
+            "text": "Subchronic artery (general)",
+            "value": 1
+        },
+        "SUB:Blood": {
+            "text": "Subchronic blood",
+            "value": 1
+        },
+        "SUB:Blood vessel": {
+            "text": "Subchronic blood vessel",
+            "value": 1
+        },
+        "SUB:Body Weight": {
+            "text": "Subchronic body weight",
+            "value": 1
+        },
+        "SUB:Bone": {
+            "text": "Subchronic bone",
+            "value": 1
+        },
+        "SUB:Bone Marrow": {
+            "text": "Subchronic bone marrow",
+            "value": 1
+        },
+        "SUB:Brain": {
+            "text": "Subchronic brain",
+            "value": 1
+        },
+        "SUB:Cervix": {
+            "text": "Subchronic cervix",
+            "value": 1
+        },
+        "SUB:Clinical Chemistry": {
+            "text": "Subchronic clinical chemistry",
+            "value": 1
+        },
+        "SUB:Clinical Signs": {
+            "text": "Subchronic clinical signs: Effects include red or crusty deposits around eyes, ears, nose, watery stools, emesus, lateral recumbency, emaciation, emesis, alopecia etc",
+            "value": 1
+        },
+        "SUB:Clitoral Gland": {
+            "text": "Subchronic clitoral gland",
+            "value": 1
+        },
+        "SUB:Coordination": {
+            "text": "Subchronic coordination",
+            "value": 1
+        },
+        "SUB:Ear": {
+            "text": "Subchronic ear",
+            "value": 1
+        },
+        "SUB:Epididymis": {
+            "text": "Subchronic epididymis",
+            "value": 1
+        },
+        "SUB:Esophagus": {
+            "text": "Subchronic esophagus",
+            "value": 1
+        },
+        "SUB:Estrous Cycle": {
+            "text": "Subchronic estrous cycle",
+            "value": 1
+        },
+        "SUB:Estrous cycle length": {
+            "text": "Subchronic estrous cycle length",
+            "value": 1
+        },
+        "SUB:Eye": {
+            "text": "Subchronic eye",
+            "value": 1
+        },
+        "SUB:Food Consumption": {
+            "text": "Subchronic food consumption",
+            "value": 1
+        },
+        "SUB:Gallbladder": {
+            "text": "Subchronic gallbladder",
+            "value": 1
+        },
+        "SUB:Harderian Gland": {
+            "text": "Subchronic harderian gland",
+            "value": 1
+        },
+        "SUB:Heart": {
+            "text": "Subchronic heart",
+            "value": 1
+        },
+        "SUB:Hematology": {
+            "text": "Subchronic hematology",
+            "value": 1
+        },
+        "SUB:Intestine Large": {
+            "text": "Subchronic intestine large",
+            "value": 1
+        },
+        "SUB:Intestine Small": {
+            "text": "Subchronic intestine small",
+            "value": 1
+        },
+        "SUB:Kidney": {
+            "text": "Subchronic kidney",
+            "value": 1
+        },
+        "SUB:Lacrimal Gland": {
+            "text": "Subchronic lacrimal gland",
+            "value": 1
+        },
+        "SUB:Large Intestine": {
+            "text": "Subchronic large intestine",
+            "value": 1
+        },
+        "SUB:Larynx": {
+            "text": "Subchronic larynx",
+            "value": 1
+        },
+        "SUB:Liver": {
+            "text": "Subchronic liver",
+            "value": 1
+        },
+        "SUB:Locomotion": {
+            "text": "Subchronic locomotion",
+            "value": 1
+        },
+        "SUB:Lung": {
+            "text": "Subchronic lung",
+            "value": 1
+        },
+        "SUB:Lymph Node": {
+            "text": "Subchronic lymph node",
+            "value": 1
+        },
+        "SUB:Mammary Gland": {
+            "text": "Subchronic mammary gland",
+            "value": 1
+        },
+        "SUB:Mesentery": {
+            "text": "Subchronic mesentery",
+            "value": 1
+        },
+        "SUB:Mortality": {
+            "text": "Subchronic mortality",
+            "value": 1
+        },
+        "SUB:Motor activity": {
+            "text": "Subchronic motor activity",
+            "value": 1
+        },
+        "SUB:Nerve": {
+            "text": "Subchronic nerve",
+            "value": 1
+        },
+        "SUB:Nose": {
+            "text": "Subchronic nose",
+            "value": 1
+        },
+        "SUB:Offspring Survival-Early": {
+            "text": "Subchronic offspring survival-early",
+            "value": 1
+        },
+        "SUB:Offspring Survival-Late": {
+            "text": "Subchronic offspring survival-late",
+            "value": 1
+        },
+        "SUB:Oral Mucosa": {
+            "text": "Subchronic oral mucosa",
+            "value": 1
+        },
+        "SUB:Other": {
+            "text": "Subchronic other",
+            "value": 1
+        },
+        "SUB:Ovary": {
+            "text": "Subchronic ovary",
+            "value": 1
+        },
+        "SUB:Oviduct": {
+            "text": "Subchronic oviduct",
+            "value": 1
+        },
+        "SUB:Pancreas": {
+            "text": "Subchronic pancreas",
+            "value": 1
+        },
+        "SUB:Parathyroid": {
+            "text": "Subchronic parathyroid",
+            "value": 1
+        },
+        "SUB:Parathyroid Gland": {
+            "text": "Subchronic parathyroid gland",
+            "value": 1
+        },
+        "SUB:Penis": {
+            "text": "Subchronic penis",
+            "value": 1
+        },
+        "SUB:Peritoneum": {
+            "text": "Subchronic peritoneum",
+            "value": 1
+        },
+        "SUB:Pharynx": {
+            "text": "Subchronic pharynx",
+            "value": 1
+        },
+        "SUB:Pituitary Gland": {
+            "text": "Subchronic pituitary gland",
+            "value": 1
+        },
+        "SUB:Pleura": {
+            "text": "Subchronic pleura",
+            "value": 1
+        },
+        "SUB:Preputial Gland": {
+            "text": "Subchronic preputial gland",
+            "value": 1
+        },
+        "SUB:Prostate": {
+            "text": "Subchronic prostate",
+            "value": 1
+        },
+        "SUB:Reflexes": {
+            "text": "Subchronic reflexes",
+            "value": 1
+        },
+        "SUB:Reproductive Performance": {
+            "text": "Subchronic reproductive performance",
+            "value": 1
+        },
+        "SUB:Salivary glands": {
+            "text": "Subchronic salivary glands",
+            "value": 1
+        },
+        "SUB:Seminal Vesicle": {
+            "text": "Subchronic seminal vesicle",
+            "value": 1
+        },
+        "SUB:Skeletal Muscle": {
+            "text": "Subchronic skeletal muscle",
+            "value": 1
+        },
+        "SUB:Skin": {
+            "text": "Subchronic skin",
+            "value": 1
+        },
+        "SUB:Sperm Measure": {
+            "text": "Subchronic sperm measure",
+            "value": 1
+        },
+        "SUB:Sperm morphology": {
+            "text": "Subchronic sperm morphology",
+            "value": 1
+        },
+        "SUB:Spinal cord": {
+            "text": "Subchronic spinal cord",
+            "value": 1
+        },
+        "SUB:Spleen": {
+            "text": "Subchronic spleen",
+            "value": 1
+        },
+        "SUB:Stomach": {
+            "text": "Subchronic stomach",
+            "value": 1
+        },
+        "SUB:Testes": {
+            "text": "Subchronic testes",
+            "value": 1
+        },
+        "SUB:Thoracic Cavity": {
+            "text": "Subchronic thoracic cavity",
+            "value": 1
+        },
+        "SUB:Thymus": {
+            "text": "Subchronic thymus",
+            "value": 1
+        },
+        "SUB:Thyroid Gland": {
+            "text": "Subchronic thyroid gland",
+            "value": 1
+        },
+        "SUB:Tissue NOS": {
+            "text": "Subchronic tissue nos",
+            "value": 1
+        },
+        "SUB:Tongue": {
+            "text": "Subchronic tongue",
+            "value": 1
+        },
+        "SUB:Tooth": {
+            "text": "Subchronic tooth",
+            "value": 1
+        },
+        "SUB:Trachea": {
+            "text": "Subchronic trachea",
+            "value": 1
+        },
+        "SUB:Uncertain Primary Site": {
+            "text": "Subchronic uncertain primary site",
+            "value": 1
+        },
+        "SUB:Ureter": {
+            "text": "Subchronic ureter",
+            "value": 1
+        },
+        "SUB:Urethra": {
+            "text": "Subchronic urethra",
+            "value": 1
+        },
+        "SUB:Urinalysis": {
+            "text": "Subchronic urinalysis",
+            "value": 1
+        },
+        "SUB:Urinary Bladder": {
+            "text": "Subchronic urinary bladder",
+            "value": 1
+        },
+        "SUB:Uterus": {
+            "text": "Subchronic uterus",
+            "value": 1
+        },
+        "SUB:Vagina": {
+            "text": "Subchronic vagina",
+            "value": 1
+        },
+        "SUB:Water Consumption": {
+            "text": "Subchronic water consumption",
+            "value": 1
+        },
+        "SUB:[Not In List]": {
+            "text": "Subchronic [not in list]: Effects include wasting muscle or subcutaneous fat, thin carcasses, blusih discolouration of footpads etc",
+            "value": 1
+        }
+    },
+    "dtxcid": "DTXCID30182",
+    "dtxsid": "DTXSID7020182",
+    "heat": {
+        "bio_tx21": {
+            "scaled": 0.028014616321559074,
+            "value": 23.0
+        },
+        "bio_txct": {
+            "scaled": 1.0,
+            "value": 821.0
+        },
+        "chm_ct": {
+            "scaled": 0.012180267965895249,
+            "value": 10.0
+        },
+        "tox_txrf": {
+            "scaled": 0.48964677222898906,
+            "value": 402.0
+        }
+    },
+    "name": "Bisphenol A",
+    "predict": {
+        "CHR:Abdominal Cavity": {
+            "a_s": 0.0,
+            "act": "0.0/0",
+            "auc": 0,
+            "pval": 1,
+            "text": "TN",
+            "value": 0
+        },
+        "DEV:Abdominal Cavity": {
+            "a_s": 0.0,
+            "act": "0.0/0",
+            "auc": 0,
+            "pval": 1,
+            "text": "TN",
+            "value": 0
+        },
+        "REP:Abdominal Cavity": {
+            "a_s": 0.0,
+            "act": "0.0/0",
+            "auc": 0,
+            "pval": 1,
+            "text": "Neg",
+            "value": 0
+        },
+        "SAC:Abdominal Cavity": {
+            "a_s": 0.0,
+            "act": "0.0/0",
+            "auc": 0,
+            "pval": 1,
+            "text": "Neg",
+            "value": 0
+        },
+        "SUB:Abdominal Cavity": {
+            "a_s": 0.0,
+            "act": "0.0/0",
+            "auc": 0,
+            "pval": 1,
+            "text": "TN",
+            "value": 0
+        },
+        "predicted": true
+    },
+    "readAcross": {
+        "CHR:Abdominal Cavity": "no_effect",
+        "CHR:Adrenal Gland": "no_effect",
+        "CHR:Artery (General)": "no_effect",
+        "CHR:Auditory Startle Reflex Habituation": "no_effect",
+        "CHR:Bile duct": "no_effect",
+        "CHR:Blood": "no_effect",
+        "CHR:Blood vessel": "no_effect",
+        "CHR:Body Weight": "no_effect",
+        "CHR:Bone": "no_effect",
+        "CHR:Bone Marrow": "no_effect",
+        "CHR:Brain": "no_effect",
+        "CHR:Bronchus": "no_effect",
+        "CHR:Cervix": "no_effect",
+        "CHR:Clinical Chemistry": "no_effect",
+        "CHR:Clinical Signs": "no_effect",
+        "CHR:Clitoral Gland": "no_effect",
+        "CHR:Coagulating Gland": "no_effect",
+        "CHR:Ear": "no_effect",
+        "CHR:Epididymis": "no_effect",
+        "CHR:Esophagus": "no_effect",
+        "CHR:Estrous Cycle": "no_effect",
+        "CHR:Eye": "no_effect",
+        "CHR:Food Consumption": "no_effect",
+        "CHR:Gallbladder": "no_effect",
+        "CHR:General": "no_effect",
+        "CHR:Harderian Gland": "no_effect",
+        "CHR:Heart": "no_effect",
+        "CHR:Hematology": "no_effect",
+        "CHR:Intestine Large": "no_effect",
+        "CHR:Intestine Small": "no_effect",
+        "CHR:Kidney": "no_effect",
+        "CHR:Lacrimal Gland": "no_effect",
+        "CHR:Larynx": "no_effect",
+        "CHR:Liver": 149.99,
+        "CHR:Locomotion": "no_effect",
+        "CHR:Lung": "no_effect",
+        "CHR:Lymph Node": "no_effect",
+        "CHR:Mammary Gland": "no_effect",
+        "CHR:Mesentery": "no_effect",
+        "CHR:Mortality": "no_effect",
+        "CHR:Motor activity": "no_effect",
+        "CHR:Nerve": "no_effect",
+        "CHR:Nose": "no_effect",
+        "CHR:Oral Mucosa": "no_effect",
+        "CHR:Other": "no_effect",
+        "CHR:Ovary": "no_effect",
+        "CHR:Pancreas": "no_effect",
+        "CHR:Parathyroid": "no_effect",
+        "CHR:Parathyroid Gland": "no_effect",
+        "CHR:Penis": "no_effect",
+        "CHR:Peritoneum": "no_effect",
+        "CHR:Pharynx": "no_effect",
+        "CHR:Pituitary Gland": "no_effect",
+        "CHR:Pleura": "no_effect",
+        "CHR:Preputial Gland": "no_effect",
+        "CHR:Prostate": "no_effect",
+        "CHR:Reflexes": "no_effect",
+        "CHR:Salivary glands": "no_effect",
+        "CHR:Seminal Vesicle": "no_effect",
+        "CHR:Skeletal Muscle": "no_effect",
+        "CHR:Skin": "no_effect",
+        "CHR:Sperm Measure": "no_effect",
+        "CHR:Sperm morphology": "no_effect",
+        "CHR:Spinal cord": "no_effect",
+        "CHR:Spleen": "no_effect",
+        "CHR:Stomach": "no_effect",
+        "CHR:Testes": "no_effect",
+        "CHR:Thymus": "no_effect",
+        "CHR:Thyroid Gland": "no_effect",
+        "CHR:Tissue NOS": "no_effect",
+        "CHR:Tongue": "no_effect",
+        "CHR:Tooth": "no_effect",
+        "CHR:Trachea": "no_effect",
+        "CHR:Uncertain Primary Site": "no_effect",
+        "CHR:Ureter": "no_effect",
+        "CHR:Urethra": "no_effect",
+        "CHR:Urinalysis": "no_effect",
+        "CHR:Urinary Bladder": "no_effect",
+        "CHR:Uterus": "no_effect",
+        "CHR:Vagina": "no_effect",
+        "CHR:Water Consumption": "no_effect",
+        "CHR:Zymbal's Gland": "no_effect",
+        "CHR:[Not In List]": "no_effect",
+        "DEV:Abdominal Cavity": "no_effect",
+        "DEV:Adrenal Gland": "no_effect",
+        "DEV:Age Landmark": "no_effect",
+        "DEV:Aorta": "no_effect",
+        "DEV:Aortic arch": "no_effect",
+        "DEV:Bladder": "no_effect",
+        "DEV:Blood": "no_effect",
+        "DEV:Blood vessel": "no_effect",
+        "DEV:Body Weight": 160.0,
+        "DEV:Bone": "no_effect",
+        "DEV:Brain": "no_effect",
+        "DEV:Clinical Chemistry": "no_effect",
+        "DEV:Clinical Signs": 160.0,
+        "DEV:Clitoral Gland": "no_effect",
+        "DEV:Coordination": "no_effect",
+        "DEV:Developmental Landmark": "no_effect",
+        "DEV:Diaphragm": "no_effect",
+        "DEV:Ductus arteriosus": "no_effect",
+        "DEV:Ear": "no_effect",
+        "DEV:Epididymis": "no_effect",
+        "DEV:Esophagus": "no_effect",
+        "DEV:Estrous Cycle": "no_effect",
+        "DEV:Eye": "no_effect",
+        "DEV:Face": "no_effect",
+        "DEV:Food Consumption": "no_effect",
+        "DEV:Gallbladder": "no_effect",
+        "DEV:General": "no_effect",
+        "DEV:Gonad": "no_effect",
+        "DEV:Great vessels": "no_effect",
+        "DEV:Heart": "no_effect",
+        "DEV:Hematology": "no_effect",
+        "DEV:Innominate artery": "no_effect",
+        "DEV:Interparietal": "no_effect",
+        "DEV:Intestine Large": "no_effect",
+        "DEV:Intestine Small": "no_effect",
+        "DEV:Intestines": "no_effect",
+        "DEV:Kidney": "no_effect",
+        "DEV:Limb": "no_effect",
+        "DEV:Liver": "no_effect",
+        "DEV:Locomotion": "no_effect",
+        "DEV:Lung": "no_effect",
+        "DEV:Lymph Node": "no_effect",
+        "DEV:Mammary Gland": "no_effect",
+        "DEV:Maternal Wastage": "no_effect",
+        "DEV:Mesentery": "no_effect",
+        "DEV:Mortality": "no_effect",
+        "DEV:Motor activity": "no_effect",
+        "DEV:Mouth / Jaw": "no_effect",
+        "DEV:Nasal": "no_effect",
+        "DEV:Nose": "no_effect",
+        "DEV:Offspring Survival-Early": "no_effect",
+        "DEV:Offspring Survival-Late": "no_effect",
+        "DEV:Other": "no_effect",
+        "DEV:Ovary": "no_effect",
+        "DEV:Oviduct": "no_effect",
+        "DEV:Pancreas": "no_effect",
+        "DEV:Paw / Digit": "no_effect",
+        "DEV:Penis": "no_effect",
+        "DEV:Peritoneum": "no_effect",
+        "DEV:Placenta": "no_effect",
+        "DEV:Presphenoid": "no_effect",
+        "DEV:Prostate": "no_effect",
+        "DEV:Pulmonary artery": "no_effect",
+        "DEV:Radius": "no_effect",
+        "DEV:Reflexes": "no_effect",
+        "DEV:Reproductive Outcome": "no_effect",
+        "DEV:Reproductive Performance": "no_effect",
+        "DEV:Seminal Vesicle": "no_effect",
+        "DEV:Sexual Developmental Landmark": "no_effect",
+        "DEV:Skin": "no_effect",
+        "DEV:Sperm Measure": "no_effect",
+        "DEV:Sperm morphology": "no_effect",
+        "DEV:Spinal cord": "no_effect",
+        "DEV:Spleen": "no_effect",
+        "DEV:Squamosal": "no_effect",
+        "DEV:Stomach": "no_effect",
+        "DEV:Subclavian artery": "no_effect",
+        "DEV:Testes": "no_effect",
+        "DEV:Thoracic Cavity": "no_effect",
+        "DEV:Thymus": "no_effect",
+        "DEV:Thyroid Gland": "no_effect",
+        "DEV:Tissue NOS": "no_effect",
+        "DEV:Trachea": "no_effect",
+        "DEV:Trunk": "no_effect",
+        "DEV:Ulna": "no_effect",
+        "DEV:Uncertain Primary Site": "no_effect",
+        "DEV:Ureter": "no_effect",
+        "DEV:Urinalysis": "no_effect",
+        "DEV:Urinary Bladder": "no_effect",
+        "DEV:Uterus": "no_effect",
+        "DEV:Vagina": "no_effect",
+        "DEV:Water Consumption": "no_effect",
+        "DEV:Zygomatic": "no_effect",
+        "DEV:[Clinical]": "no_effect",
+        "DEV:[Not In List]": "no_effect",
+        "DNT:Active Avoidance": "no_effect",
+        "DNT:Adrenal Gland": "no_effect",
+        "DNT:Age Landmark": "no_effect",
+        "DNT:Aortic arch": "no_effect",
+        "DNT:Body Weight": 56.4,
+        "DNT:Bone": "no_effect",
+        "DNT:Brain": 0.03,
+        "DNT:Classical conditioning": "no_effect",
+        "DNT:Clinical Chemistry": "no_effect",
+        "DNT:Clinical Signs": 0.04,
+        "DNT:Coordination": 0.01,
+        "DNT:Delayed Alternation": "no_effect",
+        "DNT:Developmental Landmark": "no_effect",
+        "DNT:Ductus arteriosus": "no_effect",
+        "DNT:Epididymis": "no_effect",
+        "DNT:Esophagus": "no_effect",
+        "DNT:Estrous Cycle": "no_effect",
+        "DNT:Eye": "no_effect",
+        "DNT:Food Consumption": 56.4,
+        "DNT:General": "no_effect",
+        "DNT:Heart": "no_effect",
+        "DNT:Hematology": "no_effect",
+        "DNT:Instrumental conditioning": "no_effect",
+        "DNT:Intestine Large": "no_effect",
+        "DNT:Kidney": "no_effect",
+        "DNT:Liver": "no_effect",
+        "DNT:Locomotion": 0.01,
+        "DNT:Lymph Node": "no_effect",
+        "DNT:Maternal Wastage": "no_effect",
+        "DNT:Maze": "no_effect",
+        "DNT:Mortality": "no_effect",
+        "DNT:Motor activity": "no_effect",
+        "DNT:Mouth / Jaw": "no_effect",
+        "DNT:Nerve": "no_effect",
+        "DNT:Nose": "no_effect",
+        "DNT:Offspring Survival-Early": "no_effect",
+        "DNT:Offspring Survival-Late": "no_effect",
+        "DNT:Other": "no_effect",
+        "DNT:Ovary": "no_effect",
+        "DNT:Passive Avoidance": 0.03,
+        "DNT:Pituitary Gland": "no_effect",
+        "DNT:Reflexes": "no_effect",
+        "DNT:Reproductive Outcome": "no_effect",
+        "DNT:Reproductive Performance": "no_effect",
+        "DNT:Sexual Developmental Landmark": "no_effect",
+        "DNT:Spinal cord": "no_effect",
+        "DNT:Spleen": "no_effect",
+        "DNT:Stomach": "no_effect",
+        "DNT:Testes": "no_effect",
+        "DNT:Thymus": "no_effect",
+        "DNT:Thyroid Gland": "no_effect",
+        "DNT:Tissue NOS": "no_effect",
+        "DNT:Tooth": "no_effect",
+        "DNT:Trachea": "no_effect",
+        "DNT:Water Consumption": "no_effect",
+        "DNT:[Clinical]": "no_effect",
+        "DNT:[Not In List]": "no_effect",
+        "MGR:Adrenal Gland": "no_effect",
+        "MGR:Age Landmark": "no_effect",
+        "MGR:Auditory Startle Reflex Habituation": "no_effect",
+        "MGR:Blood": "no_effect",
+        "MGR:Body Weight": 50.0,
+        "MGR:Bone": "no_effect",
+        "MGR:Bone Marrow": "no_effect",
+        "MGR:Brain": "no_effect",
+        "MGR:Cervix": "no_effect",
+        "MGR:Clinical Chemistry": "no_effect",
+        "MGR:Clinical Signs": "no_effect",
+        "MGR:Coagulating Gland": "no_effect",
+        "MGR:Coordination": "no_effect",
+        "MGR:Developmental Landmark": "no_effect",
+        "MGR:Diaphragm": "no_effect",
+        "MGR:Ear": "no_effect",
+        "MGR:Epididymis": "no_effect",
+        "MGR:Esophagus": "no_effect",
+        "MGR:Estrous Cycle": "no_effect",
+        "MGR:Estrous cycle length": "no_effect",
+        "MGR:Eye": "no_effect",
+        "MGR:Food Consumption": "no_effect",
+        "MGR:General": "no_effect",
+        "MGR:Gonad": "no_effect",
+        "MGR:Hair Growth": "no_effect",
+        "MGR:Heart": "no_effect",
+        "MGR:Hematology": "no_effect",
+        "MGR:Intestine Large": "no_effect",
+        "MGR:Intestine Small": "no_effect",
+        "MGR:Kidney": 500.0,
+        "MGR:Limb": "no_effect",
+        "MGR:Liver": 500.0,
+        "MGR:Locomotion": "no_effect",
+        "MGR:Lung": "no_effect",
+        "MGR:Lymph Node": "no_effect",
+        "MGR:Mammary Gland": "no_effect",
+        "MGR:Maternal Wastage": "no_effect",
+        "MGR:Maze": "no_effect",
+        "MGR:Mortality": "no_effect",
+        "MGR:Motor activity": "no_effect",
+        "MGR:Mouth / Jaw": "no_effect",
+        "MGR:Nerve": "no_effect",
+        "MGR:Nose": "no_effect",
+        "MGR:Offspring Survival-Early": 500.0,
+        "MGR:Offspring Survival-Late": "no_effect",
+        "MGR:Other": "no_effect",
+        "MGR:Ovary": 500.0,
+        "MGR:Pancreas": "no_effect",
+        "MGR:Parathyroid": "no_effect",
+        "MGR:Parathyroid Gland": "no_effect",
+        "MGR:Paw / Digit": "no_effect",
+        "MGR:Penis": "no_effect",
+        "MGR:Pituitary Gland": "no_effect",
+        "MGR:Placenta": "no_effect",
+        "MGR:Prostate": "no_effect",
+        "MGR:Reflexes": "no_effect",
+        "MGR:Reproductive Outcome": "no_effect",
+        "MGR:Reproductive Performance": 500.0,
+        "MGR:Salivary glands": "no_effect",
+        "MGR:Seminal Vesicle": "no_effect",
+        "MGR:Sexual Developmental Landmark": 500.0,
+        "MGR:Skeletal Muscle": "no_effect",
+        "MGR:Skin": "no_effect",
+        "MGR:Sperm Measure": 500.0,
+        "MGR:Sperm morphology": "no_effect",
+        "MGR:Spinal cord": "no_effect",
+        "MGR:Spleen": "no_effect",
+        "MGR:Stomach": "no_effect",
+        "MGR:Testes": "no_effect",
+        "MGR:Thymus": "no_effect",
+        "MGR:Thyroid Gland": "no_effect",
+        "MGR:Tissue NOS": "no_effect",
+        "MGR:Tooth": "no_effect",
+        "MGR:Trunk": "no_effect",
+        "MGR:Ureter": "no_effect",
+        "MGR:Urinalysis": "no_effect",
+        "MGR:Urinary Bladder": "no_effect",
+        "MGR:Uterus": "no_effect",
+        "MGR:Vagina": "no_effect",
+        "MGR:Water Consumption": "no_effect",
+        "MGR:[Clinical]": "no_effect",
+        "MGR:[Not In List]": "no_effect",
+        "REP:Abdominal Cavity": "no_data",
+        "REP:Adrenal Gland": "no_data",
+        "REP:Age Landmark": "no_data",
+        "REP:Blood vessel": "no_data",
+        "REP:Body Weight": "no_data",
+        "REP:Clinical Chemistry": "no_data",
+        "REP:Clinical Signs": "no_data",
+        "REP:Coagulating Gland": "no_data",
+        "REP:Developmental Landmark": "no_data",
+        "REP:Epididymis": "no_data",
+        "REP:Estrous Cycle": "no_data",
+        "REP:Estrous cycle length": "no_data",
+        "REP:Food Consumption": "no_data",
+        "REP:General": "no_data",
+        "REP:Hematology": "no_data",
+        "REP:Intestine Large": "no_data",
+        "REP:Intestine Small": "no_data",
+        "REP:Kidney": "no_data",
+        "REP:Liver": "no_data",
+        "REP:Lung": "no_data",
+        "REP:Lymph Node": "no_data",
+        "REP:Mammary Gland": "no_data",
+        "REP:Maternal Wastage": "no_data",
+        "REP:Mortality": "no_data",
+        "REP:Offspring Survival-Early": "no_data",
+        "REP:Offspring Survival-Late": "no_data",
+        "REP:Ovary": "no_data",
+        "REP:Penis": "no_data",
+        "REP:Pituitary Gland": "no_data",
+        "REP:Prostate": "no_data",
+        "REP:Reproductive Outcome": "no_data",
+        "REP:Reproductive Performance": "no_data",
+        "REP:Seminal Vesicle": "no_data",
+        "REP:Sexual Developmental Landmark": "no_data",
+        "REP:Skin": "no_data",
+        "REP:Sperm Measure": "no_data",
+        "REP:Sperm morphology": "no_data",
+        "REP:Spleen": "no_data",
+        "REP:Stomach": "no_data",
+        "REP:Testes": "no_data",
+        "REP:Thyroid Gland": "no_data",
+        "REP:Tissue NOS": "no_data",
+        "REP:Urinalysis": "no_data",
+        "REP:Uterus": "no_data",
+        "REP:Vagina": "no_data",
+        "REP:Water Consumption": "no_data",
+        "REP:[Clinical]": "no_data",
+        "REP:[Not In List]": "no_data",
+        "SAC:Abdominal Cavity": "no_data",
+        "SAC:Adrenal Gland": "no_data",
+        "SAC:Blood": "no_data",
+        "SAC:Blood vessel": "no_data",
+        "SAC:Body Weight": "no_data",
+        "SAC:Bone": "no_data",
+        "SAC:Bone Marrow": "no_data",
+        "SAC:Brain": "no_data",
+        "SAC:Clinical Chemistry": "no_data",
+        "SAC:Clinical Signs": "no_data",
+        "SAC:Epididymis": "no_data",
+        "SAC:Esophagus": "no_data",
+        "SAC:Estrous Cycle": "no_data",
+        "SAC:Eye": "no_data",
+        "SAC:Food Consumption": "no_data",
+        "SAC:Gallbladder": "no_data",
+        "SAC:General": "no_data",
+        "SAC:Heart": "no_data",
+        "SAC:Hematology": "no_data",
+        "SAC:Intestine Large": "no_data",
+        "SAC:Intestine Small": "no_data",
+        "SAC:Kidney": "no_data",
+        "SAC:Larynx": "no_data",
+        "SAC:Liver": "no_data",
+        "SAC:Lung": "no_data",
+        "SAC:Lymph Node": "no_data",
+        "SAC:Mammary Gland": "no_data",
+        "SAC:Mesentery": "no_data",
+        "SAC:Mortality": "no_data",
+        "SAC:Nerve": "no_data",
+        "SAC:Nose": "no_data",
+        "SAC:Offspring Survival-Early": "no_data",
+        "SAC:Oral Mucosa": "no_data",
+        "SAC:Other": "no_data",
+        "SAC:Ovary": "no_data",
+        "SAC:Pancreas": "no_data",
+        "SAC:Penis": "no_data",
+        "SAC:Peritoneum": "no_data",
+        "SAC:Pituitary Gland": "no_data",
+        "SAC:Prostate": "no_data",
+        "SAC:Reproductive Performance": "no_data",
+        "SAC:Salivary glands": "no_data",
+        "SAC:Seminal Vesicle": "no_data",
+        "SAC:Skeletal Muscle": "no_data",
+        "SAC:Skin": "no_data",
+        "SAC:Sperm Measure": "no_data",
+        "SAC:Sperm morphology": "no_data",
+        "SAC:Spinal cord": "no_data",
+        "SAC:Spleen": "no_data",
+        "SAC:Stomach": "no_data",
+        "SAC:Testes": "no_data",
+        "SAC:Thoracic Cavity": "no_data",
+        "SAC:Thymus": "no_data",
+        "SAC:Thyroid Gland": "no_data",
+        "SAC:Tissue NOS": "no_data",
+        "SAC:Tongue": "no_data",
+        "SAC:Trachea": "no_data",
+        "SAC:Urinalysis": "no_data",
+        "SAC:Urinary Bladder": "no_data",
+        "SAC:Uterus": "no_data",
+        "SAC:Vagina": "no_data",
+        "SAC:Water Consumption": "no_data",
+        "SAC:[Not In List]": "no_data",
+        "SUB:Abdominal Cavity": "no_effect",
+        "SUB:Adrenal Gland": "no_effect",
+        "SUB:Artery (General)": "no_effect",
+        "SUB:Blood": "no_effect",
+        "SUB:Blood vessel": "no_effect",
+        "SUB:Body Weight": 37.5,
+        "SUB:Bone": "no_effect",
+        "SUB:Bone Marrow": "no_effect",
+        "SUB:Brain": "no_effect",
+        "SUB:Cervix": "no_effect",
+        "SUB:Clinical Chemistry": "no_effect",
+        "SUB:Clinical Signs": "no_effect",
+        "SUB:Clitoral Gland": "no_effect",
+        "SUB:Coordination": "no_effect",
+        "SUB:Ear": "no_effect",
+        "SUB:Epididymis": "no_effect",
+        "SUB:Esophagus": "no_effect",
+        "SUB:Estrous Cycle": "no_effect",
+        "SUB:Estrous cycle length": "no_effect",
+        "SUB:Eye": "no_effect",
+        "SUB:Food Consumption": 5.0,
+        "SUB:Gallbladder": "no_effect",
+        "SUB:Harderian Gland": "no_effect",
+        "SUB:Heart": "no_effect",
+        "SUB:Hematology": "no_effect",
+        "SUB:Intestine Large": "no_effect",
+        "SUB:Intestine Small": "no_effect",
+        "SUB:Kidney": "no_effect",
+        "SUB:Lacrimal Gland": "no_effect",
+        "SUB:Large Intestine": "no_effect",
+        "SUB:Larynx": "no_effect",
+        "SUB:Liver": "no_effect",
+        "SUB:Locomotion": "no_effect",
+        "SUB:Lung": "no_effect",
+        "SUB:Lymph Node": "no_effect",
+        "SUB:Mammary Gland": "no_effect",
+        "SUB:Mesentery": "no_effect",
+        "SUB:Mortality": "no_effect",
+        "SUB:Motor activity": "no_effect",
+        "SUB:Nerve": "no_effect",
+        "SUB:Nose": "no_effect",
+        "SUB:Offspring Survival-Early": "no_effect",
+        "SUB:Offspring Survival-Late": "no_effect",
+        "SUB:Oral Mucosa": "no_effect",
+        "SUB:Other": "no_effect",
+        "SUB:Ovary": "no_effect",
+        "SUB:Oviduct": "no_effect",
+        "SUB:Pancreas": "no_effect",
+        "SUB:Parathyroid": "no_effect",
+        "SUB:Parathyroid Gland": "no_effect",
+        "SUB:Penis": "no_effect",
+        "SUB:Peritoneum": "no_effect",
+        "SUB:Pharynx": "no_effect",
+        "SUB:Pituitary Gland": "no_effect",
+        "SUB:Pleura": "no_effect",
+        "SUB:Preputial Gland": "no_effect",
+        "SUB:Prostate": "no_effect",
+        "SUB:Reflexes": "no_effect",
+        "SUB:Reproductive Performance": "no_effect",
+        "SUB:Salivary glands": "no_effect",
+        "SUB:Seminal Vesicle": "no_effect",
+        "SUB:Skeletal Muscle": "no_effect",
+        "SUB:Skin": "no_effect",
+        "SUB:Sperm Measure": "no_effect",
+        "SUB:Sperm morphology": "no_effect",
+        "SUB:Spinal cord": "no_effect",
+        "SUB:Spleen": "no_effect",
+        "SUB:Stomach": "no_effect",
+        "SUB:Testes": "no_effect",
+        "SUB:Thoracic Cavity": "no_effect",
+        "SUB:Thymus": "no_effect",
+        "SUB:Thyroid Gland": "no_effect",
+        "SUB:Tissue NOS": "no_effect",
+        "SUB:Tongue": "no_effect",
+        "SUB:Tooth": "no_effect",
+        "SUB:Trachea": "no_effect",
+        "SUB:Uncertain Primary Site": "no_effect",
+        "SUB:Ureter": "no_effect",
+        "SUB:Urethra": "no_effect",
+        "SUB:Urinalysis": "no_effect",
+        "SUB:Urinary Bladder": "no_effect",
+        "SUB:Uterus": "no_effect",
+        "SUB:Vagina": "no_effect",
+        "SUB:Water Consumption": "no_effect",
+        "SUB:[Not In List]": "no_effect"
+    },
+    "selected": true,
+    "value": 1.0,
+    "weight": 228.29100036621094
+}

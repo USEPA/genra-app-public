@@ -1,0 +1,60 @@
+{
+    "defaults": {
+        "fingerprint": "chm_mrgn",
+        "k0": 10,
+        "select": "tox_txrf"
+    },
+
+    "params": {
+        "dsstox_cid": "DTXCID30182",
+        "sel_by": "tox_txrf",
+        "neg0": "0",
+        "pos0": "0",
+        "chem_inc": ["DTXCID30182", "DTXCID001771", "DTXCID602360", "DTXCID10465", "DTXCID402529", "DTXCID606", "DTXCID60220", "DTXCID201834", "DTXCID501124", "DTXCID3024495", "DTXCID0031269"],
+        "tox_inc": ["CHR:Abdominal Cavity", "DEV:Abdominal Cavity", "REP:Abdominal Cavity", "SAC:Abdominal Cavity", "SUB:Abdominal Cavity"]
+    },
+
+    "graphql": {
+        "CHR:Abdominal Cavity": {
+            "text": "TN",
+            "value": 0,
+            "act": "0/0",
+            "a_s": 0,
+            "auc": 0,
+            "pval": 1
+        },
+        "DEV:Abdominal Cavity": {
+            "text": "TN",
+            "value": 0,
+            "act": "0/0",
+            "a_s": 0,
+            "auc": 0,
+            "pval": 1
+        },
+        "REP:Abdominal Cavity": {
+            "text": "Neg",
+            "value": 0,
+            "act": "0/0",
+            "a_s": 0,
+            "auc": 0,
+            "pval": 1
+        },
+        "SAC:Abdominal Cavity": {
+            "text": "Neg",
+            "value": 0,
+            "act": "0/0",
+            "a_s": 0,
+            "auc": 0,
+            "pval": 1
+        },
+        "SUB:Abdominal Cavity": {
+            "text": "TN",
+            "value": 0,
+            "act": "0/0",
+            "a_s": 0,
+            "auc": 0,
+            "pval": 1
+        },
+        "predicted": true
+    }
+}

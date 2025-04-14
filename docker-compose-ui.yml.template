@@ -1,0 +1,20 @@
+# This file should be copied to docker-compose-ui.yml and that file should
+# be edited.  Remove this notice when editing.
+
+# This file is intended to be used in with the main GenRA docker-compose.yml
+# file using `--file docker-compose-ui.yml`, it is not stand-alone.
+
+services:
+  genra_ui:
+    env_file:
+      - .env
+    # Comment out the next two lines if you don't need external access to the
+    # UI server (unlikely).
+    ports:
+      - ${EXT_GENRA_UI_PORT}:3000
+    build:
+      context: ${GENRA_UI_REPO_PATH}
+      dockerfile: docker/Dockerfile
+    deploy:
+      restart_policy:
+        condition: any

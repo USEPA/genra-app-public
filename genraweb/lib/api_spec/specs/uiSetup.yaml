@@ -1,0 +1,11 @@
+description: Information to populate drop-downs etc.
+
+tags:
+  - UI_support_v4
+
+parameters:
+  - $ref: "#/components/parameters/chem_id"
+
+responses:
+  200:
+    description: A summary of bio/tox for neighbouring chemicals

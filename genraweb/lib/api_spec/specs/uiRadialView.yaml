@@ -1,0 +1,20 @@
+# uiRadialView
+
+description: |
+  Generate data for nearest neighbors for chemical based on chm, bio or
+  tox descriptors.
+
+tags:
+  - UI_support_v4
+
+parameters:
+  - $ref: "#/components/parameters/chem_id"
+  - $ref: "#/components/parameters/k0"
+  - $ref: "#/components/parameters/s0"
+  - $ref: "#/components/parameters/fp"
+  - $ref: "#/components/parameters/fp_weight"
+  - $ref: "#/components/parameters/sel_by"
+
+responses:
+  200:
+    description: A radial layout of chemical hits

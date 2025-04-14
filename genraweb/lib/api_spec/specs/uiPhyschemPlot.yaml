@@ -1,0 +1,18 @@
+description: Generate plot for physchem properties of neighborhood
+
+tags:
+  - UI_support_v4
+
+parameters:
+  - $ref: "#/components/parameters/chem_id"
+  - $ref: "#/components/parameters/k0"
+  - $ref: "#/components/parameters/s0"
+  - $ref: "#/components/parameters/fp"
+  - $ref: "#/components/parameters/fp_weight"
+  - $ref: "#/components/parameters/sel_by"
+  - $ref: "#/components/parameters/file_type_response"
+
+responses:
+  200:
+    description: A physchem plot
+

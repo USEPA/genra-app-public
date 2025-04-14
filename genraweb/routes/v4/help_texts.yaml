@@ -1,0 +1,137 @@
+# Pulled from the helpText.json fixture file in the genra-ui repo. 2021-09-21
+# Range 1-15 corrected in GENRA Analog Identification
+"GENRA Analog Identification":
+  # panel 1
+  helpPosition: right
+  iconType: Information
+  helpTextId: GENRA Analog Identification
+  helpText: >
+    <div style="text-align:left">
+    <p>This view provides a means to identify potential source analogues for a
+    given target chemical, the centroid of the radial plot. The radial plot
+    displays K source analogues (otherwise called nearest neighbours) where K
+    can be set from 1 to 15. Analogues are pre-filtered based on the
+    availability of <b>relevant</b> data by default. Analogues are ordered in
+    decreasing order of similarity in a clockwise manner in the plot, starting
+    with the most similar at the top. Analogues may be identified using
+    chemical descriptors, bioactivity descriptors or a combination of both
+    (hybrid) . The similarity indices are annotated c (for chemistry), b (for
+    bioactivity) and x (for hybrid) depending on the similarity context
+    selected. There are 4 different types of chemical descriptors included that
+    are fingerprint representations of chemical structure - Morgan
+    fingerprints, torsion fingerprints, chemotype ToxPrints and AIM
+    fingerprints. Bioactivity descriptors make reference to a fingerprint
+    representation of hitcalls from the ToxCast assays (either all or a subset
+    by specific vendor). Hybrid fingerprints are created by selecting up to 3
+    different fingerprint sets and adjusting their relative contribution using
+    the slider bars. For more details consult the information cited under the
+    About More info. link at the top of the screen.</p>
+
+    <p>There are 2 options to download information from this Panel namely a image
+    file of the neighbourhood presentation or a text file of the top 100
+    neighbours based on the selections in fingerprint and filter by. This text
+    file contains the fingerprints as a matrix and a bitvector string.</p>
+    <iframe width="560" height="225"
+    src="https://www.youtube.com/embed/TCg387LhVpY?rel=0&amp;start=246"
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+"GENRA Run GenRA Prediction":
+  # panel 4
+  helpPosition: left
+  iconType: Information
+  helpTextId: GENRA Run GenRA Prediction
+  helpText: >
+    <div style="text-align:left">
+    <p>
+    The data matrix view allows a data gap analysis of the target chemical and
+    the toxicity outcome for each source analogue represented as red and blue
+    boxes indicating presence and absence of effects.  Predictions are added
+    to the matrix with the "Run Read-Across" button.  The data displayed can be
+    filtered by specific effects. The data matrix view and any generated
+    predictions can be exported to CSV or Excel with the Download: menu.
+    For more details see material cited under 'More info' at
+    the top of the page.
+    </p>
+
+    <p><b>Binary data / predictions:</b>
+    The doses at which toxicity effects were observed are seen by hovering over
+    the boxes, which provide a means of assessing the validity of the analogues
+    to determine which should be included in any read-across prediction.
+    <code>Min+</code> and <code>Min-</code> set the minimum number of positive
+    or no-effect observations needed to make a positive or no-effect
+    prediction, respectively.  Prediction confidence scores expressed as Area
+    under the Curve (AUC) values of the Receiver Operating Characteristic (ROC)
+    and their p-values (generated using genra-pred) can be viewed by hovering
+    over the cells in the data matrix. The predictions are coloured coded in
+    the same way as experimental results but by degrees of opacity. Note the
+    AUC is only shown when there are at least 2 positive and 2 negative
+    observations.  For predictions made where observations already exist, the
+    hover over information will also provide a measure of whether the
+    prediction is a True Negative (TN), False Positive (FP), True Positive (TP)
+    or False Negative (FN).
+    </p>
+
+    <p>
+    <b>Potency data / predictions:</b>
+    A range of the point of departure (POD) information is presented with a red
+    to blue scale indicating high to low potencies, displayed on a log molar
+    basis.  The range is commensurate with the potencies observed across a
+    study type e.g. CHR chronic.  Circles indicate observed POD values
+    (mg/kg/day), triangles represent any prediction made.  <code>Min+</code>
+    sets the minimum POD observations required to make a prediction,
+    <code>Min-</code> does nothing.
+    </p>
+
+    <iframe width="560" height="300"
+    src="https://www.youtube.com/embed/TCg387LhVpY?rel=0&amp;start=559"
+    frameborder="0" allow="autoplay; encrypted-media"
+    allowfullscreen></iframe>
+    </div>
+"GENRA Summary Data Gap Analysis":
+  # panel 2
+  helpPosition: right
+  iconType: Information
+  helpTextId: GENRA Summary Data Gap Analysis
+  helpText: >
+    <div style="text-align:left">
+    <p>This panel provides a summary representation of the data availability
+    associated with the target chemical and its identified source analogues.
+    The quantity of data associated with a given chemical is indicated by the
+    number of records and the darkness of the associated box. The
+    representation provides a summary overview of the data quantity and
+    coverage for the target and source analogues.
+    To see more data streams click the ☰ icon at the top of the Chemicals column,
+    then the ⦀ icon.
+    This panel starts to provide a
+    perspective to inform data gaps. For more details watch the video.</p>
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/TCg387LhVpY?rel=0&amp;start=408"
+    frameborder="0" allow="autoplay; encrypted-media"
+    allowfullscreen></iframe>
+    </div>
+"GENRA Generate Data Matrix":
+  # panel 3
+  helpPosition: left
+  iconType: Information
+  helpTextId: GENRA Generate Data Matrix
+  helpText: >
+    <div style="text-align:left">
+    <p>There are 3 main group by options. Binary representations of toxicity data
+    as arising from ToxRefDB will show by the default since these are
+    consistent with the filter by option in Panel 1. Alternatively the group
+    and by can be modified to reflect tox dosage fingerprints if potency
+    predictions are desired. If Panel 1 filter by is set to ToxCast, Panel 3
+    will automatically show Group By as ToxCast and ToxCast fingerprint. In
+    either case, this view provides a representation of the data quantity
+    across different toxicity effects for the source analogues selected.
+    This informs
+    the data gap analysis step of the workflow. Clicking on Generate data
+    matrix launches the final window in the grid view to display a data matrix
+    overview of the target chemical and its source analogues. For
+    more details watch the video.</p>
+    <iframe width="400" height="200"
+    src="https://www.youtube.com/embed/TCg387LhVpY?rel=0&amp;start=483"
+    frameborder="0" allow="autoplay; encrypted-media"
+    allowfullscreen></iframe>
+    </div>

@@ -1,0 +1,19 @@
+description: Download Genrate / Run read-across results
+
+tags:
+  - UI_support_v4
+
+requestBody:
+  content:
+    "application/json":
+      schema:
+        $ref: "#/components/schemas/rra_schema"
+
+parameters:
+  - $ref: "#/components/parameters/file_type_response_path"
+
+responses:
+  200:
+    description: details of tox for neighbouring chemicals
+
+

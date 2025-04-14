@@ -1,0 +1,69 @@
+{
+	"NUM_CHEMICALS": {
+		"value": 5,
+		"description": "Number of chemicals tested randomly. If SELECTED_FILES or SELECTED_CHEMICALS is non-empty, this won't matter/will be overridden."
+	},
+
+	"DATA_DIR": {
+		"value": "tests/data/comparison_0/data",
+		"description": "Path from project root directory."
+	},
+
+	"NCD_ENDPOINTS": {
+		"value": [
+			"viewChemNN",
+			"viewChemNNSummary",
+			"viewChemNNDetails",
+			"getChemNNToxData",
+			"runGenRAPerfPred"
+		],
+		"description": "list of endpoints used in NCD"
+	},
+
+	"UI_ENDPOINTS": {
+		"value": [
+			"uiRadialVue",
+			"uiFingerPrintHeatChart",
+			"uiAssayList",
+			"uiGenerateReadAcross",
+			"uiRunReadAcross"
+		],
+		"description": "list of endpoints used by UI now"
+	},
+
+	"DEFAULT_ENDPOINTS": {
+		"value": ["NCD_ENDPOINTS"],
+		"description": "List of keys of endpoints to be used by default",
+		"note": "currently this doesn't test UI endpoints"
+	},
+
+	"SELECTED_ENDPOINTS": {
+		"value": [],
+		"description": "List of endpoints to only select, if empty default"
+	},
+
+	"DESELECTED_ENDPOINTS": {
+		"value": [],
+		"description": "List of endpoints to deselect"
+	},
+
+	"SELECTED_CHEMICALS": {
+		"value": [],
+		"description": "List of dtxcid to only select, if empty default"
+	},
+
+	"DESELECTED_CHEMICALS": {
+		"value": [],
+		"description": "List of dtxcid to deselect"
+	},
+
+	"SELECTED_FILES": {
+		"value": [],
+		"description": "List of filenames to only select, if empty default"
+	},
+
+	"DESELECTED_FILES": {
+		"value": [],
+		"description": "List of filnames to deselect"
+	}
+}

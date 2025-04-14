@@ -1,0 +1,30 @@
+{
+    "sids": [
+        "DTXSID0029761",
+        "DTXSID1020485",
+        "DTXSID1023996",
+        "DTXSID1034472",
+        "DTXSID1052581",
+        "DTXSID2047305",
+        "DTXSID2047307",
+        "DTXSID3024239",
+        "DTXSID5057886",
+        "DTXSID7021318",
+        "DTXSID7023645",
+        "DTXSID8020123",
+        "DTXSID8025337",
+        "DTXSID9044409"
+    ],
+    "failing": [
+        "DTXSID1023990",
+        "DTXSID2021315",
+        "DTXSID3023899",
+        "DTXSID3024235",
+        "DTXSID4032615",
+        "DTXSID5020819",
+        "DTXSID7030066",
+        "DTXSID8021808",
+        "DTXSID9024304"
+    ],
+    "failing_note": "These SIDs started failing after a data update 9/26/2022"
+}

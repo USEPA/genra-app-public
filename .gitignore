@@ -1,0 +1,51 @@
+# Python
+*.pyc
+*~
+*#
+.#*
+core
+*.com
+*.dll
+*.exe
+*.o
+*.so
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*-cached
+notebooks
+venv
+venv_genra_app
+local-docker-compose.yml
+__pycache__/
+*.py.save
+*nohup.out
+# .template is not ignored because it's tracked, but genra_settings.env,
+# genra_settings.env.for_testing etc. are ignored
+genra_settings.env*
+genra_settings_review.env*
+# created by test_clean
+.ruff.test.best
+.ruff.test.current
+
+.pylint.d
+.env
+docker-compose-local.yml
+docker-compose-mongodb.yml
+docker-compose-ui.yml
+docker-compose-worker.yml
+up.sh
+coverage
+htmlcov
+*_expected.json.lock
+_dump_db.sh
+.ipynb_checkpoints
+.cache
+genra_artifact_key_ed25519*
+karate_tests
+ids.lst

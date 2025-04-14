@@ -1,0 +1,19 @@
+# chemNN
+
+description: Get nearest neighbors for chem. with FP
+
+tags:
+  - domain
+
+parameters:
+  - $ref: "#/components/parameters/chem_id"
+  - $ref: "#/components/parameters/fp"
+  - $ref: "#/components/parameters/fp_weight"
+  - $ref: "#/components/parameters/sel_by"
+  - $ref: "#/components/parameters/k0"
+
+responses:
+  200:
+    description: Nearest neighbors and FP or chem.
+
+

@@ -1,0 +1,23 @@
+# uiGenerateReadAcross
+
+description: Show information for target and neighbors
+
+tags:
+  - UI_support_v4
+
+parameters:
+  - $ref: "#/components/parameters/chem_id"
+  - $ref: "#/components/parameters/k0"
+  - $ref: "#/components/parameters/s0"
+  - $ref: "#/components/parameters/fp"
+  - $ref: "#/components/parameters/fp_weight"
+  - $ref: "#/components/parameters/sel_by"
+  - $ref: "#/components/parameters/summarise"
+  - $ref: "#/components/parameters/sumrs_by"
+    # FIXME filt_rows should be GRA only?
+  - $ref: "#/components/parameters/filter_rows"
+
+responses:
+  200:
+    description: Show information for target and neighbors
+

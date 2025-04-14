@@ -1,0 +1,17 @@
+# genFP
+
+description: Generates all FP fingerprints for candidate chemicals
+
+tags:
+  - Container_Data_Admin
+
+parameters:
+  - $ref: "#/components/parameters/chem_ids"
+  - $ref: "#/components/parameters/fp"
+  - $ref: "#/components/parameters/fp_or_nn"
+  - $ref: "#/components/parameters/collection_name"
+  - $ref: "#/components/parameters/sel_by"
+
+responses:
+  200:
+    description: ok

@@ -1,0 +1,101 @@
+{
+    "comment": "Cover all HTPP DBs and cell types.",
+    "includes": [
+        [
+            "MCF7",
+            "res_htpp_mcf7_pfas_1",
+            0,
+            4
+        ],
+        [
+            "MCF7",
+            "res_htpp_refchem120",
+            3,
+            4
+        ],
+        [
+            "U2OS",
+            "res_htpp_u2os_pfas_1",
+            0,
+            4
+        ],
+        [
+            "U2OS",
+            "res_htpp_u2os_pfas_2",
+            0,
+            4
+        ],
+        [
+            "U2OS",
+            "res_htpp_u2os_toxcast",
+            4,
+            4
+        ],
+        [
+            "U2OS",
+            "res_htpp_u2os_apcra",
+            4,
+            4
+        ],
+        [
+            "U2OS",
+            "res_htpp_refchem120",
+            3,
+            4
+        ]
+    ],
+    "MCF7": {
+        "sids": [
+            "DTXSID1030862",
+            "DTXSID9032325",
+            "DTXSID8036730"
+        ],
+        "cids": [
+            "DTXCID001239",
+            "DTXCID40117106",
+            "DTXCID004729",
+            "DTXCID3012498",
+            "DTXCID70326143",
+            "DTXCID50333017",
+            "DTXCID2045024",
+            "DTXCID303068"
+        ]
+    },
+    "U2OS": {
+        "sids": [
+            "DTXSID1030862",
+            "DTXSID0027983",
+            "DTXSID8023892",
+            "DTXSID2026076",
+            "DTXSID5027932",
+            "DTXSID5029055",
+            "DTXSID9032325",
+            "DTXSID8036730",
+            "DTXSID5027982",
+            "DTXSID3037709"
+        ],
+        "comment": "DTXSID3037709 added manually it maps to 3 'http chem id.' IDs",
+        "cids": [
+            "DTXCID8036289",
+            "DTXCID00393661",
+            "DTXCID601097",
+            "DTXCID9031147",
+            "DTXCID1039347",
+            "DTXCID1027558",
+            "DTXCID90818232",
+            "DTXCID6012544",
+            "DTXCID602666",
+            "DTXCID201952",
+            "DTXCID9012640",
+            "DTXCID2045024",
+            "DTXCID405438",
+            "DTXCID004729",
+            "DTXCID8035396",
+            "DTXCID204882",
+            "DTXCID9012646",
+            "DTXCID50112985",
+            "DTXCID40494",
+            "DTXCID301437106"
+        ]
+    }
+}

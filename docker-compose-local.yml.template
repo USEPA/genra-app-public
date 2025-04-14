@@ -1,0 +1,28 @@
+# This is used for mounting the local filesystem in a container,
+# mostly for development.
+
+services:
+
+  redis:
+    stop_grace_period: 5s
+
+  genra_ui:
+    stop_grace_period: 5s
+
+  genra_api:
+    stop_grace_period: 5s
+
+    # comment out the next two lines if you only want to open the
+    # Jupyter Lab port
+    volumes:
+      - ${HOME}/<your genra repo>/genra_app:/genra
+    # uncomment the next two lines, and change the first port number
+    # as need to access a Jupyter Lab environment in *LOCAL* deployments.
+    # ports:
+    #   - 30008:8888
+
+  # (DEPRECATED) worker should see the same filesystem as api
+  # comment out the next three lines if not using the worker
+  # genra_worker:
+  #   volumes:
+  #     - ${HOME}/<your genra repo>/genra_app:/genra
